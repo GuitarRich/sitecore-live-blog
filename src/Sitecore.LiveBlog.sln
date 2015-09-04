@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LiveBlog.Website", "LiveBlog.Website\LiveBlog.Website.csproj", "{9C8A8F63-A8EB-4460-A775-783771AD19EC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Content Author Server|Any CPU = Content Author Server|Any CPU
+		Content Delivery Servers|Any CPU = Content Delivery Servers|Any CPU
+		Debug|Any CPU = Debug|Any CPU
+		Development|Any CPU = Development|Any CPU
+		Localhost|Any CPU = Localhost|Any CPU
+		Nerdery CA|Any CPU = Nerdery CA|Any CPU
+		Nerdery|Any CPU = Nerdery|Any CPU
+		Production|Any CPU = Production|Any CPU
+		ProductionCA|Any CPU = ProductionCA|Any CPU
+		QA|Any CPU = QA|Any CPU
+		QACA|Any CPU = QACA|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9C8A8F63-A8EB-4460-A775-783771AD19EC}.Content Author Server|Any CPU.ActiveCfg = Content Author Server|Any CPU
+		{9C8A8F63-A8EB-4460-A775-783771AD19EC}.Content Author Server|Any CPU.Build.0 = Content Author Server|Any CPU
+		{9C8A8F63-A8EB-4460-A775-783771AD19EC}.Content Delivery Servers|Any CPU.ActiveCfg = Content Delivery Servers|Any CPU
+		{9C8A8F63-A8EB-4460-A775-783771AD19EC}.Content Delivery Servers|Any CPU.Build.0 = Content Delivery Servers|Any CPU
+		{9C8A8F63-A8EB-4460-A775-783771AD19EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C8A8F63-A8EB-4460-A775-783771AD19EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9C8A8F63-A8EB-4460-A775-783771AD19EC}.Development|Any CPU.ActiveCfg = Development|Any CPU
+		{9C8A8F63-A8EB-4460-A775-783771AD19EC}.Development|Any CPU.Build.0 = Development|Any CPU
+		{9C8A8F63-A8EB-4460-A775-783771AD19EC}.Localhost|Any CPU.ActiveCfg = Localhost|Any CPU
+		{9C8A8F63-A8EB-4460-A775-783771AD19EC}.Localhost|Any CPU.Build.0 = Localhost|Any CPU
+		{9C8A8F63-A8EB-4460-A775-783771AD19EC}.Nerdery CA|Any CPU.ActiveCfg = Nerdery CA|Any CPU
+		{9C8A8F63-A8EB-4460-A775-783771AD19EC}.Nerdery CA|Any CPU.Build.0 = Nerdery CA|Any CPU
+		{9C8A8F63-A8EB-4460-A775-783771AD19EC}.Nerdery|Any CPU.ActiveCfg = Nerdery|Any CPU
+		{9C8A8F63-A8EB-4460-A775-783771AD19EC}.Nerdery|Any CPU.Build.0 = Nerdery|Any CPU
+		{9C8A8F63-A8EB-4460-A775-783771AD19EC}.Production|Any CPU.ActiveCfg = Production|Any CPU
+		{9C8A8F63-A8EB-4460-A775-783771AD19EC}.Production|Any CPU.Build.0 = Production|Any CPU
+		{9C8A8F63-A8EB-4460-A775-783771AD19EC}.ProductionCA|Any CPU.ActiveCfg = ProductionCA|Any CPU
+		{9C8A8F63-A8EB-4460-A775-783771AD19EC}.ProductionCA|Any CPU.Build.0 = ProductionCA|Any CPU
+		{9C8A8F63-A8EB-4460-A775-783771AD19EC}.QA|Any CPU.ActiveCfg = QA|Any CPU
+		{9C8A8F63-A8EB-4460-A775-783771AD19EC}.QA|Any CPU.Build.0 = QA|Any CPU
+		{9C8A8F63-A8EB-4460-A775-783771AD19EC}.QACA|Any CPU.ActiveCfg = QACA|Any CPU
+		{9C8A8F63-A8EB-4460-A775-783771AD19EC}.QACA|Any CPU.Build.0 = QACA|Any CPU
+		{9C8A8F63-A8EB-4460-A775-783771AD19EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9C8A8F63-A8EB-4460-A775-783771AD19EC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
