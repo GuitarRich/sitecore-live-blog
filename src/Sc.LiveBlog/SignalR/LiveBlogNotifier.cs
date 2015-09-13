@@ -5,5 +5,10 @@
 
 	public class LiveBlogNotifier : Hub
 	{
+		public void PostBlogEntry(string blogText, int blogType)
+		{
+			var hubContext = GlobalHost.ConnectionManager.GetHubContext<LiveBlogNotifier>();
+			hubContext.Clients.All.blogPosted(blogText, blogType);
+		}
 	}
 }
