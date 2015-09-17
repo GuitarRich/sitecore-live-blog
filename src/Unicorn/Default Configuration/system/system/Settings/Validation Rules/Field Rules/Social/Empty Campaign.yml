@@ -1,0 +1,95 @@
+﻿---
+ID: 548275dc-06ac-4426-8267-49c56bc97110
+Parent: df3f3111-fed3-41fc-a4f4-8ba9744e2b65
+Template: 8f8e2549-c77f-4860-b83b-54fa31e2befa
+Path: /sitecore/system/Settings/Validation Rules/Field Rules/Social/Empty Campaign
+SharedFields:
+- ID: 43a829d1-43da-465c-b772-ebaa0d515e3e
+  # Type
+  Value: Sitecore.Social.Client.Validators.CampaignValidator,Sitecore.Social.Client
+Languages:
+- Language: da
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150812T120216Z
+    - ID: 52807595-0f8f-4b20-8d2a-cb71d28c6103
+      # __Owner
+      Value: sitecore\admin
+    - ID: 58014183-26fe-4568-b19f-c26745824c32
+      # Description
+      Value: Hvis kampagnen har en værdi, skal den implementeres.
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+    - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+      # __Display name
+      Value: Tom kampagne
+    - ID: da43c533-cbae-43d0-9019-65b1e346f984
+      # Title
+      Value: Er tom kampagne
+- Language: de-DE
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150812T115806Z
+    - ID: 52807595-0f8f-4b20-8d2a-cb71d28c6103
+      # __Owner
+      Value: sitecore\admin
+    - ID: 58014183-26fe-4568-b19f-c26745824c32
+      # Description
+      Value: Wenn Kampagne einen Namen hat, sollte sie eingesetzt werden.
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+    - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+      # __Display name
+      Value: Leere Kampagne
+    - ID: da43c533-cbae-43d0-9019-65b1e346f984
+      # Title
+      Value: Ist leere Kampagne
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20120529T095200
+    - ID: 52807595-0f8f-4b20-8d2a-cb71d28c6103
+      # __Owner
+      Value: sitecore\admin
+    - ID: 58014183-26fe-4568-b19f-c26745824c32
+      # Description
+      Value: If campaign have a value it should be deployed.
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+    - ID: da43c533-cbae-43d0-9019-65b1e346f984
+      # Title
+      Value: Is Empty Campaign
+- Language: ja-JP
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150812T115404Z
+    - ID: 52807595-0f8f-4b20-8d2a-cb71d28c6103
+      # __Owner
+      Value: sitecore\admin
+    - ID: 58014183-26fe-4568-b19f-c26745824c32
+      # Description
+      Value: キャンペーンにバリューがある場合は配置してください
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+    - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+      # __Display name
+      Value: 空のキャンペーン
+    - ID: da43c533-cbae-43d0-9019-65b1e346f984
+      # Title
+      Value: 空のキャンペーン

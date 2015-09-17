@@ -1,0 +1,83 @@
+﻿---
+ID: a68ee2be-097f-4742-9253-44f5225df958
+Parent: a913a5b2-b5c7-4ea5-b91c-02f157e3b26f
+Template: 6d1cd897-1936-4a3a-a511-289a94c2a7b1
+Path: /sitecore/system/Dictionary/ExperienceExplorer/Geo/Editor/GeoEditorDescription
+SharedFields:
+- ID: 580c75a8-c01a-4580-83cb-987776ceb3af
+  # Key
+  Value: GeoEditorDescription
+Languages:
+- Language: da
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150812T120241Z
+    - ID: 2ba3454a-9a9c-4cdf-a9f8-107fd484eb6e
+      # Phrase
+      Value: Klik på Oversigt, Land eller IP for at indtaste de Geo IP-oplysninger, du vil bruge til dette besøg.
+    - ID: 52807595-0f8f-4b20-8d2a-cb71d28c6103
+      # __Owner
+      Value: sitecore\admin
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+    - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+      # __Display name
+      Value: GeoEditorDescription
+- Language: de-DE
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150812T115830Z
+    - ID: 2ba3454a-9a9c-4cdf-a9f8-107fd484eb6e
+      # Phrase
+      Value: Klicken Sie Karte, Land oder IP an, um die GEOP IP Informationen einzugeben, die Sie für diesen Besuch verwenden wollen.
+    - ID: 52807595-0f8f-4b20-8d2a-cb71d28c6103
+      # __Owner
+      Value: sitecore\admin
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+    - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+      # __Display name
+      Value: GeoEditorBeschreibung
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20141103T103221Z
+    - ID: 2ba3454a-9a9c-4cdf-a9f8-107fd484eb6e
+      # Phrase
+      Value: Click Map, Country, or IP to enter the Geo IP information that you want to use for this visit.
+    - ID: 52807595-0f8f-4b20-8d2a-cb71d28c6103
+      # __Owner
+      Value: sitecore\admin
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+- Language: ja-JP
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150812T115413Z
+    - ID: 2ba3454a-9a9c-4cdf-a9f8-107fd484eb6e
+      # Phrase
+      Value: [マップ] [国] または [IP] をクリックして、この訪問に使用する Geo IP 情報を入力してください。
+    - ID: 52807595-0f8f-4b20-8d2a-cb71d28c6103
+      # __Owner
+      Value: sitecore\admin
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+    - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+      # __Display name
+      Value: Geo エディターの説明

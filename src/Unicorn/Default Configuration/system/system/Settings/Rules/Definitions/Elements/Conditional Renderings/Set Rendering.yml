@@ -1,0 +1,83 @@
+﻿---
+ID: 7b578b65-bd2f-4c7c-9a24-dae3e98b4f23
+Parent: f4f40881-72e4-409e-9a4b-97b129be3b52
+Template: f90052a5-b4e6-4e6d-9812-1e1b88a6fcea
+Path: /sitecore/system/Settings/Rules/Definitions/Elements/Conditional Renderings/Set Rendering
+SharedFields:
+- ID: ff55d5a7-6d4b-4cd1-83e0-bac268073f66
+  # Type
+  Value: Sitecore.Rules.ConditionalRenderings.SetRenderingAction,Sitecore.Kernel
+Languages:
+- Language: da
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150812T120230Z
+    - ID: 52807595-0f8f-4b20-8d2a-cb71d28c6103
+      # __Owner
+      Value: sitecore\admin
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+    - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+      # __Display name
+      Value: Angiv rendering
+    - ID: eeb36a3b-40d9-4af5-862a-de257b84dca3
+      # Text
+      Value: angiv rendering til [RenderingItem,Tree,root=/sitecore/Layout&selection=System/Layout/Renderings/Xsl Rendering|System/Layout/Renderings/XmlControl|System/Layout/Renderings/WebControl|System/Layout/Renderings/Url Rendering|System/Layout/Renderings/Sublayout|System/Layout/Renderings/Rendering|System/Layout/Renderings/Method Rendering,Item]
+- Language: de-DE
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150812T115818Z
+    - ID: 52807595-0f8f-4b20-8d2a-cb71d28c6103
+      # __Owner
+      Value: sitecore\admin
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+    - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+      # __Display name
+      Value: Rendering einstellen
+    - ID: eeb36a3b-40d9-4af5-862a-de257b84dca3
+      # Text
+      Value: Rendering auf [RenderingItem,Tree,root=/sitecore/Layout&selection=System/Layout/Renderings/Xsl Rendering|System/Layout/Renderings/XmlControl|System/Layout/Renderings/WebControl|System/Layout/Renderings/Url Rendering|System/Layout/Renderings/Sublayout|System/Layout/Renderings/Rendering|System/Layout/Renderings/Method Rendering,Item] setzen
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20101210T105453
+    - ID: 52807595-0f8f-4b20-8d2a-cb71d28c6103
+      # __Owner
+      Value: sitecore\admin
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+    - ID: eeb36a3b-40d9-4af5-862a-de257b84dca3
+      # Text
+      Value: set rendering to [RenderingItem,Tree,root=/sitecore/Layout&selection=System/Layout/Renderings/Xsl Rendering|System/Layout/Renderings/XmlControl|System/Layout/Renderings/WebControl|System/Layout/Renderings/Url Rendering|System/Layout/Renderings/Sublayout|System/Layout/Renderings/Rendering|System/Layout/Renderings/Method Rendering,Item]
+- Language: ja-JP
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150812T115410Z
+    - ID: 52807595-0f8f-4b20-8d2a-cb71d28c6103
+      # __Owner
+      Value: sitecore\admin
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+    - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+      # __Display name
+      Value: レンダリングを設定
+    - ID: eeb36a3b-40d9-4af5-862a-de257b84dca3
+      # Text
+      Value: レンダリングを [RenderingItem,Tree,root=/sitecore/Layout&selection=System/Layout/Renderings/Xsl Rendering|System/Layout/Renderings/XmlControl|System/Layout/Renderings/WebControl|System/Layout/Renderings/Url Rendering|System/Layout/Renderings/Sublayout|System/Layout/Renderings/Rendering|System/Layout/Renderings/Method Rendering,特定のアイテム] に設定する

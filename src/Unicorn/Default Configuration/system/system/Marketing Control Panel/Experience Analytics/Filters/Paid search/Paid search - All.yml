@@ -1,0 +1,183 @@
+﻿---
+ID: 2c58fba8-a6a4-49f2-b787-fb47a4b52ca4
+Parent: f201003b-514b-4a86-8c56-48b39de53306
+Template: 07003270-d56d-42c2-90e1-99125e0ed1af
+Path: /sitecore/system/Marketing Control Panel/Experience Analytics/Filters/Paid search/Paid search - All
+Languages:
+- Language: da
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 1e72123a-f0fc-48ef-ae9f-78872597cebf
+      # Rule
+      Type: Rules
+      Value: |
+        <ruleset>
+          <rule uid="{42DBD2E4-7B38-4684-8418-4B87B4B0B3AB}">
+            <conditions>
+              <or uid="05FDFC6C3B144EEC89A0713BBCFCC853">
+                <or uid="D78C7DB86C3C4625B02C21702E33EB66">
+                  <or uid="E249C96787F04E139D937A279FA8727F">
+                    <or uid="FE6C01AB60F04E54B67EA40AE202478E">
+                      <or uid="F0F978705935434AB5E486AC21D1E578">
+                        <condition id="{2F421912-F1B3-49D8-82B8-50A64C80E4E3}" uid="3CC4E3E542B6400E9C44162130B6455A" ChannelId="{B55EC2C2-CD7A-4E03-B155-EEFDAE872B7D}" />
+                        <condition id="{2F421912-F1B3-49D8-82B8-50A64C80E4E3}" uid="E4E03096346C44DF89493FE3FE1EF7C1" ChannelId="{EC74A09A-7FA7-4A5A-874A-6B5CA9E05773}" />
+                      </or>
+                      <condition id="{2F421912-F1B3-49D8-82B8-50A64C80E4E3}" uid="1191DFFE5C484014A22AFC48E9DA779B" ChannelId="{67150678-B200-44BB-BBAE-1D7B901D0860}" />
+                    </or>
+                    <condition id="{2F421912-F1B3-49D8-82B8-50A64C80E4E3}" uid="ADDEAC1585E04754B87530A9FFF71931" ChannelId="{145304B1-C2E0-4B88-A200-D5AA18206CF7}" />
+                  </or>
+                  <condition id="{2F421912-F1B3-49D8-82B8-50A64C80E4E3}" uid="4C44885ABC5C4A6ABAF4B9E5CA10D175" ChannelId="{B5234879-DFFC-47AF-8267-59D4D3DF6226}" />
+                </or>
+                <condition id="{2F421912-F1B3-49D8-82B8-50A64C80E4E3}" uid="424FC2496B3840589847B17087B05636" ChannelId="{0D600460-DA2E-41A6-955A-9253D2A063C2}" />
+              </or>
+            </conditions>
+            <actions>
+              <action id="{E7AD708C-9943-4173-9055-ED9B078932B2}" uid="23F1860DD6014783A78F9EEF3F920A7E" />
+            </actions>
+          </rule>
+        </ruleset>
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150812T120209Z
+    - ID: 52807595-0f8f-4b20-8d2a-cb71d28c6103
+      # __Owner
+      Value: sitecore\admin
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+    - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+      # __Display name
+      Value: Betalt søgning – alle
+- Language: de-DE
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 1e72123a-f0fc-48ef-ae9f-78872597cebf
+      # Rule
+      Type: Rules
+      Value: |
+        <ruleset>
+          <rule uid="{42DBD2E4-7B38-4684-8418-4B87B4B0B3AB}">
+            <conditions>
+              <or uid="05FDFC6C3B144EEC89A0713BBCFCC853">
+                <or uid="D78C7DB86C3C4625B02C21702E33EB66">
+                  <or uid="E249C96787F04E139D937A279FA8727F">
+                    <or uid="FE6C01AB60F04E54B67EA40AE202478E">
+                      <or uid="F0F978705935434AB5E486AC21D1E578">
+                        <condition id="{2F421912-F1B3-49D8-82B8-50A64C80E4E3}" uid="3CC4E3E542B6400E9C44162130B6455A" KanalId="{B55EC2C2-CD7A-4E03-B155-EEFDAE872B7D}" />
+                        <condition id="{2F421912-F1B3-49D8-82B8-50A64C80E4E3}" uid="E4E03096346C44DF89493FE3FE1EF7C1" KanalId="{EC74A09A-7FA7-4A5A-874A-6B5CA9E05773}" />
+                      </or>
+                      <condition id="{2F421912-F1B3-49D8-82B8-50A64C80E4E3}" uid="1191DFFE5C484014A22AFC48E9DA779B" KanalId="{67150678-B200-44BB-BBAE-1D7B901D0860}" />
+                    </or>
+                    <condition id="{2F421912-F1B3-49D8-82B8-50A64C80E4E3}" uid="ADDEAC1585E04754B87530A9FFF71931" KanalId="{145304B1-C2E0-4B88-A200-D5AA18206CF7}" />
+                  </or>
+                  <condition id="{2F421912-F1B3-49D8-82B8-50A64C80E4E3}" uid="4C44885ABC5C4A6ABAF4B9E5CA10D175" KanalId="{B5234879-DFFC-47AF-8267-59D4D3DF6226}" />
+                </or>
+                <condition id="{2F421912-F1B3-49D8-82B8-50A64C80E4E3}" uid="424FC2496B3840589847B17087B05636" KanalId="{0D600460-DA2E-41A6-955A-9253D2A063C2}" />
+              </or>
+            </conditions>
+            <actions>
+              <Aktion id="{E7AD708C-9943-4173-9055-ED9B078932B2}" uid="23F1860DD6014783A78F9EEF3F920A7E" />
+            </actions>
+          </rule>
+        </ruleset>
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150812T115756Z
+    - ID: 52807595-0f8f-4b20-8d2a-cb71d28c6103
+      # __Owner
+      Value: sitecore\admin
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+    - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+      # __Display name
+      Value: Bezahlte Suche - alle
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 1e72123a-f0fc-48ef-ae9f-78872597cebf
+      # Rule
+      Type: Rules
+      Value: |
+        <ruleset>
+          <rule uid="{42DBD2E4-7B38-4684-8418-4B87B4B0B3AB}">
+            <conditions>
+              <or uid="05FDFC6C3B144EEC89A0713BBCFCC853">
+                <or uid="D78C7DB86C3C4625B02C21702E33EB66">
+                  <or uid="E249C96787F04E139D937A279FA8727F">
+                    <or uid="FE6C01AB60F04E54B67EA40AE202478E">
+                      <or uid="F0F978705935434AB5E486AC21D1E578">
+                        <condition id="{2F421912-F1B3-49D8-82B8-50A64C80E4E3}" uid="3CC4E3E542B6400E9C44162130B6455A" ChannelId="{B55EC2C2-CD7A-4E03-B155-EEFDAE872B7D}" />
+                        <condition id="{2F421912-F1B3-49D8-82B8-50A64C80E4E3}" uid="E4E03096346C44DF89493FE3FE1EF7C1" ChannelId="{EC74A09A-7FA7-4A5A-874A-6B5CA9E05773}" />
+                      </or>
+                      <condition id="{2F421912-F1B3-49D8-82B8-50A64C80E4E3}" uid="1191DFFE5C484014A22AFC48E9DA779B" ChannelId="{67150678-B200-44BB-BBAE-1D7B901D0860}" />
+                    </or>
+                    <condition id="{2F421912-F1B3-49D8-82B8-50A64C80E4E3}" uid="ADDEAC1585E04754B87530A9FFF71931" ChannelId="{145304B1-C2E0-4B88-A200-D5AA18206CF7}" />
+                  </or>
+                  <condition id="{2F421912-F1B3-49D8-82B8-50A64C80E4E3}" uid="4C44885ABC5C4A6ABAF4B9E5CA10D175" ChannelId="{B5234879-DFFC-47AF-8267-59D4D3DF6226}" />
+                </or>
+                <condition id="{2F421912-F1B3-49D8-82B8-50A64C80E4E3}" uid="424FC2496B3840589847B17087B05636" ChannelId="{0D600460-DA2E-41A6-955A-9253D2A063C2}" />
+              </or>
+            </conditions>
+            <actions>
+              <action id="{E7AD708C-9943-4173-9055-ED9B078932B2}" uid="23F1860DD6014783A78F9EEF3F920A7E" />
+            </actions>
+          </rule>
+        </ruleset>
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20141209T102406Z
+    - ID: 52807595-0f8f-4b20-8d2a-cb71d28c6103
+      # __Owner
+      Value: sitecore\admin
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+- Language: ja-JP
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 1e72123a-f0fc-48ef-ae9f-78872597cebf
+      # Rule
+      Type: Rules
+      Value: |
+        <ruleset>
+          <rule uid="{42DBD2E4-7B38-4684-8418-4B87B4B0B3AB}">
+            <conditions>
+              <or uid="05FDFC6C3B144EEC89A0713BBCFCC853">
+                <or uid="D78C7DB86C3C4625B02C21702E33EB66">
+                  <or uid="E249C96787F04E139D937A279FA8727F">
+                    <or uid="FE6C01AB60F04E54B67EA40AE202478E">
+                      <or uid="F0F978705935434AB5E486AC21D1E578">
+                        <condition id="{2F421912-F1B3-49D8-82B8-50A64C80E4E3}" uid="3CC4E3E542B6400E9C44162130B6455A" ChannelId="{B55EC2C2-CD7A-4E03-B155-EEFDAE872B7D}" />
+                        <condition id="{2F421912-F1B3-49D8-82B8-50A64C80E4E3}" uid="E4E03096346C44DF89493FE3FE1EF7C1" ChannelId="{EC74A09A-7FA7-4A5A-874A-6B5CA9E05773}" />
+                      </or>
+                      <condition id="{2F421912-F1B3-49D8-82B8-50A64C80E4E3}" uid="1191DFFE5C484014A22AFC48E9DA779B" ChannelId="{67150678-B200-44BB-BBAE-1D7B901D0860}" />
+                    </or>
+                    <condition id="{2F421912-F1B3-49D8-82B8-50A64C80E4E3}" uid="ADDEAC1585E04754B87530A9FFF71931" ChannelId="{145304B1-C2E0-4B88-A200-D5AA18206CF7}" />
+                  </or>
+                  <condition id="{2F421912-F1B3-49D8-82B8-50A64C80E4E3}" uid="4C44885ABC5C4A6ABAF4B9E5CA10D175" ChannelId="{B5234879-DFFC-47AF-8267-59D4D3DF6226}" />
+                </or>
+                <condition id="{2F421912-F1B3-49D8-82B8-50A64C80E4E3}" uid="424FC2496B3840589847B17087B05636" ChannelId="{0D600460-DA2E-41A6-955A-9253D2A063C2}" />
+              </or>
+            </conditions>
+            <actions>
+              <action id="{E7AD708C-9943-4173-9055-ED9B078932B2}" uid="23F1860DD6014783A78F9EEF3F920A7E" />
+            </actions>
+          </rule>
+        </ruleset>
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150812T115353Z
+    - ID: 52807595-0f8f-4b20-8d2a-cb71d28c6103
+      # __Owner
+      Value: sitecore\admin
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+    - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+      # __Display name
+      Value: 有料検索 - すべて

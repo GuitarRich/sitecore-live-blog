@@ -1,0 +1,91 @@
+﻿---
+ID: 15164bd5-e3dc-48ee-bdd4-00de9f89185b
+Parent: 77bdbae6-e01e-4166-af8a-9bffe51d25c7
+Template: 6d1cd897-1936-4a3a-a511-289a94c2a7b1
+Path: /sitecore/system/Dictionary/ExperienceExplorer/Profile/Viewer/ProfileViewerMatchesThePatternCardWithoutPersonalization
+SharedFields:
+- ID: 580c75a8-c01a-4580-83cb-987776ceb3af
+  # Key
+  Value: MatchesThePatternCardWithoutPersonalization
+Languages:
+- Language: da
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150812T120201Z
+    - ID: 2ba3454a-9a9c-4cdf-a9f8-107fd484eb6e
+      # Phrase
+      Value: |
+        <p>I øjeblikket matcher den besøgende mønsterkortet <b>{0}</b>.</p>
+        <p>Den besøgende har besøgt {1} side(r), som har profilkort tildelt – personalisering anvendes efter {2} side(r).</p>
+    - ID: 52807595-0f8f-4b20-8d2a-cb71d28c6103
+      # __Owner
+      Value: sitecore\admin
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+    - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+      # __Display name
+      Value: ProfileViewerMatchesThePatternCardWithoutPersonalization
+- Language: de-DE
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150812T115749Z
+    - ID: 2ba3454a-9a9c-4cdf-a9f8-107fd484eb6e
+      # Phrase
+      Value: |
+        <p>Derzeit passt dieser Besucher zur Musterkarte <b>{0}</b>.</p>
+        <p>Der Besucher hat {1} Seite/n besucht, der/denen Profilkarten zugewisen ist/sind - Personalisierung wird nach {2} Seite/n angewendet.</p>
+    - ID: 52807595-0f8f-4b20-8d2a-cb71d28c6103
+      # __Owner
+      Value: sitecore\admin
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+    - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+      # __Display name
+      Value: ProfilViewerPasstZUrMusterkarteOhnePersonalisierung
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20141029T134931Z
+    - ID: 2ba3454a-9a9c-4cdf-a9f8-107fd484eb6e
+      # Phrase
+      Value: |
+        <p>Currently, this visitor matches the pattern card <b>{0}</b>.</p>
+        <p>The visitor has visited {1} page(s) that have profile cards assigned – personalization will be applied after {2} page(s).</p>
+    - ID: 52807595-0f8f-4b20-8d2a-cb71d28c6103
+      # __Owner
+      Value: sitecore\admin
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+- Language: ja-JP
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150812T115351Z
+    - ID: 2ba3454a-9a9c-4cdf-a9f8-107fd484eb6e
+      # Phrase
+      Value: |
+        <p>現在この訪問者はパターン カード <b>{0}</b> にマッチします。</p>
+        <p>訪問者はプロファイル カードが割り当てられている {1} ページに訪問しました。パーソナライゼーションは {2} ページ目以降に適用されます。</p>
+    - ID: 52807595-0f8f-4b20-8d2a-cb71d28c6103
+      # __Owner
+      Value: sitecore\admin
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+    - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+      # __Display name
+      Value: プロファイル ビューアーとパターン カードのマッチ (パーソナライゼーションなし)

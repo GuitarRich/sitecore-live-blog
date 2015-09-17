@@ -1,0 +1,121 @@
+﻿---
+ID: 8ae1c245-a4fa-46ae-9b35-4fbc15f63169
+Parent: 1ce3b36c-9b0c-4eb5-a996-bfcb4eaa5287
+Template: 5c547d4e-7111-4995-95b0-6b561751bf2e
+Path: /sitecore/layout/Placeholder Settings/content
+SharedFields:
+- ID: 7256bdab-1fd2-49dd-b205-cb4873d2917c
+  # Placeholder Key
+  Value: content
+- ID: e391b526-d0c5-439d-803e-17512eae6222
+  # Allowed Controls
+  Type: TreelistEx
+  Value: {493B3A83-0FA7-4484-8FC9-4680991CF743}
+Languages:
+- Language: da
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150812T120235Z
+    - ID: 52807595-0f8f-4b20-8d2a-cb71d28c6103
+      # __Owner
+      Value: sitecore\admin
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+    - ID: 87871ff5-1965-46d6-884f-01d6a0b9c4c1
+      # Description
+      Value: |
+        <div>
+              <b>Placeholder for indhold</b>
+              <div>
+        
+        <div style="padding:8px 8px 0px 8px;width:200px">
+        <img height="32" width="32" alt="Sample rendering" style="float:left;margin:0px 8px 0px 0px" src="~/icon/Business/32x32/table_selection_block.png?w=32&amp;h=32&amp;as=1" />
+        <div>Placeholderen for indhold er den primære placeholder.<div></div></div></div></div>
+        <div></div></div>
+    - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+      # __Display name
+      Value: indhold
+- Language: de-DE
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150812T115823Z
+    - ID: 52807595-0f8f-4b20-8d2a-cb71d28c6103
+      # __Owner
+      Value: sitecore\admin
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+    - ID: 87871ff5-1965-46d6-884f-01d6a0b9c4c1
+      # Description
+      Value: |
+        <div>
+              <b>Content-Platzhalter</b>
+              <div>
+        
+        <div style="padding:8px 8px 0px 8px;width:200px">
+        <img height="32" width="32" alt="Beispiel Rendering" style="float:left;margin:0px 8px 0px 0px" src="~/icon/Business/32x32/table_selection_block.png?w=32&amp;h=32&amp;as=1" />
+        <div>Der Content-Platzhalter ist der Hauptplatzhalter.<div></div></div></div></div>
+        <div></div></div>
+    - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+      # __Display name
+      Value: Inhalt
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20080110T095900
+    - ID: 52807595-0f8f-4b20-8d2a-cb71d28c6103
+      # __Owner
+      Value: sitecore\admin
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+    - ID: 87871ff5-1965-46d6-884f-01d6a0b9c4c1
+      # Description
+      Value: |
+        
+        		<div>
+              <b>Content Placeholder</b>
+              <div>
+        
+        <div style="padding:8px 8px 0px 8px;width:200px">
+        <img height="32" width="32" alt="Sample Rendering" style="float:left;margin:0px 8px 0px 0px" src="~/icon/Business/32x32/table_selection_block.png?w=32&amp;h=32&amp;as=1" />
+        <div>The content placeholder is the main placeholder.<div></div></div></div></div>
+        <div></div></div>
+        
+- Language: ja-JP
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150812T115411Z
+    - ID: 52807595-0f8f-4b20-8d2a-cb71d28c6103
+      # __Owner
+      Value: sitecore\admin
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+    - ID: 87871ff5-1965-46d6-884f-01d6a0b9c4c1
+      # Description
+      Value: |
+        <div>
+              <b>コンテンツ (content) プレースホルダー</b>
+              <div>
+        
+        <div style="padding:8px 8px 0px 8px;width:200px">
+        <img height="32" width="32" alt="コンテンツ (content) プレースホルダー" style="float:left;margin:0px 8px 0px 0px" src="~/icon/Business/32x32/table_selection_block.png?w=32&amp;h=32&amp;as=1" />
+        <div>コンテンツ (content) プレースホルダーはメインのプレースホルダーです。<div></div></div></div></div>
+        <div></div></div>
+    - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+      # __Display name
+      Value: コンテンツ (content)

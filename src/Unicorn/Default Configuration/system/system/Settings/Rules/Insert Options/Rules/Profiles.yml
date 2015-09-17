@@ -1,0 +1,100 @@
+﻿---
+ID: 61e9ed8d-94fe-4f2e-92e8-422dae411e5b
+Parent: ff0bc016-2d01-4f55-a020-ef6fc2fe7559
+Template: 664e5035-eb8c-4ba1-9731-a098fcc9127a
+Path: /sitecore/system/Settings/Rules/Insert Options/Rules/Profiles
+SharedFields:
+- ID: fa307b86-da2a-44bd-887d-e2057cdb4948
+  # Rule
+  Type: Rules
+  Value: |
+    <ruleset>
+      <rule uid="{2E89945B-16DE-4654-97BE-D820EA843AA9}">
+        <conditions>
+          <and uid="{DC0C2263-6BE7-4A1A-BB8E-789AD8E70522}">
+            <condition id="{7D5DA661-BEF9-441C-B1F7-D80DE3E0972F}" uid="{16986651-A29E-4B02-8A0C-B69AE7B7981F}" itemid="{12BD7E35-437B-449C-B931-23CFA12C03D8}" />
+            <and uid="D14C535C9D4343509370A8111F56F1CE">
+              <condition id="{5DE6D53E-EA62-4D17-8BDD-FEBCD80AC07B}" uid="{9F24CF8B-208C-4F73-85F7-3E6CF74BFE54}" templateid="{A87A00B1-E6DB-45AB-8B54-636FEC3B5523}" />
+              <condition id="{5DE6D53E-EA62-4D17-8BDD-FEBCD80AC07B}" uid="5FFACBF548F24F46ACE623B756EEB8E7" except="true" templateid="{0771B0A2-5BCF-4F87-91DE-13474618B6BF}" />
+            </and>
+          </and>
+        </conditions>
+        <actions>
+          <action id="{918FFCF0-F9E1-4DB6-A191-3EFA5A91C583}" uid="{F1E653AA-B941-4B4F-8372-CC3B29CA3976}" insertoptionid="{07624A03-BB2F-45D8-ABE1-15E2B1705FF3}" />
+        </actions>
+      </rule>
+    </ruleset>
+Languages:
+- Language: da
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150812T120221Z
+    - ID: 52807595-0f8f-4b20-8d2a-cb71d28c6103
+      # __Owner
+      Value: sitecore\admin
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+    - ID: 9e0287d9-af90-41ad-8d36-332375e194d6
+      # Name
+      Value: Når elementet er et subelement af profiler, og skabelonen er baseret på 'Mappe', skal du tilføje indsætningsindstilling for profil
+    - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+      # __Display name
+      Value: Profiler
+- Language: de-DE
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150812T115810Z
+    - ID: 52807595-0f8f-4b20-8d2a-cb71d28c6103
+      # __Owner
+      Value: sitecore\admin
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+    - ID: 9e0287d9-af90-41ad-8d36-332375e194d6
+      # Name
+      Value: Wenn das Item ein Subitem von Profilen ist und das Template vom Typ Ordner, fügen Sie Profile Einfügeoption hinzu
+    - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+      # __Display name
+      Value: Profile
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20080923T083739
+    - ID: 52807595-0f8f-4b20-8d2a-cb71d28c6103
+      # __Owner
+      Value: sitecore\admin
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+    - ID: 9e0287d9-af90-41ad-8d36-332375e194d6
+      # Name
+      Value: When item is a subitem of Profiles and the template is folder, add Profile insert option
+- Language: ja-JP
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150812T115407Z
+    - ID: 52807595-0f8f-4b20-8d2a-cb71d28c6103
+      # __Owner
+      Value: sitecore\admin
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+    - ID: 9e0287d9-af90-41ad-8d36-332375e194d6
+      # Name
+      Value: アイテムがプロファイルのサブアイテムおよびテンプレートがフォルダーの場合、プロファイルを挿入オプションに追加する
+    - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+      # __Display name
+      Value: プロファイル

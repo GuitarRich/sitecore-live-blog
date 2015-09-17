@@ -1,0 +1,83 @@
+﻿---
+ID: 304fdffc-de5d-4d45-96df-07ed0e423f43
+Parent: 9114b6c2-450b-42e2-abe3-011f0b8ad520
+Template: 3b4fde65-16a8-491d-bf15-99ce83cf3506
+Path: /sitecore/system/Marketing Control Panel/Taxonomies/Channel/Online/Email Campaigns/Email sent
+SharedFields:
+- ID: 8fb875eb-3ad3-44ff-87e1-998370cc3199
+  # Code
+  Value: 98
+Languages:
+- Language: da
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150812T120210Z
+    - ID: 52807595-0f8f-4b20-8d2a-cb71d28c6103
+      # __Owner
+      Value: sitecore\admin
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+    - ID: 8bdee96a-e8f5-446a-a1d2-568c3018c98e
+      # Image
+      Value: "<image mediaid=\"{DB05236E-4099-4DD8-A9D0-0320FCB740F8}\" />"
+    - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+      # __Display name
+      Value: Mail blev sendt
+- Language: de-DE
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150812T115757Z
+    - ID: 52807595-0f8f-4b20-8d2a-cb71d28c6103
+      # __Owner
+      Value: sitecore\admin
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+    - ID: 8bdee96a-e8f5-446a-a1d2-568c3018c98e
+      # Image
+      Value: "<image mediaid=\"{DB05236E-4099-4DD8-A9D0-0320FCB740F8}\" />"
+    - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+      # __Display name
+      Value: Email wurde gesendet
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20141115T112552Z
+    - ID: 52807595-0f8f-4b20-8d2a-cb71d28c6103
+      # __Owner
+      Value: sitecore\admin
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+    - ID: 8bdee96a-e8f5-446a-a1d2-568c3018c98e
+      # Image
+      Value: "<image mediaid=\"{DB05236E-4099-4DD8-A9D0-0320FCB740F8}\" />"
+- Language: ja-JP
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150812T115353Z
+    - ID: 52807595-0f8f-4b20-8d2a-cb71d28c6103
+      # __Owner
+      Value: sitecore\admin
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+    - ID: 8bdee96a-e8f5-446a-a1d2-568c3018c98e
+      # Image
+      Value: "<image mediaid=\"{DB05236E-4099-4DD8-A9D0-0320FCB740F8}\" />"
+    - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+      # __Display name
+      Value: 送信済み電子メール

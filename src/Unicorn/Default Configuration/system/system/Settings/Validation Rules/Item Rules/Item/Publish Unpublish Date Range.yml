@@ -1,0 +1,95 @@
+﻿---
+ID: 31dc2d03-5de4-43ea-ba1e-b1f6306e7dca
+Parent: e6ce8201-68be-4534-8a70-6a317ba87e51
+Template: 8f8e2549-c77f-4860-b83b-54fa31e2befa
+Path: /sitecore/system/Settings/Validation Rules/Item Rules/Item/Publish Unpublish Date Range
+SharedFields:
+- ID: 43a829d1-43da-465c-b772-ebaa0d515e3e
+  # Type
+  Value: Sitecore.Data.Validators.ItemValidators.PublishUnpublishDateRangeValidator,Sitecore.Kernel
+Languages:
+- Language: da
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150812T120211Z
+    - ID: 52807595-0f8f-4b20-8d2a-cb71d28c6103
+      # __Owner
+      Value: sitecore\admin
+    - ID: 58014183-26fe-4568-b19f-c26745824c32
+      # Description
+      Value: Udgivelsesdatoen skal være før ophørsdatoen.
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+    - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+      # __Display name
+      Value: Udgiv ikke udgivet datointerval
+    - ID: da43c533-cbae-43d0-9019-65b1e346f984
+      # Title
+      Value: Er udgivelsesdato før dato for ophør af udgivelse
+- Language: de-DE
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150812T115758Z
+    - ID: 52807595-0f8f-4b20-8d2a-cb71d28c6103
+      # __Owner
+      Value: sitecore\admin
+    - ID: 58014183-26fe-4568-b19f-c26745824c32
+      # Description
+      Value: Das Veröffentlichungsdatum muss vor der Aufhebung der Veröffentlichung liegen.
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+    - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+      # __Display name
+      Value: Publish Unpublish Date Range
+    - ID: da43c533-cbae-43d0-9019-65b1e346f984
+      # Title
+      Value: Veröffentlichungsdatum ist vor unpubliziertem Datum
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20071107T081400Z
+    - ID: 52807595-0f8f-4b20-8d2a-cb71d28c6103
+      # __Owner
+      Value: sitecore\admin
+    - ID: 58014183-26fe-4568-b19f-c26745824c32
+      # Description
+      Value: The publish date must be before the unpublish date.
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+    - ID: da43c533-cbae-43d0-9019-65b1e346f984
+      # Title
+      Value: Is publish date before unpublish date
+- Language: ja-JP
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150812T115353Z
+    - ID: 52807595-0f8f-4b20-8d2a-cb71d28c6103
+      # __Owner
+      Value: sitecore\admin
+    - ID: 58014183-26fe-4568-b19f-c26745824c32
+      # Description
+      Value: パブリッシュの開始日時は終了日時より前に設定する必要があります。
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+    - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+      # __Display name
+      Value: パブリッシュを停止する範囲の日時をパブリッシュ
+    - ID: da43c533-cbae-43d0-9019-65b1e346f984
+      # Title
+      Value: パブリッシュの開始日時が終了日時より前

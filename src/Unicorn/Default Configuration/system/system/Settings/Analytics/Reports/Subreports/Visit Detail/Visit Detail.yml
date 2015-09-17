@@ -1,0 +1,114 @@
+﻿---
+ID: 301d9665-31f6-4ff1-ab24-586459a0f664
+Parent: bd8cf6ae-b992-4ff0-a119-43f5e448a22a
+Template: 6674a4af-eace-445e-89f1-e2f464026056
+Path: /sitecore/system/Settings/Analytics/Reports/Subreports/Visit Detail/Visit Detail
+SharedFields:
+- ID: 06d5295c-ed2f-4a54-9bf2-26228d113318
+  # __Icon
+  Value: Network/32x32/keys.png
+- ID: 0cc4ad84-f69d-44d2-9600-5c7522aa2401
+  # File Name
+  Value: /sitecore/shell/Applications/Analytics/Reports/VisitDetail.mrt
+- ID: 16802c7a-011a-41ff-88b4-c33e6c737f3f
+  # Queries
+  Value: Visitor=%7bBE7BE82C-CF2F-4D05-80D3-665528AE6033%7d&VisitorTags=%7bE72256CF-AF7D-4FED-958D-23B8A956A429%7d&Visit=%7b40EEF1EB-848B-4911-A4D0-36C44BB9B841%7d&VisitPages=%7b3E7A88D9-FCEF-4F5D-B83F-3213DE907612%7d&VisitGoals=%7b7F09A46C-00AF-47EC-8A6B-4375EDA7759E%7d&Profiles=%7bE5AD9B8D-FA8A-4D7B-B3F4-E4488060F396%7d&PageEvents=%7b0319D745-B59A-4539-A09E-4A16F6070814%7d
+Languages:
+- Language: da
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150812T120210Z
+    - ID: 52807595-0f8f-4b20-8d2a-cb71d28c6103
+      # __Owner
+      Value: sitecore\admin
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+    - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+      # __Display name
+      Value: Besøgsoplysninger
+    - ID: d71dcbf1-3e4c-4acd-9244-58aa5c1c8528
+      # Report Title
+      Value: Besøgsoplysninger (session)
+    - ID: f38bb3c8-94d9-4815-8ce2-06fa4eb8fc80
+      # Report Description
+      Value: |
+        Denne rapport hjælper dig med at besvare følgende spørgsmål:<ul><li>Hvilke former for værdi konsumerede denne besøgende under dette besøg?</li><li>Hvilke profiler og personer matchede den besøgende under besøget?</li></ul>Denne rapport anfører den akkumulerede værdi og aktiviteterne foretaget under et specifikt besøg eller session. Tjek de besøgte sider for at identificere de emner, der interesserede den besøgende. Besøg på sider med oplysninger om prisfastsættelse, uddannelse og support kan angive en interesse i at købe. Besøg på sider med oplysninger om produktløsninger og casestudier kan angive en interesse i en branche eller løsning.<br/>
+        Hvis din hjemmeside bruger profiler til at spore den besøgendes personlighed og egenskaber, kan du se diagrammer, der viser den besøgendes profil for dette besøg.<br/>
+        Du kom til denne rapport fra rapporten <i>Virksomhedsbesøg</i> eller <i>Oversigt over besøgende</i>.
+- Language: de-DE
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150812T115757Z
+    - ID: 52807595-0f8f-4b20-8d2a-cb71d28c6103
+      # __Owner
+      Value: sitecore\admin
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+    - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+      # __Display name
+      Value: Besuche Detail
+    - ID: d71dcbf1-3e4c-4acd-9244-58aa5c1c8528
+      # Report Title
+      Value: Besuch Detail (Sitzung)
+    - ID: f38bb3c8-94d9-4815-8ce2-06fa4eb8fc80
+      # Report Description
+      Value: |
+        Dieser Report hilft Ihnen dabei, die folgenden Fragen zu beantworten:<ul><li>Welche Arten von Wert hat der Besucher während dieses Besuchs konsumiert?</li><li>Welchen Profilen und Persona hat dieser Besucher während des Besuchs entsprochen?</li></ul>Dieser Report listet den akkumulierten Wert und die ausgeführten Aktivitäten während eines bestimmten Besuchs oder einer bestimmten Session. Überprüfen Sie die besuchten Seiten, um die Themen, die für den Besucher von Interesse waren, zu identifizieren. Der Besuch von Seiten, die Informationen über Preisgestaltung, Training und Support beinhalten, können auf ein Kaufinteresse hinweisen.  Der Besuch von Seiten, die Informationen über Produktlösungen und Fallstudien beinhalten, können auf ein Brancheninteresse oder Lösungsinteresse hinweisen.<br/>
+        Wenn Ihre Website Profile benutzt, um die Persona und Charakteristiken des Besuchers zu verfolgen, können Sie sich Tabellen ansehen, die das Profil des Besuchers für diesen Besuch anzeigen.<br/>
+        Sie kamen zu diesen Report über den Report <i>Business Besuche</i> oder den Report <i>Besucher Überblick</i>.
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20110131T153452
+    - ID: 52807595-0f8f-4b20-8d2a-cb71d28c6103
+      # __Owner
+      Value: sitecore\admin
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+    - ID: d71dcbf1-3e4c-4acd-9244-58aa5c1c8528
+      # Report Title
+      Value: Visit Detail (Session)
+    - ID: f38bb3c8-94d9-4815-8ce2-06fa4eb8fc80
+      # Report Description
+      Value: |
+        This report helps you answer the following questions:<ul><li>What types of value did this visitor consume during this visit?</li><li>Which profiles and persona did this visitor match during the visit?</li></ul>This report lists the value accumulated and the activities performed during a particular visit or session. Check the pages visited to identify the topics that were of interest to the visitor. Visiting pages that contain information about pricing, training, and support can indicate an interest in purchasing. Visiting pages that contain information about product solutions and case studies can indicate an industry or solution interest.<br/>
+        If your website uses profiles to track the visitor’s persona and characteristics, you can see charts that show the visitor’s profile for this visit.<br/>
+        You came to this report from the <i>Business Visits</i> or <i>Visitor Overview</i> reports.
+        
+- Language: ja-JP
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150812T115353Z
+    - ID: 52807595-0f8f-4b20-8d2a-cb71d28c6103
+      # __Owner
+      Value: sitecore\admin
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+    - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+      # __Display name
+      Value: 訪問の詳細
+    - ID: d71dcbf1-3e4c-4acd-9244-58aa5c1c8528
+      # Report Title
+      Value: 訪問の詳細 (セッション)
+    - ID: f38bb3c8-94d9-4815-8ce2-06fa4eb8fc80
+      # Report Description
+      Value: |
+        このレポートは次のような問に答えるために役立つ情報を提供します。<ul><li>このビジターはこの訪問でどの種類の価値を消費したか。</li><li>このビジターはこの訪問でどのプロファイルとペルソナに合致したか。</li></ul>このレポートはある訪問またはセッションで蓄積された評価値と行われたアクティビティを一覧表示します。訪れたページを確認し、ビジターの関心のトピックを識別します。価格、トレーニング、サポートに関する情報を含むページへの訪問は購買への関心を示す場合があります。製品ソリューションとケース スタディに関する情報を含むページへの訪問は業種ソリューションへの関心を示す場合があります。
+        Web サイトでビジターのペルソナや特性を追跡するプロファイルを使用している場合には、この訪問でのビジターのプロファイルを示す図が表示されます。
+        <i>ビジネスの訪問</i> または <i>ビジターの概要</i> レポートからこのレポートを参照することができます。

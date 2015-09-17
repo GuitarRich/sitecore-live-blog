@@ -1,0 +1,83 @@
+﻿---
+ID: 3ddabb74-ef33-4690-84b9-4bf9c34de028
+Parent: a35b9719-6428-4dc7-92c3-eeb3dafc2d6e
+Template: f0d16eee-3a05-4e43-a082-795a32b873c0
+Path: /sitecore/system/Settings/Rules/Definitions/Elements/Federated Experience Manager - Page Matching/Check Request Headers
+SharedFields:
+- ID: ab51c8b2-f0e1-4471-9aae-cc080d774923
+  # Type
+  Value: Sitecore.FXM.Rules.Conditions.CheckRequestHeadersCondition,Sitecore.FXM
+Languages:
+- Language: da
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20141201T020742:635529964625848118Z
+    - ID: 52807595-0f8f-4b20-8d2a-cb71d28c6103
+      # __Owner
+      Value: sitecore\admin
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+    - ID: af321234-4eb9-4ef5-9197-65903351939c
+      # Text
+      Value: hvor anmodningsoverskrift [Key,,,header key] [operatorid,StringOperator,,compare to] [Value,,,header value]
+    - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+      # __Display name
+      Value: Kontrollér anmodningsoverskrift
+- Language: de-DE
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20141022T015439:635495396790413916Z
+    - ID: 52807595-0f8f-4b20-8d2a-cb71d28c6103
+      # __Owner
+      Value: sitecore\admin
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+    - ID: af321234-4eb9-4ef5-9197-65903351939c
+      # Text
+      Value: wo der Request Header [Key,,,header key] [operatorid,StringOperator,,compare to] [Value,,,header value]
+    - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+      # __Display name
+      Value: Request Headers überprüfen
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20140403T085039
+    - ID: 52807595-0f8f-4b20-8d2a-cb71d28c6103
+      # __Owner
+      Value: sitecore\admin
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+    - ID: af321234-4eb9-4ef5-9197-65903351939c
+      # Text
+      Value: where request header [Key,,,header key] [operatorid,StringOperator,,compare to] [Value,,,header value]
+- Language: ja-JP
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20141201T021108:635529966681738477Z
+    - ID: 52807595-0f8f-4b20-8d2a-cb71d28c6103
+      # __Owner
+      Value: sitecore\admin
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+    - ID: af321234-4eb9-4ef5-9197-65903351939c
+      # Text
+      Value: 条件： （リクエスト ヘッダー） [Key,,,ヘッダー キー] - [Value,,,ヘッダー値] [operatorid,StringOperator,,と比較する] 場合
+    - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+      # __Display name
+      Value: リクエスト ヘッダー条件

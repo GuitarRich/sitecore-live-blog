@@ -1,0 +1,89 @@
+﻿---
+ID: 314f51c3-2c3e-4ab9-a495-c5238fdd558c
+Parent: bccbfecc-9953-4c4d-8bff-b31e288cbdae
+Template: 9f63f3ed-bfb8-49a3-b370-1830e0a5920f
+Path: /sitecore/system/Settings/Buckets/Settings/Search Operations/Information Architecture/Move Item List to Location
+SharedFields:
+- ID: 06d5295c-ed2f-4a54-9bf2-26228d113318
+  # __Icon
+  Value: Network/32x32/server_to_client_critical.png
+- ID: 5e34a660-3099-4e49-87df-80eb1decf2a6
+  # Enabled
+  Value: 1
+- ID: ccd35091-1a66-4ce5-a1d3-77a2ccd29142
+  # Type
+  Value: bucket:moveresultsto
+Languages:
+- Language: da
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150812T120211Z
+    - ID: 52807595-0f8f-4b20-8d2a-cb71d28c6103
+      # __Owner
+      Value: sitecore\admin
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+    - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+      # __Display name
+      Value: Flyt elementliste til placering
+    - ID: d9bdf564-ff37-4564-b943-00d4d89c19f1
+      # List Name
+      Value: Flyt resultater til
+- Language: de-DE
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150812T115758Z
+    - ID: 52807595-0f8f-4b20-8d2a-cb71d28c6103
+      # __Owner
+      Value: sitecore\admin
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+    - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+      # __Display name
+      Value: Itemliste nach Ort verschieben
+    - ID: d9bdf564-ff37-4564-b943-00d4d89c19f1
+      # List Name
+      Value: Ergebnisse verschieben nach
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20120207T104300
+    - ID: 52807595-0f8f-4b20-8d2a-cb71d28c6103
+      # __Owner
+      Value: sitecore\admin
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+    - ID: d9bdf564-ff37-4564-b943-00d4d89c19f1
+      # List Name
+      Value: Move results to
+- Language: ja-JP
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150812T115353Z
+    - ID: 52807595-0f8f-4b20-8d2a-cb71d28c6103
+      # __Owner
+      Value: sitecore\admin
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+    - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+      # __Display name
+      Value: アイテム リストの移動先
+    - ID: d9bdf564-ff37-4564-b943-00d4d89c19f1
+      # List Name
+      Value: 結果の移動先

@@ -1,0 +1,110 @@
+﻿---
+ID: a60acd61-a6db-4182-8329-c957982cec74
+Parent: ae76a034-9491-4b83-99f5-39f227d6fb59
+Template: 455a3e98-a627-4b40-8035-e683a0331ac7
+Path: /sitecore/templates/Sample/Sample Item/Data/Text
+SharedFields:
+- ID: 1eb8ae32-e190-44a6-968d-ed904c794ebf
+  # Source
+  Value: /sitecore/system/Settings/Html Editor Profiles/Rich Text Default
+- ID: ab162cc0-dc80-4abf-8871-998ee5d7ba32
+  # Type
+  Value: Rich Text
+- ID: ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e
+  # __Sortorder
+  Value: 200
+Languages:
+- Language: da
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 19a69332-a23e-4e70-8d16-b2640cb24cc8
+      # Title
+      Value: Tekst
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150812T120241Z
+    - ID: 52807595-0f8f-4b20-8d2a-cb71d28c6103
+      # __Owner
+      Value: sitecore\admin
+    - ID: 577f1689-7de4-4ad2-a15f-7fdc1759285f
+      # __Long description
+      Value: Teksten er hovedindholdet i dokumentet.
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+    - ID: 9541e67d-ce8c-4225-803d-33f7f29f09ef
+      # __Short description
+      Value: Indtast teksten på elementet her.
+    - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+      # __Display name
+      Value: Tekst
+- Language: de-DE
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 19a69332-a23e-4e70-8d16-b2640cb24cc8
+      # Title
+      Value: Text
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150812T115830Z
+    - ID: 52807595-0f8f-4b20-8d2a-cb71d28c6103
+      # __Owner
+      Value: sitecore\admin
+    - ID: 577f1689-7de4-4ad2-a15f-7fdc1759285f
+      # __Long description
+      Value: Der Text enthält den Hauptinhalt des Dokuments.
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+    - ID: 9541e67d-ce8c-4225-803d-33f7f29f09ef
+      # __Short description
+      Value: Bitte den Text des Items hier eingeben.
+    - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+      # __Display name
+      Value: Text
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20070410T114515
+    - ID: 52807595-0f8f-4b20-8d2a-cb71d28c6103
+      # __Owner
+      Value: sitecore\admin
+    - ID: 577f1689-7de4-4ad2-a15f-7fdc1759285f
+      # __Long description
+      Value: The text is the main content of the document.
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+    - ID: 9541e67d-ce8c-4225-803d-33f7f29f09ef
+      # __Short description
+      Value: Please enter text of the item here.
+- Language: ja-JP
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 19a69332-a23e-4e70-8d16-b2640cb24cc8
+      # Title
+      Value: テキスト
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150812T115413Z
+    - ID: 52807595-0f8f-4b20-8d2a-cb71d28c6103
+      # __Owner
+      Value: sitecore\admin
+    - ID: 577f1689-7de4-4ad2-a15f-7fdc1759285f
+      # __Long description
+      Value: テキストはドキュメントのメイン コンテンツです
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+    - ID: 9541e67d-ce8c-4225-803d-33f7f29f09ef
+      # __Short description
+      Value: ここにアイテムのテキストを入力してください
+    - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+      # __Display name
+      Value: テキスト

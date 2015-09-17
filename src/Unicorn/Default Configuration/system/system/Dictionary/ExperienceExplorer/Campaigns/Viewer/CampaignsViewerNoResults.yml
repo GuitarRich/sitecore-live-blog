@@ -1,0 +1,83 @@
+﻿---
+ID: 9f7328c3-7195-4e44-85b2-aa657c052feb
+Parent: ec6c465b-0e3a-45de-9163-88f2a690517d
+Template: 6d1cd897-1936-4a3a-a511-289a94c2a7b1
+Path: /sitecore/system/Dictionary/ExperienceExplorer/Campaigns/Viewer/CampaignsViewerNoResults
+SharedFields:
+- ID: 580c75a8-c01a-4580-83cb-987776ceb3af
+  # Key
+  Value: CampaignsViewerNoResults
+Languages:
+- Language: da
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150812T120240Z
+    - ID: 2ba3454a-9a9c-4cdf-a9f8-107fd484eb6e
+      # Phrase
+      Value: Der er ikke knyttet nogen kampagner til dette besøg.
+    - ID: 52807595-0f8f-4b20-8d2a-cb71d28c6103
+      # __Owner
+      Value: sitecore\admin
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+    - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+      # __Display name
+      Value: CampaignsViewerNoResults
+- Language: de-DE
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150812T115827Z
+    - ID: 2ba3454a-9a9c-4cdf-a9f8-107fd484eb6e
+      # Phrase
+      Value: Mit diesem Besuch wurden keine Kampagnen assoziiert.
+    - ID: 52807595-0f8f-4b20-8d2a-cb71d28c6103
+      # __Owner
+      Value: sitecore\admin
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+    - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+      # __Display name
+      Value: Kampagnen ViewerKeineErgebnisse
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20130413T225133
+    - ID: 2ba3454a-9a9c-4cdf-a9f8-107fd484eb6e
+      # Phrase
+      Value: No campaigns have been associated with this visit.
+    - ID: 52807595-0f8f-4b20-8d2a-cb71d28c6103
+      # __Owner
+      Value: sitecore\admin
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+- Language: ja-JP
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150812T115413Z
+    - ID: 2ba3454a-9a9c-4cdf-a9f8-107fd484eb6e
+      # Phrase
+      Value: この訪問に関連付けられたキャンペーンはありませんでした。
+    - ID: 52807595-0f8f-4b20-8d2a-cb71d28c6103
+      # __Owner
+      Value: sitecore\admin
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+    - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+      # __Display name
+      Value: 結果なしのキャンペーン ビューアー

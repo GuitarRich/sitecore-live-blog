@@ -1,0 +1,83 @@
+﻿---
+ID: 001bd3b4-a6ca-4c08-95a9-cc3d35a86974
+Parent: ce1d85c9-8616-45f0-99a6-033b74bea775
+Template: f0d16eee-3a05-4e43-a082-795a32b873c0
+Path: /sitecore/system/Settings/Rules/Definitions/Elements/Channel/Current Interaction is on channel group condition
+SharedFields:
+- ID: ab51c8b2-f0e1-4471-9aae-cc080d774923
+  # Type
+  Value: Sitecore.Analytics.OmniChannel.Conditions.Channel.CurrentInteractionIsOnChannelGroupCondition,Sitecore.Analytics.OmniChannel
+Languages:
+- Language: da
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150812T120156Z
+    - ID: 52807595-0f8f-4b20-8d2a-cb71d28c6103
+      # __Owner
+      Value: sitecore\admin
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+    - ID: af321234-4eb9-4ef5-9197-65903351939c
+      # Text
+      Value: når den aktuelle interaktion er på en kanal i gruppen [ChannelGroup,Tree,root=/sitecore/system/Marketing Control Panel/Taxonomies/Channel, specified]
+    - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+      # __Display name
+      Value: Den aktuelle interaktion er på kanalgruppebetingelsen
+- Language: de-DE
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150812T115741Z
+    - ID: 52807595-0f8f-4b20-8d2a-cb71d28c6103
+      # __Owner
+      Value: sitecore\admin
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+    - ID: af321234-4eb9-4ef5-9197-65903351939c
+      # Text
+      Value: wenn die aktuelle Interaktion im Kanal und in der [ChannelGroup,Tree,root=/sitecore/system/Marketing Control Panel/Taxonomies/Channel, specified] Gruppe ist
+    - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+      # __Display name
+      Value: Aktuelle Interaktion ist auf Kanalgruppenbedingung
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20141117T084209Z
+    - ID: 52807595-0f8f-4b20-8d2a-cb71d28c6103
+      # __Owner
+      Value: sitecore\admin
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+    - ID: af321234-4eb9-4ef5-9197-65903351939c
+      # Text
+      Value: when the current interaction is on a channel in the [ChannelGroup,Tree,root=/sitecore/system/Marketing Control Panel/Taxonomies/Channel, specified] group
+- Language: ja-JP
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150812T115349Z
+    - ID: 52807595-0f8f-4b20-8d2a-cb71d28c6103
+      # __Owner
+      Value: sitecore\admin
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+    - ID: af321234-4eb9-4ef5-9197-65903351939c
+      # Text
+      Value: 条件： （チャネル） 現在のインタラクションが [ChannelGroup,Tree,root=/sitecore/system/Marketing Control Panel/Taxonomies/Channel, 特定の] グループのチャネル上で実行された場合
+    - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+      # __Display name
+      Value: 現在のインタラクションのチャネル グループ条件

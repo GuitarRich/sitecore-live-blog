@@ -1,0 +1,83 @@
+﻿---
+ID: a76d229a-9481-4ba8-9df2-dda546076023
+Parent: 0cdead62-a62c-4e87-88fb-d1078375ef11
+Template: f0d16eee-3a05-4e43-a082-795a32b873c0
+Path: /sitecore/system/Settings/Rules/Definitions/Obsolete/Segment Builder/Conditions/Matches Pattern
+SharedFields:
+- ID: ab51c8b2-f0e1-4471-9aae-cc080d774923
+  # Type
+  Value: Sitecore.Analytics.Rules.SegmentBuilder.Conditions.HasPatternCondition,Sitecore.SegmentBuilder
+Languages:
+- Language: da
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150203T012155:635585233156213179Z
+    - ID: 52807595-0f8f-4b20-8d2a-cb71d28c6103
+      # __Owner
+      Value: sitecore\admin
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+    - ID: af321234-4eb9-4ef5-9197-65903351939c
+      # Text
+      Value: hvor den besøgende svarer til mønsterkortet [PatternName,Pattern,selectprofilefirst=1&resulttype=Name,specific] i profilen [ProfileName,Profile,resulttype=Name,specific]
+    - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+      # __Display name
+      Value: Har mønsterbetingelse
+- Language: de-DE
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150203T012431:635585234719481919Z
+    - ID: 52807595-0f8f-4b20-8d2a-cb71d28c6103
+      # __Owner
+      Value: sitecore\admin
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+    - ID: af321234-4eb9-4ef5-9197-65903351939c
+      # Text
+      Value: wo der Besucher zur Musterkarte [PatternName,Pattern,selectprofilefirst=1&resulttype=Name,spezifisch] im [ProfileName,Profile,resulttype=Name,spezifischen] Profil passt
+    - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+      # __Display name
+      Value: Hat Musterbedingung
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20090202T181600
+    - ID: 52807595-0f8f-4b20-8d2a-cb71d28c6103
+      # __Owner
+      Value: sitecore\admin
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+    - ID: af321234-4eb9-4ef5-9197-65903351939c
+      # Text
+      Value: where the contact matches the [PatternName,Pattern,selectprofilefirst=1&resulttype=Name,specific] pattern card in the [ProfileName,Profile,resulttype=Name,specific] profile
+- Language: ja-JP
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150203T012313:635585233930112390Z
+    - ID: 52807595-0f8f-4b20-8d2a-cb71d28c6103
+      # __Owner
+      Value: sitecore\admin
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+    - ID: af321234-4eb9-4ef5-9197-65903351939c
+      # Text
+      Value: 条件： （パターン） ビジターが [ProfileName,Profile,resulttype=Name,特定の] プロファイルの [PatternName,Pattern,selectprofilefirst=1&resulttype=Name,特定の] パターン カードに一致した場合
+    - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+      # __Display name
+      Value: パターン条件あり

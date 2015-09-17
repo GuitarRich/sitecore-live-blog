@@ -1,0 +1,83 @@
+﻿---
+ID: 98c271b1-c706-4616-844e-a7e41ca0e436
+Parent: 72ae5c95-0eac-4315-9f06-bf4270e47e71
+Template: 6d1cd897-1936-4a3a-a511-289a94c2a7b1
+Path: /sitecore/system/Dictionary/ExperienceExplorer/Goals/Viewer/GoalNoGoalsTriggered
+SharedFields:
+- ID: 580c75a8-c01a-4580-83cb-987776ceb3af
+  # Key
+  Value: GoalNoGoalsTriggered
+Languages:
+- Language: da
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150812T120239Z
+    - ID: 2ba3454a-9a9c-4cdf-a9f8-107fd484eb6e
+      # Phrase
+      Value: Der er ikke blevet udløst nogen mål
+    - ID: 52807595-0f8f-4b20-8d2a-cb71d28c6103
+      # __Owner
+      Value: sitecore\admin
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+    - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+      # __Display name
+      Value: GoalNoGoalsTriggered
+- Language: de-DE
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150812T115825Z
+    - ID: 2ba3454a-9a9c-4cdf-a9f8-107fd484eb6e
+      # Phrase
+      Value: Es wurden keine Ziele ausgelöst
+    - ID: 52807595-0f8f-4b20-8d2a-cb71d28c6103
+      # __Owner
+      Value: sitecore\admin
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+    - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+      # __Display name
+      Value: ZielKeineZieleAusgelöst
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20130413T215752
+    - ID: 2ba3454a-9a9c-4cdf-a9f8-107fd484eb6e
+      # Phrase
+      Value: No goals have been triggered
+    - ID: 52807595-0f8f-4b20-8d2a-cb71d28c6103
+      # __Owner
+      Value: sitecore\admin
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+- Language: ja-JP
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150812T115412Z
+    - ID: 2ba3454a-9a9c-4cdf-a9f8-107fd484eb6e
+      # Phrase
+      Value: ゴールがトリガーされませんでした。
+    - ID: 52807595-0f8f-4b20-8d2a-cb71d28c6103
+      # __Owner
+      Value: sitecore\admin
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+    - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+      # __Display name
+      Value: トリガーされなかったゴール

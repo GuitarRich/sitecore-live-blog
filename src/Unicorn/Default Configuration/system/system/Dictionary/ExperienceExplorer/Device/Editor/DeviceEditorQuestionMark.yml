@@ -1,0 +1,91 @@
+﻿---
+ID: 5d80e292-287a-4b19-b191-8dd670a6c7dc
+Parent: 374c37db-4587-43e8-bfb5-f159c1c547e7
+Template: 6d1cd897-1936-4a3a-a511-289a94c2a7b1
+Path: /sitecore/system/Dictionary/ExperienceExplorer/Device/Editor/DeviceEditorQuestionMark
+SharedFields:
+- ID: 580c75a8-c01a-4580-83cb-987776ceb3af
+  # Key
+  Value: DeviceEditorQuestionMark
+Languages:
+- Language: da
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150812T120219Z
+    - ID: 2ba3454a-9a9c-4cdf-a9f8-107fd484eb6e
+      # Phrase
+      Value: |
+        <p>Sitecore understøtter output på flere enheder. Det betyder, at en hvilken som helst side eller indhold på din hjemmeside kan blive præsenteret i alle formater, afhængigt af enheden.</p>
+        <p>I forbindelse med dette besøg kan du vælge den enhed, som du vil bruge til din oplevelse.</p>
+    - ID: 52807595-0f8f-4b20-8d2a-cb71d28c6103
+      # __Owner
+      Value: sitecore\admin
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+    - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+      # __Display name
+      Value: DeviceEditorQuestionMark
+- Language: de-DE
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150812T115809Z
+    - ID: 2ba3454a-9a9c-4cdf-a9f8-107fd484eb6e
+      # Phrase
+      Value: |
+        <p>Sitecore unterstützt Multi-Geräteausgabe. Dies bedeutet, dass jede Seite oder der Inhalt auf Ihrer Webseite, in Abhängigkeit vom jeweiligen Gerät, in jedem Format angezeigt werden kann. </p>
+        <p>Für diesen Besuch können Sie das Gerät wählen, das Sie für Ihre Erfahrung benutzen wollen</p>
+    - ID: 52807595-0f8f-4b20-8d2a-cb71d28c6103
+      # __Owner
+      Value: sitecore\admin
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+    - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+      # __Display name
+      Value: GerätEditorFragezeichen
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20130129T063648
+    - ID: 2ba3454a-9a9c-4cdf-a9f8-107fd484eb6e
+      # Phrase
+      Value: |
+        <p>Sitecore supports multi-device output. This means that any page or content on your website can be presented in any format depending on the device.</p>
+        <p>For this visit, you can select the device that you want to use for your experience.</p>
+    - ID: 52807595-0f8f-4b20-8d2a-cb71d28c6103
+      # __Owner
+      Value: sitecore\admin
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+- Language: ja-JP
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150812T115407Z
+    - ID: 2ba3454a-9a9c-4cdf-a9f8-107fd484eb6e
+      # Phrase
+      Value: |
+        <p>Sitecore は複数のデバイスの出力をサポートします。つまり、デバイスに応じて任意のフォーマットでWeb サイト上にページまたはコンテンツを表示することができます。</p>
+        <p>この訪問を対象に Web サイトで使用するデバイスを選択することができます。</p>
+    - ID: 52807595-0f8f-4b20-8d2a-cb71d28c6103
+      # __Owner
+      Value: sitecore\admin
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+    - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+      # __Display name
+      Value: デバイス エディターの疑問符

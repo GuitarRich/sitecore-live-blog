@@ -1,0 +1,86 @@
+﻿---
+ID: 1411557e-eb7f-4150-a369-1e89e6fac133
+Parent: 9178a8e7-2faa-4c13-b39d-f3a33e905d20
+Template: f0d16eee-3a05-4e43-a082-795a32b873c0
+Path: /sitecore/system/Settings/Rules/Definitions/Elements/Federated Experience Manager - Domain Matching/Match Request Domain
+SharedFields:
+- ID: ab51c8b2-f0e1-4471-9aae-cc080d774923
+  # Type
+  Value: Sitecore.FXM.Rules.Conditions.MatchRequestDomainCondition,Sitecore.FXM
+- ID: ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e
+  # __Sortorder
+  Value: 0
+Languages:
+- Language: da
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20141201T020739:635529964594129614Z
+    - ID: 52807595-0f8f-4b20-8d2a-cb71d28c6103
+      # __Owner
+      Value: sitecore\admin
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+    - ID: af321234-4eb9-4ef5-9197-65903351939c
+      # Text
+      Value: hvor anmodningsdomæne er [Domain,,,domain name]
+    - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+      # __Display name
+      Value: Match anmodningsdomæne
+- Language: de-DE
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20141022T015121:635495394818223344Z
+    - ID: 52807595-0f8f-4b20-8d2a-cb71d28c6103
+      # __Owner
+      Value: sitecore\admin
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+    - ID: af321234-4eb9-4ef5-9197-65903351939c
+      # Text
+      Value: wo die Request-Domain  [Domain,,,Domainname] ist
+    - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+      # __Display name
+      Value: Anpassen Request Domain
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20140319T102220
+    - ID: 52807595-0f8f-4b20-8d2a-cb71d28c6103
+      # __Owner
+      Value: sitecore\admin
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+    - ID: af321234-4eb9-4ef5-9197-65903351939c
+      # Text
+      Value: where request domain is [Domain,,,domain name]
+- Language: ja-JP
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20141201T021104:635529966648300993Z
+    - ID: 52807595-0f8f-4b20-8d2a-cb71d28c6103
+      # __Owner
+      Value: sitecore\admin
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+    - ID: af321234-4eb9-4ef5-9197-65903351939c
+      # Text
+      Value: 条件： （リクエスト ドメイン） リクエスト ドメインが [Domain,,,ドメイン名] の場合
+    - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+      # __Display name
+      Value: マッチ リクエスト ドメイン条件

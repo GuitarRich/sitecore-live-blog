@@ -1,0 +1,101 @@
+﻿---
+ID: ef83508b-5492-49d6-85ca-51e9c0ab261f
+Parent: 7ce9fda0-e6c1-4495-9740-9944656e893b
+Template: 087dcaf1-4778-4849-99b4-599b901dbe09
+Path: /sitecore/system/Settings/Buckets/Search Types/Start Date
+SharedFields:
+- ID: 06d5295c-ed2f-4a54-9bf2-26228d113318
+  # __Icon
+  Value: Business/32x32/calendar_1.png
+- ID: 1635fb77-9af7-4c2f-bace-81d0c8462e18
+  # WebMethod
+  Value: end
+- ID: 759a7bd8-c40a-475e-a650-d7c9dfd89cd0
+  # Field
+  Value: __smallcreateddate
+- ID: 9d2e8c51-5921-498a-bff6-d6aa99d3eeee
+  # Control Type
+  Value: {60766FDF-D4FD-4C02-85C1-E937576E394B}
+- ID: a434e593-d2b2-4591-8916-74564962d6d5
+  # Icon
+  Value: /sitecore/shell/Applications/Buckets/images/start.png
+- ID: d5ca4991-ea12-4fbd-b797-1de976a79540
+  # Client Side Hook
+  Value: date
+- ID: d94cdb6a-d0fd-42f2-8370-0346a17b3d5a
+  # Name
+  Value: start
+Languages:
+- Language: da
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150812T120306Z
+    - ID: 52807595-0f8f-4b20-8d2a-cb71d28c6103
+      # __Owner
+      Value: sitecore\admin
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+    - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+      # __Display name
+      Value: Startdato
+    - ID: cc084d53-fa58-4591-b7c7-20e7a60c8a4a
+      # Display Text
+      Value: Returner resultater efter startdato
+- Language: de-DE
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150812T115847Z
+    - ID: 52807595-0f8f-4b20-8d2a-cb71d28c6103
+      # __Owner
+      Value: sitecore\admin
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+    - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+      # __Display name
+      Value: Startdatum:
+    - ID: cc084d53-fa58-4591-b7c7-20e7a60c8a4a
+      # Display Text
+      Value: Return-Ergebnisse Startdatum
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20111103T105100
+    - ID: 52807595-0f8f-4b20-8d2a-cb71d28c6103
+      # __Owner
+      Value: sitecore\admin
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+    - ID: cc084d53-fa58-4591-b7c7-20e7a60c8a4a
+      # Display Text
+      Value: Return results starting date
+- Language: ja-JP
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150812T115430Z
+    - ID: 52807595-0f8f-4b20-8d2a-cb71d28c6103
+      # __Owner
+      Value: sitecore\admin
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+    - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+      # __Display name
+      Value: 開始日
+    - ID: cc084d53-fa58-4591-b7c7-20e7a60c8a4a
+      # Display Text
+      Value: 指定した日付以降に作成

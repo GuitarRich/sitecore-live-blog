@@ -1,0 +1,123 @@
+﻿---
+ID: acb1014b-213c-4bdf-9d92-e91f61c465fd
+Parent: 839b3d01-517b-4a35-98e9-cffaf85fc705
+Template: 349cda24-cab7-4991-ba2e-86116017995c
+Path: /sitecore/system/Settings/Analytics/Testing/End Test Behavior/Is Content Test/Winner found/New Winner
+Languages:
+- Language: da
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150525T133020:635681574208223389Z
+    - ID: 48747fde-21c1-44c8-9b40-ee2571f9f2f9
+      # Rule
+      Type: Rules
+      Value: |
+        <ruleset>
+          <rule uid="{2362982A-1372-4E84-ADD5-0BE510422936}">
+            <conditions>
+              <condition id="{B69C4A07-C3DA-4B14-AA8C-B2022F6FA3DD}" uid="07985A72CC374D639381E059BE132E5C" except="true" />
+            </conditions>
+            <actions>
+              <action id="{4A3D9575-F0CF-4BC5-BB44-C3A9F93FBE84}" uid="65291D3130254290832D66C31A7EDFC8" />
+            </actions>
+          </rule>
+        </ruleset>
+    - ID: 52807595-0f8f-4b20-8d2a-cb71d28c6103
+      # __Owner
+      Value: sitecore\admin
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+    - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+      # __Display name
+      Value: Ny vinder
+- Language: de-DE
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150525T134831:635681585118008291Z
+    - ID: 48747fde-21c1-44c8-9b40-ee2571f9f2f9
+      # Rule
+      Type: Rules
+      Value: |
+        <ruleset>
+          <rule uid="{2362982A-1372-4E84-ADD5-0BE510422936}">
+            <conditions>
+              <condition id="{B69C4A07-C3DA-4B14-AA8C-B2022F6FA3DD}" uid="07985A72CC374D639381E059BE132E5C" except="true" />
+            </conditions>
+            <actions>
+              <action id="{4A3D9575-F0CF-4BC5-BB44-C3A9F93FBE84}" uid="65291D3130254290832D66C31A7EDFC8" />
+            </actions>
+          </rule>
+        </ruleset>
+    - ID: 52807595-0f8f-4b20-8d2a-cb71d28c6103
+      # __Owner
+      Value: sitecore\admin
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+    - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+      # __Display name
+      Value: Neuer Gewinner
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20140721T165529
+    - ID: 48747fde-21c1-44c8-9b40-ee2571f9f2f9
+      # Rule
+      Type: Rules
+      Value: |
+        <ruleset>
+          <rule uid="{2362982A-1372-4E84-ADD5-0BE510422936}">
+            <conditions>
+              <condition id="{B69C4A07-C3DA-4B14-AA8C-B2022F6FA3DD}" uid="07985A72CC374D639381E059BE132E5C" except="true" />
+            </conditions>
+            <actions>
+              <action id="{4A3D9575-F0CF-4BC5-BB44-C3A9F93FBE84}" uid="65291D3130254290832D66C31A7EDFC8" />
+            </actions>
+          </rule>
+        </ruleset>
+    - ID: 52807595-0f8f-4b20-8d2a-cb71d28c6103
+      # __Owner
+      Value: sitecore\admin
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+- Language: ja-JP
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150525T133951:635681579915626436Z
+    - ID: 48747fde-21c1-44c8-9b40-ee2571f9f2f9
+      # Rule
+      Type: Rules
+      Value: |
+        <ruleset>
+          <rule uid="{2362982A-1372-4E84-ADD5-0BE510422936}">
+            <conditions>
+              <condition id="{B69C4A07-C3DA-4B14-AA8C-B2022F6FA3DD}" uid="07985A72CC374D639381E059BE132E5C" except="true" />
+            </conditions>
+            <actions>
+              <action id="{4A3D9575-F0CF-4BC5-BB44-C3A9F93FBE84}" uid="65291D3130254290832D66C31A7EDFC8" />
+            </actions>
+          </rule>
+        </ruleset>
+    - ID: 52807595-0f8f-4b20-8d2a-cb71d28c6103
+      # __Owner
+      Value: sitecore\admin
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+    - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+      # __Display name
+      Value: 新しい最良のテスト結果

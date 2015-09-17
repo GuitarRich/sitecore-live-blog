@@ -1,0 +1,95 @@
+﻿---
+ID: b6d11e14-2506-4b96-b50f-4f8ef9ece892
+Parent: 555acf70-94b6-40f3-b85f-8a11e25d4c78
+Template: 8f8e2549-c77f-4860-b83b-54fa31e2befa
+Path: /sitecore/system/Settings/Validation Rules/Item Rules/Standard Values/Has Name Macro
+SharedFields:
+- ID: 43a829d1-43da-465c-b772-ebaa0d515e3e
+  # Type
+  Value: Sitecore.Data.Validators.ItemValidators.StandardValueHasNameMacroValidator,Sitecore.Kernel
+Languages:
+- Language: da
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150812T120248Z
+    - ID: 52807595-0f8f-4b20-8d2a-cb71d28c6103
+      # __Owner
+      Value: sitecore\admin
+    - ID: 58014183-26fe-4568-b19f-c26745824c32
+      # Description
+      Value: Standardværdier har sædvanligvis en $name macro
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+    - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+      # __Display name
+      Value: Har navnemakro
+    - ID: da43c533-cbae-43d0-9019-65b1e346f984
+      # Title
+      Value: Har $Name Macro
+- Language: de-DE
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150812T115837Z
+    - ID: 52807595-0f8f-4b20-8d2a-cb71d28c6103
+      # __Owner
+      Value: sitecore\admin
+    - ID: 58014183-26fe-4568-b19f-c26745824c32
+      # Description
+      Value: Standardwert Items haben normalerweise ein $name makro.
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+    - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+      # __Display name
+      Value: Hat Name Makro
+    - ID: da43c533-cbae-43d0-9019-65b1e346f984
+      # Title
+      Value: Hat $Name Makro
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20071107T081400Z
+    - ID: 52807595-0f8f-4b20-8d2a-cb71d28c6103
+      # __Owner
+      Value: sitecore\admin
+    - ID: 58014183-26fe-4568-b19f-c26745824c32
+      # Description
+      Value: Standard Value items usually has a $name macro.
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+    - ID: da43c533-cbae-43d0-9019-65b1e346f984
+      # Title
+      Value: Has $name macro
+- Language: ja-JP
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150812T115419Z
+    - ID: 52807595-0f8f-4b20-8d2a-cb71d28c6103
+      # __Owner
+      Value: sitecore\admin
+    - ID: 58014183-26fe-4568-b19f-c26745824c32
+      # Description
+      Value: スタンダード バリュー アイテムには通常 $name マクロが使用されます
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+    - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+      # __Display name
+      Value: Name マクロが設定されている
+    - ID: da43c533-cbae-43d0-9019-65b1e346f984
+      # Title
+      Value: $name マクロが含まれる

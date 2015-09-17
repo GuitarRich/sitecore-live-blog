@@ -1,0 +1,83 @@
+﻿---
+ID: 9a4beb4b-4b0f-4392-a798-124cec8aada4
+Parent: eea309b0-4ba7-47b8-9241-a924b20bd993
+Template: f0d16eee-3a05-4e43-a082-795a32b873c0
+Path: /sitecore/system/Settings/Rules/Definitions/Elements/System/Predefined Condition
+SharedFields:
+- ID: ab51c8b2-f0e1-4471-9aae-cc080d774923
+  # Type
+  Value: Sitecore.Rules.Conditions.WhenRule,Sitecore.Kernel
+Languages:
+- Language: da
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150812T120239Z
+    - ID: 52807595-0f8f-4b20-8d2a-cb71d28c6103
+      # __Owner
+      Value: sitecore\admin
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+    - ID: af321234-4eb9-4ef5-9197-65903351939c
+      # Text
+      Value: Når [rulesid,Tree,root={055634EF-74F9-4B13-A282-F1D1BBB4C0CF},persona]
+    - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+      # __Display name
+      Value: Når person
+- Language: de-DE
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150812T115826Z
+    - ID: 52807595-0f8f-4b20-8d2a-cb71d28c6103
+      # __Owner
+      Value: sitecore\admin
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+    - ID: af321234-4eb9-4ef5-9197-65903351939c
+      # Text
+      Value: wo [rulesid,Tree,root={055634EF-74F9-4B13-A282-F1D1BBB4C0CF},persona]
+    - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+      # __Display name
+      Value: Rolle
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20090202T175500
+    - ID: 52807595-0f8f-4b20-8d2a-cb71d28c6103
+      # __Owner
+      Value: sitecore\admin
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+    - ID: af321234-4eb9-4ef5-9197-65903351939c
+      # Text
+      Value: where [rulesid,Tree,root={055634EF-74F9-4B13-A282-F1D1BBB4C0CF},predefined condition is true]
+- Language: ja-JP
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150812T115412Z
+    - ID: 52807595-0f8f-4b20-8d2a-cb71d28c6103
+      # __Owner
+      Value: sitecore\admin
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+    - ID: af321234-4eb9-4ef5-9197-65903351939c
+      # Text
+      Value: 条件： （ペルソナ） [rulesid,Tree,root={055634EF-74F9-4B13-A282-F1D1BBB4C0CF},指定のペルソナ] の場合
+    - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+      # __Display name
+      Value: ペルソナ

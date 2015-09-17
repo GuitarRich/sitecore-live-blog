@@ -1,0 +1,98 @@
+﻿---
+ID: 1be32547-f4c1-4bea-ba80-4b935d5be90f
+Parent: cd987a31-a2ef-4309-b3fc-2060451694b3
+Template: 3c7c63ee-f6b5-4c41-85d4-840ef9d875a8
+Path: /sitecore/system/Marketing Control Panel/Path Analyzer/Reports/Most Efficient Full Path
+SharedFields:
+- ID: 19a7925f-49d4-438b-8173-8abca9e13767
+  # Category
+  Value: TopPaths
+- ID: ed42832f-c994-4ed7-8ed3-5408a89c6c52
+  # Type
+  Value: Sitecore.PathAnalyzer.Reports.MostEfficientFullPaths,Sitecore.PathAnalyzer
+Languages:
+- Language: da
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150812T120204Z
+    - ID: 52807595-0f8f-4b20-8d2a-cb71d28c6103
+      # __Owner
+      Value: sitecore\admin
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+    - ID: 8d8a072a-741e-4804-b68f-e5b3677f63d3
+      # Name
+      Value: Den mest effektive fulde sti
+    - ID: ac59c256-fb50-4592-aa15-9c119b6ac8f8
+      # Description
+      Value: Definerer den største værdi af nodeeffektivitet.
+    - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+      # __Display name
+      Value: Den mest effektive fulde sti
+- Language: de-DE
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150812T115751Z
+    - ID: 52807595-0f8f-4b20-8d2a-cb71d28c6103
+      # __Owner
+      Value: sitecore\admin
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+    - ID: 8d8a072a-741e-4804-b68f-e5b3677f63d3
+      # Name
+      Value: Effizientester vollständiger Pfad
+    - ID: ac59c256-fb50-4592-aa15-9c119b6ac8f8
+      # Description
+      Value: Definiert den größten Wert der Knoteneffektivität.
+    - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+      # __Display name
+      Value: Effizientester vollständiger Pfad
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20140924T210848Z
+    - ID: 52807595-0f8f-4b20-8d2a-cb71d28c6103
+      # __Owner
+      Value: sitecore\admin
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+    - ID: 8d8a072a-741e-4804-b68f-e5b3677f63d3
+      # Name
+      Value: Most Efficient Full Path
+    - ID: ac59c256-fb50-4592-aa15-9c119b6ac8f8
+      # Description
+      Value: Defines the largest value of node efficiency.
+- Language: ja-JP
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150812T115351Z
+    - ID: 52807595-0f8f-4b20-8d2a-cb71d28c6103
+      # __Owner
+      Value: sitecore\admin
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+    - ID: 8d8a072a-741e-4804-b68f-e5b3677f63d3
+      # Name
+      Value: 最も効果的な完全な Path
+    - ID: ac59c256-fb50-4592-aa15-9c119b6ac8f8
+      # Description
+      Value: ノード効果の最大バリューを定義します。
+    - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+      # __Display name
+      Value: 最も効果的な完全な Path

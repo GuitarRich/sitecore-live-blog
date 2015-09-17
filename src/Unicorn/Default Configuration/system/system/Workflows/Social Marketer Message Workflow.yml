@@ -1,0 +1,74 @@
+﻿---
+ID: e0d483f9-5d01-4b64-af93-e17b59eb180d
+Parent: 05592656-56d7-4d85-aacf-30919ee494f9
+Template: 1c0acc50-37be-4742-b43c-96a07a7410a5
+Path: /sitecore/system/Workflows/Social Marketer Message Workflow
+SharedFields:
+- ID: b5166b38-e4bf-4410-953c-2037f2bf6a56
+  # Initial state
+  Value: {0AEB807B-7661-413B-8941-B5E54F1664CB}
+- ID: dec8d2d5-e3cf-48b6-a653-8e69e2716641
+  # __Security
+  Value: ar|Everyone|pe|!*|pd|!*|ar|sitecore\Social Message Workflow Editor|pe|+workflowState:delete|+workflowCommand:execute|+item:write|+item:read|+workflowState:write|ar|sitecore\Social Message Workflow Reviewer|pe|+workflowState:delete|+workflowCommand:execute|+item:write|+item:read|+workflowState:write|
+Languages:
+- Language: da
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150812T120300Z
+    - ID: 52807595-0f8f-4b20-8d2a-cb71d28c6103
+      # __Owner
+      Value: sitecore\admin
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+    - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+      # __Display name
+      Value: Workflow for social marketer-meddelelse
+- Language: de-DE
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150812T115845Z
+    - ID: 52807595-0f8f-4b20-8d2a-cb71d28c6103
+      # __Owner
+      Value: sitecore\admin
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+    - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+      # __Display name
+      Value: Social Marketer Nachrichten-Workflow
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20130925T113612
+    - ID: 52807595-0f8f-4b20-8d2a-cb71d28c6103
+      # __Owner
+      Value: sitecore\admin
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+- Language: ja-JP
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150812T115428Z
+    - ID: 52807595-0f8f-4b20-8d2a-cb71d28c6103
+      # __Owner
+      Value: sitecore\admin
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+    - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+      # __Display name
+      Value: ソーシャル マーケター メッセージ ワークフロー

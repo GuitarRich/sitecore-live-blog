@@ -1,0 +1,118 @@
+﻿---
+ID: 8204be3b-0920-4f5d-a5fb-5a8aad766e2c
+Parent: a456f5c5-fe28-4f97-a555-675b8f145aab
+Template: 6674a4af-eace-445e-89f1-e2f464026056
+Path: /sitecore/system/Settings/Analytics/Reports/Subreports/Business Visits/Business Visits
+SharedFields:
+- ID: 06d5295c-ed2f-4a54-9bf2-26228d113318
+  # __Icon
+  Value: Network/32x32/keys.png
+- ID: 0cc4ad84-f69d-44d2-9600-5c7522aa2401
+  # File Name
+  Value: /sitecore/shell/Applications/Analytics/Reports/BusinessVisits.mrt
+- ID: 16802c7a-011a-41ff-88b4-c33e6c737f3f
+  # Queries
+  Value: DataSource=%7b2A169D37-2090-494F-806F-3155BDB6DF9C%7d&Visits=%7bF3776FD4-C9F5-45C6-9EEE-25D34B898695%7d&Subscription=%7b01B7653E-2ADD-409B-8000-E215D46F0F6B%7d
+Languages:
+- Language: da
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150812T120232Z
+    - ID: 52807595-0f8f-4b20-8d2a-cb71d28c6103
+      # __Owner
+      Value: sitecore\admin
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+    - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+      # __Display name
+      Value: Virksomhedsbesøg
+    - ID: d71dcbf1-3e4c-4acd-9244-58aa5c1c8528
+      # Report Title
+      Value: Virksomhedsbesøg
+    - ID: f38bb3c8-94d9-4815-8ce2-06fa4eb8fc80
+      # Report Description
+      Value: |
+        Denne rapport hjælper dig med at besvare følgende spørgsmål:<ul><li>Hvor aktive har forretningsenheder og enkeltpersoner fra den forretningsenhed været på websitet inden for en angiven periode?</li></ul>Denne rapport anfører al aktivitet for en virksomhed i kronologisk rækkefølge. Hvis rapporten er for hele virksomheden, viser den aktiviteterne for flere forretningsenheder. Hvis denne rapport er for en specifik forretningsenhed, viser den aktiviteten for den forretningsenhed.<br/>
+         Du kom til denne rapport ad en af to veje. <br/>
+        <ul><li>Hvis du klikkede på Samlede besøg øverst i rapporten <i>Virksomhedsoversigt</i>, anfører denne rapport de sidste 50 besøg fra den omhandlede virksomhed. </li>
+        <li>Hvis du klikkede på antallet af besøg foretaget af en bestemt forretningsenhed i nederste sektion i rapporten <i>Virksomhedsoversigt</i>, anfører denne rapport de sidste 50 besøg foretaget af den forretningsenhed.</li></ul>Yderligere oplysninger:<ul><li>For at åbne rapporten <i>Oversigt over besøgende</i> skal du klikke på tallet i kolonnen Besøgsnr.</li><li>For at åbne rapporten <i>Besøgsoplysninger</i>, der anfører alle de aktiviteter, som den besøgende udførte på et specifikt besøg, skal du klikke på en dato.</li></ul>
+- Language: de-DE
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150812T115820Z
+    - ID: 52807595-0f8f-4b20-8d2a-cb71d28c6103
+      # __Owner
+      Value: sitecore\admin
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+    - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+      # __Display name
+      Value: Business Besuche
+    - ID: d71dcbf1-3e4c-4acd-9244-58aa5c1c8528
+      # Report Title
+      Value: Business Besuche
+    - ID: f38bb3c8-94d9-4815-8ce2-06fa4eb8fc80
+      # Report Description
+      Value: |
+        Dieser Report hilft Ihnen dabei, die folgende Frage zu beantworten:<ul><li>Wie aktiv waren Geschäftsbereiche und Einzelpersonen aus diesem Geschäftsbereich auf der Website während einer spezifischen Zeitdauer?</li></ul>Dieser Report listet in chronologischer Reihenfolge die gesamte Aktivität eines Unternehmens auf.  Wenn der Report für das gesamte Unternehmen ist, dann zeigt er die Aktivität mehrerer Geschäftsbereiche auf. Wenn dieser Report für einen bestimmten Geschäftsbereich ist, dann zeigt er nur die Aktivität dieses Geschäftsbereichs an.<br/>
+        Sie kamen zu diesem Report auf eine von zwei Arten. <br/>
+        <ul><li>Wenn Sie Besuche Insgesamt geklickt haben, ganz oben im <i>Business Überblick</i> Report, listet dieser Report bis hin zu den letzten 50 gemachten Besuchen des fraglichen Geschäftsbereichs. </li>
+        <li>Wenn Sie auf die Anzahl der Besuche, die von einem spezifischen Geschäftsbereich gemacht wurden, im unteren Bereich des Reports <i>Business Überblick </i> geklickt haben, dann listet dieser Report bis hin zu den letzten 50 gemachten Besuchen dieses Geschäftsbereichs.</li></ul>Weitere Informationen:<ul><li>Um den Report <i>Besucher Überblick</i> zu öffnen, klicken Sie auf die Nummer in der Besuch # Spalte.</li><li>Um den Report <i>Besuch Detail</i>, der alle Aktivitäten, die der Besucher während eines spezifischen Besuchs getätigt hat auflistet, zu öffnen, klicken Sie auf ein Datum.</li></ul>
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20110131T105928
+    - ID: 52807595-0f8f-4b20-8d2a-cb71d28c6103
+      # __Owner
+      Value: sitecore\admin
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+    - ID: d71dcbf1-3e4c-4acd-9244-58aa5c1c8528
+      # Report Title
+      Value: Business Visits
+    - ID: f38bb3c8-94d9-4815-8ce2-06fa4eb8fc80
+      # Report Description
+      Value: |
+        This report helps you answer the following question:<ul><li>How active have business units and individuals from that business unit been on the website during a specified period of time?</li></ul>This report lists all the activity of a business in chronological order. If the report is for the entire business, it shows the activities of multiple business units. If this report is for a particular business unit, it only shows the activity of that business unit.<br/>
+        You came to this report in one of two ways. <br/>
+        <ul><li>If you clicked Total Visits at the top of the <i>Business Overview</i> report, this report lists up to the last 50 visits made by the business in question. </li>
+        <li>If you clicked the number of visits made by a specific business unit in the bottom section of the <i>Business Overview</i> report, this report lists up to the last 50 visits made by that business unit.</li></ul>Additional information:<ul><li>To open the <i>Visitor Overview</i> report, click the number in Visit # column.</li><li>To open the <i>Visit Detail</i> report that lists all the activities that the visitor carried out during a specific visit, click a date.</li></ul>
+        
+- Language: ja-JP
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150812T115410Z
+    - ID: 52807595-0f8f-4b20-8d2a-cb71d28c6103
+      # __Owner
+      Value: sitecore\admin
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+    - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+      # __Display name
+      Value: ビジネス訪問
+    - ID: d71dcbf1-3e4c-4acd-9244-58aa5c1c8528
+      # Report Title
+      Value: ビジネス訪問
+    - ID: f38bb3c8-94d9-4815-8ce2-06fa4eb8fc80
+      # Report Description
+      Value: |
+        このレポートは次のような問に答えるために役立つ情報を提供します。<ul><li>部署またはその部署の個人が、ある期間中に、Web サイトでどれだけのアクティビティを行ったか。</li></ul>このレポートはビジネス組織からなされたアクティビティを時系列に一覧で示します。レポートがビジネス組織全体を対象とする場合には、複数の部署からなされたアクティビティを示します。レポートが特定の部署を対象とする場合には、その部署からなされたアクティビティのみを示します。<br/>
+        次のいずれかの方法によりこのレポートを表示することができます。<br/>
+        <ul><li><i>ビジネスの概要</i> レポートの最上部にある [訪問の数] をクリックすると、このレポートはそのビジネス組織からなされた直近の最大 50 の訪問を表示します。</li>
+        <li><i>ビジネスの概要</i> レポートの下部にある特定の部署による訪問の数をクリックすると、このレポートはその部署からなされた直近の最大 50 の訪問を表示します。</li></ul>追加情報: <ul><li><i>ビジターの概要</i>レポートを開くためには、[訪問の数] の列にある数をクリックします。</li><li><i>訪問の詳細</i> レポートを開くためには、日付をクリックします。訪問の詳細レポートは、そのビジターがその訪問の間に行ったアクティビティのすべてを一覧表示します。</li></ul>

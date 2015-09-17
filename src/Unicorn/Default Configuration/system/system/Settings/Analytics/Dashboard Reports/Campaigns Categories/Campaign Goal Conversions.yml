@@ -1,0 +1,89 @@
+﻿---
+ID: 86fb7857-6803-476d-a3da-9c32690a702e
+Parent: 5edd5cdf-b339-4b7c-95a2-b436402f385e
+Template: f960e028-5373-48bf-b3b3-9b23fe13c0c4
+Path: /sitecore/system/Settings/Analytics/Dashboard Reports/Campaigns Categories/Campaign Goal Conversions
+SharedFields:
+- ID: 46fb3cb4-4740-4680-bb76-63a15ef25907
+  # SqlServer
+  Value: |
+    SELECT
+      [Conversions].[Month] AS [Date],
+      SUM( [Conversions].[Visits] ) AS [Visits],
+      SUM( [Conversions].[Value] ) AS [Value],
+      [Conversions].[GoalName] AS [FacetName]
+    FROM
+      [Conversions]
+    WHERE
+      (1 = 1 AND CampaignId <> '00000000-0000-0000-0000-000000000000')
+      {Filters}
+    GROUP BY
+      [Conversions].[Month],
+      [Conversions].[GoalName]
+    ORDER BY
+      [Conversions].[Month];
+- ID: 49fa57d8-e607-49f5-bb07-981b8fe5e005
+  # Report Name
+  Value: CampaignGoalConversions
+Languages:
+- Language: da
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150812T120234Z
+    - ID: 52807595-0f8f-4b20-8d2a-cb71d28c6103
+      # __Owner
+      Value: sitecore\admin
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+    - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+      # __Display name
+      Value: Kampagnemålkonverteringer
+- Language: de-DE
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150812T115822Z
+    - ID: 52807595-0f8f-4b20-8d2a-cb71d28c6103
+      # __Owner
+      Value: sitecore\admin
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+    - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+      # __Display name
+      Value: Kampagnen Zielumsetzungen
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20101213T141900
+    - ID: 52807595-0f8f-4b20-8d2a-cb71d28c6103
+      # __Owner
+      Value: sitecore\admin
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+- Language: ja-JP
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150812T115411Z
+    - ID: 52807595-0f8f-4b20-8d2a-cb71d28c6103
+      # __Owner
+      Value: sitecore\admin
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+    - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+      # __Display name
+      Value: キャンペーン ゴール コンバージョン

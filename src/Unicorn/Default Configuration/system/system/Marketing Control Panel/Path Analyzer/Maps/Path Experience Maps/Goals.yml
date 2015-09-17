@@ -1,0 +1,92 @@
+﻿---
+ID: a70a3848-27ff-4847-8634-d6471063636c
+Parent: ffb4e220-3181-4c22-b0ba-8400b56ba200
+Template: 98360c58-f51f-43a4-b057-9ef459c0ff10
+Path: /sitecore/system/Marketing Control Panel/Path Analyzer/Maps/Path Experience Maps/Goals
+SharedFields:
+- ID: 1172f251-dad4-4efb-a329-0c63500e4f1e
+  # __Masters
+  Type: TreelistEx
+  Value: {42540780-99A0-4144-BC9A-5D673FC63B6A}
+- ID: 5b9f5881-8542-4aca-967b-2ab8ce815d07
+  # Rule
+  Type: Rules
+  Value: |
+    <ruleset>
+      <rule uid="{66750622-B075-4C13-9D0F-E589A1F349C0}">
+        <conditions>
+          <condition id="{FE4C1ED4-8835-4EAF-AECC-37BDC7AF292D}" uid="939BAAAD93BD451DB7AA673B7812AE1C" />
+        </conditions>
+        <actions>
+          <action id="{F0FDE44B-B200-416C-A048-C833D4106CA6}" uid="86AB9FF0CA4F4FDFB864FAD7DF4BF1E9" />
+        </actions>
+      </rule>
+    </ruleset>
+- ID: 9c6106ea-7a5a-48e2-8cad-f0f693b1e2d4
+  # __Read Only
+  Value: 1
+- ID: ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e
+  # __Sortorder
+  Value: 50
+Languages:
+- Language: da
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150812T120241Z
+    - ID: 52807595-0f8f-4b20-8d2a-cb71d28c6103
+      # __Owner
+      Value: sitecore\admin
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+    - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+      # __Display name
+      Value: Mål
+- Language: de-DE
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150812T115831Z
+    - ID: 52807595-0f8f-4b20-8d2a-cb71d28c6103
+      # __Owner
+      Value: sitecore\admin
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+    - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+      # __Display name
+      Value: Ziele
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20140411T163713
+    - ID: 52807595-0f8f-4b20-8d2a-cb71d28c6103
+      # __Owner
+      Value: sitecore\admin
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+- Language: ja-JP
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150812T115413Z
+    - ID: 52807595-0f8f-4b20-8d2a-cb71d28c6103
+      # __Owner
+      Value: sitecore\admin
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+    - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+      # __Display name
+      Value: ゴール

@@ -1,0 +1,86 @@
+﻿---
+ID: 11435747-4c61-4bd0-a62e-5e7c2b613295
+Parent: 6d7ee9f1-e492-4042-84e5-d3f5442199b1
+Template: 854ba861-63ea-4a0c-8c7b-541e9a7ec4c1
+Path: /sitecore/system/Settings/Rules/Version Removed/Tags/Default
+BranchID: dd67a88f-282c-454f-aadd-1a6339fd6844
+SharedFields:
+- ID: 42f77151-098f-496a-94cf-590b7edeeabe
+  # Tags
+  Type: Multilist
+  Value: |
+    {09340671-13CF-4181-A706-BE150B00D735}
+    {D8933FCB-48F3-468E-8FB6-8F2B5CFAF404}
+    {CCDEDBA3-3677-433E-BA09-64A3094808C9}
+    {B396D486-63DB-4F62-8DF1-DB0989191848}
+    {2B6BE5E9-5A0B-425E-8CFF-959D7CC46581}
+    {83E58187-D1E5-4FB8-953E-EE89816EC0B5}
+    {ADA1A7B1-F84D-419F-96E2-77F95006DC37}
+    {6C2368CA-67BE-4233-B9D7-0A0F87F09A38}
+    {2FC32D92-C4DC-4C63-8A5D-736F20466656}
+    {95611296-3E75-45C0-B7A4-69E69C8499AB}
+    {9DE9BA55-DEBF-4F15-8EC1-F28FE3A5B9FD}
+    {5A355A23-0148-48CB-9017-90A696EAF155}
+    {B5BAE47B-7C89-46AE-A367-B3F5027E8D18}
+Languages:
+- Language: da
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150812T120200Z
+    - ID: 52807595-0f8f-4b20-8d2a-cb71d28c6103
+      # __Owner
+      Value: sitecore\admin
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+    - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+      # __Display name
+      Value: Standard
+- Language: de-DE
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150812T115747Z
+    - ID: 52807595-0f8f-4b20-8d2a-cb71d28c6103
+      # __Owner
+      Value: sitecore\admin
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+    - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+      # __Display name
+      Value: Default
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20120807T142900
+    - ID: 52807595-0f8f-4b20-8d2a-cb71d28c6103
+      # __Owner
+      Value: sitecore\admin
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+- Language: ja-JP
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150812T115350Z
+    - ID: 52807595-0f8f-4b20-8d2a-cb71d28c6103
+      # __Owner
+      Value: sitecore\admin
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+    - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+      # __Display name
+      Value: デフォルト

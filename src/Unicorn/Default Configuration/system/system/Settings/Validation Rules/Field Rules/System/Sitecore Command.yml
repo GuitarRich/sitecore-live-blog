@@ -1,0 +1,95 @@
+﻿---
+ID: d7b0ce08-7528-47cd-b433-dcb599fc3cff
+Parent: ec98b276-8777-4164-8f7b-6bbbfef0b8fa
+Template: 8f8e2549-c77f-4860-b83b-54fa31e2befa
+Path: /sitecore/system/Settings/Validation Rules/Field Rules/System/Sitecore Command
+SharedFields:
+- ID: 43a829d1-43da-465c-b772-ebaa0d515e3e
+  # Type
+  Value: Sitecore.Data.Validators.FieldValidators.SitecoreCommandValidator,Sitecore.Kernel
+Languages:
+- Language: da
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150812T120257Z
+    - ID: 52807595-0f8f-4b20-8d2a-cb71d28c6103
+      # __Owner
+      Value: sitecore\admin
+    - ID: 58014183-26fe-4568-b19f-c26745824c32
+      # Description
+      Value: Feltet skal indeholde en gyldig Sitecore-kommando defineret i commands.config-filen.
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+    - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+      # __Display name
+      Value: Sitecore-kommando
+    - ID: da43c533-cbae-43d0-9019-65b1e346f984
+      # Title
+      Value: Gyldig Sitecore-kommando
+- Language: de-DE
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150812T115844Z
+    - ID: 52807595-0f8f-4b20-8d2a-cb71d28c6103
+      # __Owner
+      Value: sitecore\admin
+    - ID: 58014183-26fe-4568-b19f-c26745824c32
+      # Description
+      Value: Das Feld muss einen gültigen Sitecore Befehl enthalten, der in der commands.config Datei definiert wird.
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+    - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+      # __Display name
+      Value: Sitecore Befehl
+    - ID: da43c533-cbae-43d0-9019-65b1e346f984
+      # Title
+      Value: Gültiger Sitecore Befehl
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20081205T140200Z
+    - ID: 52807595-0f8f-4b20-8d2a-cb71d28c6103
+      # __Owner
+      Value: sitecore\admin
+    - ID: 58014183-26fe-4568-b19f-c26745824c32
+      # Description
+      Value: The field must contain a valid Sitecore command defined in the commands.config file.
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+    - ID: da43c533-cbae-43d0-9019-65b1e346f984
+      # Title
+      Value: Valid Sitecore command
+- Language: ja-JP
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150812T115427Z
+    - ID: 52807595-0f8f-4b20-8d2a-cb71d28c6103
+      # __Owner
+      Value: sitecore\admin
+    - ID: 58014183-26fe-4568-b19f-c26745824c32
+      # Description
+      Value: フィールドには commands.config ファイルで定義された有効なサイトコア コマンドが含まれる必要があります。
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+    - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+      # __Display name
+      Value: サイトコア コマンド
+    - ID: da43c533-cbae-43d0-9019-65b1e346f984
+      # Title
+      Value: 有効なサイトコア コマンド

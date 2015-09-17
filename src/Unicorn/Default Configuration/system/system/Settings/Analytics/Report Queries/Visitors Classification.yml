@@ -1,0 +1,91 @@
+﻿---
+ID: be7be82c-cf2f-4d05-80d3-665528ae6033
+Parent: daa53ca5-8136-462f-8b2a-f66365be1238
+Template: a90f48c4-4d4f-41d7-8497-070a9a50304e
+Path: /sitecore/system/Settings/Analytics/Report Queries/Visitors Classification
+SharedFields:
+- ID: 72b1c86f-ae19-4534-abcf-0692378d41cf
+  # Data Source
+  Value: reporting
+- ID: a61cc636-3272-4fb6-bcf9-762940047a78
+  # Query
+  Value: |
+    select
+    		[VisitorClassifications].[Text],
+    		[Visitors].[VisitorClassification],
+    		[Visits].[VisitorId]
+    from
+    		[Visits],
+    		[Visitors],
+    		[VisitorClassifications]
+    where 
+            [VisitId] = @VisitId
+    		AND [Visitors].[VisitorId] = [Visits].[VisitorId]  
+    		AND [Visitors].[VisitorClassification] = [VisitorClassifications].[VisitorClassification]
+    group by
+    		[Visits].[VisitorId],
+    		[VisitorClassifications].[Text],
+    		[Visitors].[VisitorClassification]
+    
+Languages:
+- Language: da
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150812T120251Z
+    - ID: 52807595-0f8f-4b20-8d2a-cb71d28c6103
+      # __Owner
+      Value: sitecore\admin
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+    - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+      # __Display name
+      Value: Klassificering af besøgende
+- Language: de-DE
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150812T115839Z
+    - ID: 52807595-0f8f-4b20-8d2a-cb71d28c6103
+      # __Owner
+      Value: sitecore\admin
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+    - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+      # __Display name
+      Value: Besucher Einstufung
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20110211T150703
+    - ID: 52807595-0f8f-4b20-8d2a-cb71d28c6103
+      # __Owner
+      Value: sitecore\admin
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+- Language: ja-JP
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150812T115421Z
+    - ID: 52807595-0f8f-4b20-8d2a-cb71d28c6103
+      # __Owner
+      Value: sitecore\admin
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+    - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+      # __Display name
+      Value: ビジターの分類

@@ -1,0 +1,105 @@
+﻿---
+ID: b255994e-3ce0-4fb5-89ce-195ec35200ca
+Parent: 9827eee3-1c8a-4cda-9322-53c892c596e3
+Template: 6d1cd897-1936-4a3a-a511-289a94c2a7b1
+Path: /sitecore/system/Dictionary/ExperienceExplorer/Mode/Editor/ModeEditorQuestionMark
+SharedFields:
+- ID: 580c75a8-c01a-4580-83cb-987776ceb3af
+  # Key
+  Value: ModeEditorQuestionMark
+Languages:
+- Language: da
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150812T120246Z
+    - ID: 2ba3454a-9a9c-4cdf-a9f8-107fd484eb6e
+      # Phrase
+      Value: |
+        <p><small><strong>Rejsetilstand</strong></br>
+        Alle værdier for forudindstillingen eller i editoren fungerer som startpunkt for dit besøg. Når du navigerer på hjemmesiden, kan du indsamle engagementsværdipoint og andre værdier fra de forskellige sider, som du får vist, og de handlinger, du foretager dig. Se, hvordan hjemmesiden ændrer sig, afhængigt af din oplevelse. Brug fremviseren til at overvåge disse ændringer.</small></p>
+        
+        <p><small><strong>Fast tilstand</strong></br>
+        Alle værdier i forudindstillingen eller i editoren er faste og opdateres eller ryddes, hver gang du bevæger dig til en anden webside. På den måde kan du se den enkelte side isoleret uden at indsamle en løbende sum af værdier under dit besøg.</small></p>
+    - ID: 52807595-0f8f-4b20-8d2a-cb71d28c6103
+      # __Owner
+      Value: sitecore\admin
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+    - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+      # __Display name
+      Value: ModeEditorQuestionMark
+- Language: de-DE
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150812T115835Z
+    - ID: 2ba3454a-9a9c-4cdf-a9f8-107fd484eb6e
+      # Phrase
+      Value: |
+        <p><small><strong>Journey mode</strong></br>
+        Alle Werte in der Voreinstellung oder im Editor fungieren als  Ausgangspunkt für Ihren Besuch. Beim Navigieren durch die Website, sammeln Sie Engagementwertpunkte und andere Werte von den verschiedenen Seiten, die Sie ansehen bzw. von den Handlungen, die Sie ausführen. Sehen Sie sich an, wie die Seite sich gemäß Ihren Erfahrungen verändert. Benutzen Sie den Viewer, um diese Änderungen zu überwachen.</small></p>
+        
+        <p><small><strong>Fixed mode</strong></br>
+        Alle Werte in der Voreinstellung oder im Editor sind festgelegt und werden jedesmal aktualisiert oder gelöscht, wenn Sie zu einer anderen Webseite gehen. Dies versetzt Sie in die Lage, jede Seite für sich zu betrachten, ohne eine laufende Summe von Werten während Ihres Besuchs anzusammeln.</small></p>
+    - ID: 52807595-0f8f-4b20-8d2a-cb71d28c6103
+      # __Owner
+      Value: sitecore\admin
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+    - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+      # __Display name
+      Value: ModusEditorFragezeichen
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20130225T091300
+    - ID: 2ba3454a-9a9c-4cdf-a9f8-107fd484eb6e
+      # Phrase
+      Value: |
+        <p><small><strong>Journey mode</strong></br>
+        All values in the preset or in the Editor act as the starting point for your visit. As you navigate through the website you accumulate engagement value points and other values from the different pages that you view and the actions that you take. See how the site changes depending on your experience. Use the Viewer to monitor these changes.</small></p>
+        
+        <p><small><strong>Fixed mode</strong></br>
+        All values in the preset or in the Editor are fixed and are refreshed or cleared every time you move to another web page. This enables you to see each page in isolation without accumulating a running total of values during your visit.</small></p>
+        
+        
+    - ID: 52807595-0f8f-4b20-8d2a-cb71d28c6103
+      # __Owner
+      Value: sitecore\admin
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+- Language: ja-JP
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150812T115417Z
+    - ID: 2ba3454a-9a9c-4cdf-a9f8-107fd484eb6e
+      # Phrase
+      Value: |
+        <p><small><strong>ジャーニー モード</strong></br>
+        プリセットまたはエディターのすべての値は、訪問の開始ポイントとして動作します。Web サイトを移動するにしたがって、エンゲージメント バリュー ポイントと、表示した様々なページと実行したアクションによるその他のバリューが累積されます。Web サイトの体験に応じてサイトがどのように変化するかご確認ください。</small></p>
+        
+        <p><small><strong>固定モード</strong></br>
+        プリセットまたはエディターの値はすべて固定で、別の Web サイトに移動するたび更新または削除されます。これによって、訪問中にバリューを累積をすることなく、個別に各ページを閲覧することができます。</small></p>
+    - ID: 52807595-0f8f-4b20-8d2a-cb71d28c6103
+      # __Owner
+      Value: sitecore\admin
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+    - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+      # __Display name
+      Value: モード エディターの疑問符

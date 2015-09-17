@@ -1,0 +1,95 @@
+﻿---
+ID: 2a54f981-6618-4d81-b90a-ef9794da0c8c
+Parent: cd987a31-a2ef-4309-b3fc-2060451694b3
+Template: 3c7c63ee-f6b5-4c41-85d4-840ef9d875a8
+Path: /sitecore/system/Marketing Control Panel/Path Analyzer/Reports/Optimization Candidates
+SharedFields:
+- ID: ed42832f-c994-4ed7-8ed3-5408a89c6c52
+  # Type
+  Value: Sitecore.PathAnalyzer.Reports.HighestPotentialFullPaths,Sitecore.PathAnalyzer
+Languages:
+- Language: da
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150812T120209Z
+    - ID: 52807595-0f8f-4b20-8d2a-cb71d28c6103
+      # __Owner
+      Value: sitecore\admin
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+    - ID: 8d8a072a-741e-4804-b68f-e5b3677f63d3
+      # Name
+      Value: Optimeringskandidater
+    - ID: ac59c256-fb50-4592-aa15-9c119b6ac8f8
+      # Description
+      Value: De stier, hvor en potentiel værdi kan opnås.
+    - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+      # __Display name
+      Value: Optimeringskandidater
+- Language: de-DE
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150812T115756Z
+    - ID: 52807595-0f8f-4b20-8d2a-cb71d28c6103
+      # __Owner
+      Value: sitecore\admin
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+    - ID: 8d8a072a-741e-4804-b68f-e5b3677f63d3
+      # Name
+      Value: Optimierungskandidaten
+    - ID: ac59c256-fb50-4592-aa15-9c119b6ac8f8
+      # Description
+      Value: Der Pfad, auf dem der potentielle Wert erreicht werden kann.
+    - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+      # __Display name
+      Value: Optimierungskandidaten
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20140924T210900Z
+    - ID: 52807595-0f8f-4b20-8d2a-cb71d28c6103
+      # __Owner
+      Value: sitecore\admin
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+    - ID: 8d8a072a-741e-4804-b68f-e5b3677f63d3
+      # Name
+      Value: Optimization Candidates
+    - ID: ac59c256-fb50-4592-aa15-9c119b6ac8f8
+      # Description
+      Value: The paths where a potential value can be gained.
+- Language: ja-JP
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150812T115353Z
+    - ID: 52807595-0f8f-4b20-8d2a-cb71d28c6103
+      # __Owner
+      Value: sitecore\admin
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+    - ID: 8d8a072a-741e-4804-b68f-e5b3677f63d3
+      # Name
+      Value: 最適化の候補
+    - ID: ac59c256-fb50-4592-aa15-9c119b6ac8f8
+      # Description
+      Value: ポテンシャル バリューの増加が見込める Path
+    - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+      # __Display name
+      Value: 最適化の候補

@@ -1,0 +1,104 @@
+﻿---
+ID: 795842d3-3d69-49c3-8a42-b261868fa58f
+Parent: 00e978ae-076d-402f-b540-b1aca5bc65a1
+Template: 9f63f3ed-bfb8-49a3-b370-1830e0a5920f
+Path: /sitecore/system/Settings/Buckets/Settings/Search Box Dropdown/Recent Items
+SharedFields:
+- ID: 06d5295c-ed2f-4a54-9bf2-26228d113318
+  # __Icon
+  Value: Business/32x32/date-time_preferences.png
+- ID: 37fe9542-c8e7-41d6-95b0-ae559a48eb04
+  # Command Name
+  Value: id
+- ID: ccd35091-1a66-4ce5-a1d3-77a2ccd29142
+  # Type
+  Value: Sitecore.Buckets.Search.SearchDropdowns.RecentlyModified, Sitecore.Buckets
+Languages:
+- Language: da
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150812T120229Z
+    - ID: 39d0a502-8aec-4ee6-8b9e-3c31ccb579c8
+      # Display Text
+      Value: Liste over elementer, der er blevet ændret for nylig.
+    - ID: 52807595-0f8f-4b20-8d2a-cb71d28c6103
+      # __Owner
+      Value: sitecore\admin
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+    - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+      # __Display name
+      Value: Ændret for nylig
+    - ID: d9bdf564-ff37-4564-b943-00d4d89c19f1
+      # List Name
+      Value: Ændret for nylig
+- Language: de-DE
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150812T115818Z
+    - ID: 39d0a502-8aec-4ee6-8b9e-3c31ccb579c8
+      # Display Text
+      Value: Liste der kürzlich modifizierten Items.
+    - ID: 52807595-0f8f-4b20-8d2a-cb71d28c6103
+      # __Owner
+      Value: sitecore\admin
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+    - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+      # __Display name
+      Value: Kürzlich modifiziert
+    - ID: d9bdf564-ff37-4564-b943-00d4d89c19f1
+      # List Name
+      Value: Kürzlich modifiziert
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20111103T102200Z
+    - ID: 39d0a502-8aec-4ee6-8b9e-3c31ccb579c8
+      # Display Text
+      Value: List of recently modified items.
+    - ID: 52807595-0f8f-4b20-8d2a-cb71d28c6103
+      # __Owner
+      Value: sitecore\admin
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+    - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+      # __Display name
+      Value: Recently Modified
+    - ID: d9bdf564-ff37-4564-b943-00d4d89c19f1
+      # List Name
+      Value: Recently Modified Items
+- Language: ja-JP
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150812T115409Z
+    - ID: 39d0a502-8aec-4ee6-8b9e-3c31ccb579c8
+      # Display Text
+      Value: 最近更新されたアイテムのリスト
+    - ID: 52807595-0f8f-4b20-8d2a-cb71d28c6103
+      # __Owner
+      Value: sitecore\admin
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+    - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+      # __Display name
+      Value: 最近更新されたアイテム
+    - ID: d9bdf564-ff37-4564-b943-00d4d89c19f1
+      # List Name
+      Value: 最近更新されたアイテム

@@ -1,0 +1,87 @@
+﻿---
+ID: 69f03a2e-53e6-48c1-ab0e-dc6e178d4a69
+Parent: 1d27aa4b-e73b-4a3b-9219-d3d1fea727fa
+Template: 1dde3f02-0bd7-4779-867a-dc578adf91ea
+Path: /sitecore/system/Toolbox/Common/Placeholder
+BranchID: 00e66e02-df20-4f3a-b8aa-5239108dc2bb
+SharedFields:
+- ID: 06d5295c-ed2f-4a54-9bf2-26228d113318
+  # __Icon
+  Value: Software/16x16/element_selection.png
+- ID: 1f424eb0-6138-4bc4-93b0-bd45ec6b1cb2
+  # Namespace
+  Value: Sitecore.Web.UI.WebControls
+- ID: b8979e80-7623-4b3a-bfd2-3f3f05883d58
+  # Tag
+  Value: Placeholder
+- ID: c50b1f5b-26da-476a-aac6-9b734975971c
+  # Assembly
+  Value: Sitecore.Kernel
+- ID: e2abdec6-83a6-4b68-97d1-b3cd79f10a8e
+  # TagPrefix
+  Value: sc
+Languages:
+- Language: da
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150812T120225Z
+    - ID: 52807595-0f8f-4b20-8d2a-cb71d28c6103
+      # __Owner
+      Value: sitecore\admin
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+    - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+      # __Display name
+      Value: Placeholder
+- Language: de-DE
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150812T115813Z
+    - ID: 52807595-0f8f-4b20-8d2a-cb71d28c6103
+      # __Owner
+      Value: sitecore\admin
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+    - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+      # __Display name
+      Value: Platzhalter
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20051108T110953
+    - ID: 52807595-0f8f-4b20-8d2a-cb71d28c6103
+      # __Owner
+      Value: sitecore\admin
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\Admin
+    - ID: c8f93afe-bfd4-4e8f-9c61-152559854661
+      # __Valid from
+      Value: 20051108T110953
+- Language: ja-JP
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150812T115408Z
+    - ID: 52807595-0f8f-4b20-8d2a-cb71d28c6103
+      # __Owner
+      Value: sitecore\admin
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+    - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+      # __Display name
+      Value: プレースホルダー

@@ -1,0 +1,114 @@
+﻿---
+ID: 019833fd-a3d4-4fa7-a75e-433e5b020d6f
+Parent: a4ca4e88-9d2d-4ce3-bf82-c786ac624099
+Template: 6674a4af-eace-445e-89f1-e2f464026056
+Path: /sitecore/system/Settings/Analytics/Reports/Subreports/Slow Pages/Visits
+SharedFields:
+- ID: 06d5295c-ed2f-4a54-9bf2-26228d113318
+  # __Icon
+  Value: Network/32x32/keys.png
+- ID: 0cc4ad84-f69d-44d2-9600-5c7522aa2401
+  # File Name
+  Value: /sitecore/shell/Applications/Analytics/Reports/VisitsSlowPages.mrt
+- ID: 16802c7a-011a-41ff-88b4-c33e6c737f3f
+  # Queries
+  Value: DataSource=%7b89C10594-3C6A-4B76-B1F9-9FBCB1464F33%7d&Subscription=%7b01B7653E-2ADD-409B-8000-E215D46F0F6B%7d
+Languages:
+- Language: da
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150812T120156Z
+    - ID: 52807595-0f8f-4b20-8d2a-cb71d28c6103
+      # __Owner
+      Value: sitecore\admin
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+    - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+      # __Display name
+      Value: Besøg
+    - ID: d71dcbf1-3e4c-4acd-9244-58aa5c1c8528
+      # Report Title
+      Value: Besøg
+    - ID: f38bb3c8-94d9-4815-8ce2-06fa4eb8fc80
+      # Report Description
+      Value: |
+        Denne rapport hjælper dig med at besvare følgende spørgsmål:<ul><li>Hvem er de seneste besøgende på en langsom side?</li></ul>Denne rapport anfører i kronologisk orden besøg fra alle besøgende.<br/> 
+        Denne rapport viser den besøgendes organisationsnavn (hvis kendt), værdien af deres besøg, hvor mange gange den besøgende har besøgt hjemmesiden (Besøg nr.) og dato og tidspunkt for besøget.<br/>
+        Klik på Dato og Tidspunkt for at åbne rapporten Besøgsoplysninger for besøget. Sessionsrapporten viser dig virksomhedens besøg, konverteringer og profil. Klik på navnet på en organisation for at åbne rapporten <i>Virksomhedsoversigt</i>. Klik på Besøg nr. for at åbne rapporten <i>Oversigt over besøgende</i>.
+- Language: de-DE
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150812T115741Z
+    - ID: 52807595-0f8f-4b20-8d2a-cb71d28c6103
+      # __Owner
+      Value: sitecore\admin
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+    - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+      # __Display name
+      Value: Besuche
+    - ID: d71dcbf1-3e4c-4acd-9244-58aa5c1c8528
+      # Report Title
+      Value: Besuche
+    - ID: f38bb3c8-94d9-4815-8ce2-06fa4eb8fc80
+      # Report Description
+      Value: |
+        Dieser Report hilft Ihnen dabei, die folgende Frage zu beantworten:<ul><li>Wer sind die neusten Besucher, die eine langsame Seite besuchen?</li></ul>Dieser Report listet chronologisch die Besuche aller Besucher.<br/> 
+        Dieser Report zeigt den Unternehmensnahmen (falls bekannt) der Besucher, den Wert ihrer Besuche, wie oft der Besucher auf der Seite gewesen ist (Besuch #) und das Datum bzw. die Uhrzeit des Besuchs.<br/>
+        Klicken Sie auf das Datum/Uhrzeit, um den <i>Besuchsdetail</i>- Report für den Besuch zu öffnen. Der Session-Report wird Ihnen die Besuche des Unternehmens, Konversionen und das Profil anzeigen. Klicken Sie auf Unternehmensname, um den <i>Business Überblick</i>-Report zu öffnen. Klicken Sie auf Besuch #, um den <i>Besucher Überblick</i>-Report zu öffnen.
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20110131T153452
+    - ID: 52807595-0f8f-4b20-8d2a-cb71d28c6103
+      # __Owner
+      Value: sitecore\admin
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+    - ID: d71dcbf1-3e4c-4acd-9244-58aa5c1c8528
+      # Report Title
+      Value: Visits
+    - ID: f38bb3c8-94d9-4815-8ce2-06fa4eb8fc80
+      # Report Description
+      Value: |
+        This report helps you answer the following question:<ul><li>Who are the most recent visitors to visit a slow page?</li></ul>This report lists in chronological order the visits from all visitors.<br/> 
+        This report shows the visitor’s organization name (if known), the value of their visit, how many times the visitor has been to the site (Visit #), and the date and time of the visit.<br/>
+        Click the Date and Time to open the <i>Visit Details</i> report for the visit. The session report will show you the company’s visits, conversions, and profile. Click organization name to open the <i>Business Overview</i> report. Click Visit # to open <i>Visitor Overview</i> report.
+        
+- Language: ja-JP
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150812T115349Z
+    - ID: 52807595-0f8f-4b20-8d2a-cb71d28c6103
+      # __Owner
+      Value: sitecore\admin
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+    - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+      # __Display name
+      Value: 訪問
+    - ID: d71dcbf1-3e4c-4acd-9244-58aa5c1c8528
+      # Report Title
+      Value: 訪問
+    - ID: f38bb3c8-94d9-4815-8ce2-06fa4eb8fc80
+      # Report Description
+      Value: |
+        このレポートは次のような問に答えるために役立つ情報を提供します。<ul<li>あるレスポンスの悪いページへの最も直近のビジターは誰か。</li></ul>このレポートはすべてのビジターの訪問を時系列に一覧で示します。 
+        このレポートは、ビジターの組織の名前 (既知の場合)、 訪問の評価値、そのビジターのそのサイトへの訪問回数 (訪問の数)、訪問の日時を示します。<br/>
+        その訪問に関する <i>訪問の詳細</i> レポートを開くためには、日時をクリックします。セッション レポートはその会社からの訪問、コンバージョン、プロファイルを示します。<i>ビジネスの概要</i>レポートを開くためには、組織の名前をクリックします。<i>ビジターの概要</i>レポートを開くためには、訪問の数をクリックします。

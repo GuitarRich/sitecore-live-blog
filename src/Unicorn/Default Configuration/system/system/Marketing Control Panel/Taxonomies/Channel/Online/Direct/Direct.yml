@@ -1,0 +1,83 @@
+﻿---
+ID: b418e4f2-1013-4b42-a053-b6d4dca988bf
+Parent: 42b67b0e-70ba-4d6f-b9bc-41756a910358
+Template: 3b4fde65-16a8-491d-bf15-99ce83cf3506
+Path: /sitecore/system/Marketing Control Panel/Taxonomies/Channel/Online/Direct/Direct
+SharedFields:
+- ID: 8fb875eb-3ad3-44ff-87e1-998370cc3199
+  # Code
+  Value: 01
+Languages:
+- Language: da
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150812T120246Z
+    - ID: 52807595-0f8f-4b20-8d2a-cb71d28c6103
+      # __Owner
+      Value: sitecore\admin
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+    - ID: 8bdee96a-e8f5-446a-a1d2-568c3018c98e
+      # Image
+      Value: "<image mediaid=\"{61C9FB57-56B0-4DF1-9EF3-658E2BC45177}\" />"
+    - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+      # __Display name
+      Value: Direkte
+- Language: de-DE
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150812T115836Z
+    - ID: 52807595-0f8f-4b20-8d2a-cb71d28c6103
+      # __Owner
+      Value: sitecore\admin
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+    - ID: 8bdee96a-e8f5-446a-a1d2-568c3018c98e
+      # Image
+      Value: "<image mediaid=\"{61C9FB57-56B0-4DF1-9EF3-658E2BC45177}\" />"
+    - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+      # __Display name
+      Value: Direkt
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20141115T110953Z
+    - ID: 52807595-0f8f-4b20-8d2a-cb71d28c6103
+      # __Owner
+      Value: sitecore\admin
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+    - ID: 8bdee96a-e8f5-446a-a1d2-568c3018c98e
+      # Image
+      Value: "<image mediaid=\"{61C9FB57-56B0-4DF1-9EF3-658E2BC45177}\" />"
+- Language: ja-JP
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150812T115417Z
+    - ID: 52807595-0f8f-4b20-8d2a-cb71d28c6103
+      # __Owner
+      Value: sitecore\admin
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+    - ID: 8bdee96a-e8f5-446a-a1d2-568c3018c98e
+      # Image
+      Value: "<image mediaid=\"{61C9FB57-56B0-4DF1-9EF3-658E2BC45177}\" />"
+    - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+      # __Display name
+      Value: 直接訪問

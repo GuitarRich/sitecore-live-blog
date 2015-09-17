@@ -1,0 +1,95 @@
+﻿---
+ID: 437db79e-17ea-49c8-9e50-cf52c63eee12
+Parent: ec98b276-8777-4164-8f7b-6bbbfef0b8fa
+Template: 8f8e2549-c77f-4860-b83b-54fa31e2befa
+Path: /sitecore/system/Settings/Validation Rules/Field Rules/System/Broken Links
+SharedFields:
+- ID: 43a829d1-43da-465c-b772-ebaa0d515e3e
+  # Type
+  Value: Sitecore.Data.Validators.FieldValidators.BrokenLinksValidator,Sitecore.Kernel
+Languages:
+- Language: da
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150812T120214Z
+    - ID: 52807595-0f8f-4b20-8d2a-cb71d28c6103
+      # __Owner
+      Value: sitecore\admin
+    - ID: 58014183-26fe-4568-b19f-c26745824c32
+      # Description
+      Value: Feltet må ikke indeholde brudte links.
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+    - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+      # __Display name
+      Value: Brudte referencer
+    - ID: da43c533-cbae-43d0-9019-65b1e346f984
+      # Title
+      Value: Har ingen brudte links
+- Language: de-DE
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150812T115802Z
+    - ID: 52807595-0f8f-4b20-8d2a-cb71d28c6103
+      # __Owner
+      Value: sitecore\admin
+    - ID: 58014183-26fe-4568-b19f-c26745824c32
+      # Description
+      Value: Das Feld darf keine defekten Links enthalten.
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+    - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+      # __Display name
+      Value: Defekte Links
+    - ID: da43c533-cbae-43d0-9019-65b1e346f984
+      # Title
+      Value: Enthält keine defekten Links
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20071220T083723Z
+    - ID: 52807595-0f8f-4b20-8d2a-cb71d28c6103
+      # __Owner
+      Value: sitecore\admin
+    - ID: 58014183-26fe-4568-b19f-c26745824c32
+      # Description
+      Value: The field must not have any broken links.
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+    - ID: da43c533-cbae-43d0-9019-65b1e346f984
+      # Title
+      Value: Has no broken links
+- Language: ja-JP
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150812T115358Z
+    - ID: 52807595-0f8f-4b20-8d2a-cb71d28c6103
+      # __Owner
+      Value: sitecore\admin
+    - ID: 58014183-26fe-4568-b19f-c26745824c32
+      # Description
+      Value: フィールドにはリンク切れを含めてはいけません。
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+    - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+      # __Display name
+      Value: リンク切れ
+    - ID: da43c533-cbae-43d0-9019-65b1e346f984
+      # Title
+      Value: リンク切れが含まれていない

@@ -1,0 +1,123 @@
+﻿---
+ID: 389a7390-eec4-43a7-932b-cd658ba14056
+Parent: f201003b-514b-4a86-8c56-48b39de53306
+Template: 07003270-d56d-42c2-90e1-99125e0ed1af
+Path: /sitecore/system/Marketing Control Panel/Experience Analytics/Filters/Paid search/Paid search - Facebook
+Languages:
+- Language: da
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 1e72123a-f0fc-48ef-ae9f-78872597cebf
+      # Rule
+      Type: Rules
+      Value: |
+        <ruleset>
+          <rule uid="{1536944E-8524-4B45-B585-F913644411D3}">
+            <conditions>
+              <condition id="{2F421912-F1B3-49D8-82B8-50A64C80E4E3}" uid="0C01D7ACA0A14C1CB106A2D1303D1C44" ChannelId="{EC74A09A-7FA7-4A5A-874A-6B5CA9E05773}" />
+            </conditions>
+            <actions>
+              <action id="{E7AD708C-9943-4173-9055-ED9B078932B2}" uid="55F79976FCB14B4AAE249D689252F4A7" />
+            </actions>
+          </rule>
+        </ruleset>
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150812T120212Z
+    - ID: 52807595-0f8f-4b20-8d2a-cb71d28c6103
+      # __Owner
+      Value: sitecore\admin
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+    - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+      # __Display name
+      Value: Betalt søgning – Facebook
+- Language: de-DE
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 1e72123a-f0fc-48ef-ae9f-78872597cebf
+      # Rule
+      Type: Rules
+      Value: |
+        <ruleset>
+          <rule uid="{1536944E-8524-4B45-B585-F913644411D3}">
+            <conditions>
+              <condition id="{2F421912-F1B3-49D8-82B8-50A64C80E4E3}" uid="0C01D7ACA0A14C1CB106A2D1303D1C44" ChannelId="{EC74A09A-7FA7-4A5A-874A-6B5CA9E05773}" />
+            </conditions>
+            <actions>
+              <action id="{E7AD708C-9943-4173-9055-ED9B078932B2}" uid="55F79976FCB14B4AAE249D689252F4A7" />
+            </actions>
+          </rule>
+        </ruleset>
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150812T115759Z
+    - ID: 52807595-0f8f-4b20-8d2a-cb71d28c6103
+      # __Owner
+      Value: sitecore\admin
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+    - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+      # __Display name
+      Value: Bezahlte Suche - Facebook
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 1e72123a-f0fc-48ef-ae9f-78872597cebf
+      # Rule
+      Type: Rules
+      Value: |
+        <ruleset>
+          <rule uid="{1536944E-8524-4B45-B585-F913644411D3}">
+            <conditions>
+              <condition id="{2F421912-F1B3-49D8-82B8-50A64C80E4E3}" uid="0C01D7ACA0A14C1CB106A2D1303D1C44" ChannelId="{EC74A09A-7FA7-4A5A-874A-6B5CA9E05773}" />
+            </conditions>
+            <actions>
+              <action id="{E7AD708C-9943-4173-9055-ED9B078932B2}" uid="55F79976FCB14B4AAE249D689252F4A7" />
+            </actions>
+          </rule>
+        </ruleset>
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20141127T103455Z
+    - ID: 52807595-0f8f-4b20-8d2a-cb71d28c6103
+      # __Owner
+      Value: sitecore\admin
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+- Language: ja-JP
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 1e72123a-f0fc-48ef-ae9f-78872597cebf
+      # Rule
+      Type: Rules
+      Value: |
+        <ruleset>
+          <rule uid="{1536944E-8524-4B45-B585-F913644411D3}">
+            <conditions>
+              <condition id="{2F421912-F1B3-49D8-82B8-50A64C80E4E3}" uid="0C01D7ACA0A14C1CB106A2D1303D1C44" ChannelId="{EC74A09A-7FA7-4A5A-874A-6B5CA9E05773}" />
+            </conditions>
+            <actions>
+              <action id="{E7AD708C-9943-4173-9055-ED9B078932B2}" uid="55F79976FCB14B4AAE249D689252F4A7" />
+            </actions>
+          </rule>
+        </ruleset>
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150812T115354Z
+    - ID: 52807595-0f8f-4b20-8d2a-cb71d28c6103
+      # __Owner
+      Value: sitecore\admin
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+    - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+      # __Display name
+      Value: 有料検索 - Facebook

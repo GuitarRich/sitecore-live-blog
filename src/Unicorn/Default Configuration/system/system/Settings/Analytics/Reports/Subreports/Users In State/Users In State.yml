@@ -1,0 +1,130 @@
+﻿---
+ID: 7d8d1398-252e-41cc-9a89-9dc05dd3630b
+Parent: a1503baa-6f99-4c61-a296-bf2abe7f5448
+Template: 6674a4af-eace-445e-89f1-e2f464026056
+Path: /sitecore/system/Settings/Analytics/Reports/Subreports/Users In State/Users In State
+SharedFields:
+- ID: 06d5295c-ed2f-4a54-9bf2-26228d113318
+  # __Icon
+  Value: Network/32x32/keys.png
+- ID: 0cc4ad84-f69d-44d2-9600-5c7522aa2401
+  # File Name
+  Value: /sitecore/shell/Applications/Analytics/Reports/UsersInState.mrt
+- ID: 16802c7a-011a-41ff-88b4-c33e6c737f3f
+  # Queries
+  Value: DataSource=%7BA054ED98-B2AD-4346-808D-0FEB5EAFFF1B%7D
+Languages:
+- Language: da
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150812T120230Z
+    - ID: 52807595-0f8f-4b20-8d2a-cb71d28c6103
+      # __Owner
+      Value: sitecore\admin
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+    - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+      # __Display name
+      Value: Brugere I Stadie
+    - ID: d71dcbf1-3e4c-4acd-9244-58aa5c1c8528
+      # Report Title
+      Value: Brugere I Automatiserings Stadie
+    - ID: f38bb3c8-94d9-4815-8ce2-06fa4eb8fc80
+      # Report Description
+      Value: |
+        Denne rapport hjælper dig med at besvare følgende spørgsmål:
+        <ul>
+        <li>Hvilke brugere er i et specifikt Engagement Automation Stadie?</li>
+        <li>Hvor lang tid har de været der, og hvor aktive har de været på sitet?</li>
+        </ul>
+        Denne rapport viser brugernavn og e-mail på alle kendte brugere i et bestemt engagement automation stadie. I et stadie du kan have også anonyme brugere, dvs besøgende, der ikke har logget ind eller har udført nogen handling, der tillader Sitecore at matche dem til en kendt bruger. Denne rapport vil ikke vise sådanne besøgende, selv om den vil rapportere hvor mange af dem er i stadiet. <br/>
+        Hvis brugeren allerede har besøgt webstedet, kan du klikke på deres brugernavn for at få vist deres individuelle besøg. Det er muligt at nogle besøgende ikke har besøgt websitet endnu, måske fordi de er blevet tilføjet manuelt af en Supervisor eller som følge af en ECM-meddelelse eller anden engagement plan.
+- Language: de-DE
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150812T115819Z
+    - ID: 52807595-0f8f-4b20-8d2a-cb71d28c6103
+      # __Owner
+      Value: sitecore\admin
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+    - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+      # __Display name
+      Value: Benutzer im Status
+    - ID: d71dcbf1-3e4c-4acd-9244-58aa5c1c8528
+      # Report Title
+      Value: Benutzer im Automatisierungsstatus
+    - ID: f38bb3c8-94d9-4815-8ce2-06fa4eb8fc80
+      # Report Description
+      Value: |
+        Dieser Report hilft Ihnen dabei, die folgende Fragen zu beantworten
+        <ul>
+        <li>Welche Benutzer befinden sich in einem bestimmten Engagement Automatisierungsstatus?</li>
+        <li>Wie lange befinden sie sich schon dort und wie aktiv waren Sie auf der Site?</li>
+        </ul>                                                                                                                                                                                                     Dieser Bericht zeigt den Benutzern amen und die Email aller bekannten Benutzer in einem bestimmten Engagement Automatisierungsstatus an. Innerhalb eines Status kann man auch anonyme Benutzer haben, also Besucher, die sich nicht angemeldet haben oder eine Aktion durchgeführt haben, die es Sitecore ermöglicht, sie einem bekannten Besucher zuzuordnen. Dieser Bericht wird solche Besucher nicht anzeigen, jedoch zeigt er an, wie viele der eben genannten sich derzeit in diesem Status befinden. Wenn der Benutzer die Site bereits besucht hat, können ´Sie auf den Benutzernamen klicken, um sich ihre einzelnen Besuche im Detail anzeigen zu lassen.  Es ist möglich, da einige Besucher die Site noch nicht besucht haben, u.U. wurden Sie manuell durch den Supervisor hinzugefügt oder  als Resultat einer  ECM Nachricht.
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20110131T153358
+    - ID: 52807595-0f8f-4b20-8d2a-cb71d28c6103
+      # __Owner
+      Value: sitecore\admin
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+    - ID: d71dcbf1-3e4c-4acd-9244-58aa5c1c8528
+      # Report Title
+      Value: Contacts In Automation State
+    - ID: f38bb3c8-94d9-4815-8ce2-06fa4eb8fc80
+      # Report Description
+      Value: |
+        This report helps you answer the following questions:
+        <ul>
+        <li>Which contacts are in a particular engagement automation state?</li>
+        <li>How long have been there, and how active they have been on the site?</li>
+        </ul>
+        
+        This report displays the name and email of all known contacts in a particular engagement automation state. Inside a state you can have also anonymous contacts, i.e. contacts which have not logged in or performed any action which allows Sitecore to match them to a known contact. <br/>
+        If the contact has already visited the site, you can click in their name to drill down to their individual visits. It is possible that some contacts have not visited the site yet, maybe because they have been added manually through the Supervisor, or as a consequence of an ECM message.
+        
+- Language: ja-JP
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150812T115410Z
+    - ID: 52807595-0f8f-4b20-8d2a-cb71d28c6103
+      # __Owner
+      Value: sitecore\admin
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+    - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+      # __Display name
+      Value: オートメーション状態のユーザー状況
+    - ID: d71dcbf1-3e4c-4acd-9244-58aa5c1c8528
+      # Report Title
+      Value: オートメーション状態のユーザー状況
+    - ID: f38bb3c8-94d9-4815-8ce2-06fa4eb8fc80
+      # Report Description
+      Value: |
+        このレポートは次の状況に利用できます：
+        <ul>
+        <li>どのユーザーが特定のエンゲージメント オートメーション状態にいるか？</li>
+        <li>どれくらいいるか？サイト上でアクティブかどうか？</li>
+        </ul>
+        
+        このレポートは特定のエンゲージメント オートメーション状態にいるすべての既知のユーザー名と電子メール アドレスを表示します。状態の中には匿名 （anonymous） ユーザーも含まれます。(例： ビジターがログインしていない場合や、既知のユーザーとのマッチングするためのアクションを実行していない場合など） しかし、このレポートには匿名ユーザーは表示されず、現在の状態にいるユーザー数が表示されます。<br/>
+        もしユーザーが既にサイトを訪れていた場合、ユーザー名をクリックして、対象ユーザーの詳細な履歴を参照することが出来ます。なお、いくつかの状況下、たとえばスーパーバイザーを使用してマニュアルで状態に追加した場合、または ECM メッセージなど、ビジターがサイトに訪れていない可能性もあります。

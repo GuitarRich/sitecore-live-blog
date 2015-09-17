@@ -1,0 +1,80 @@
+﻿---
+ID: e9a4b259-9c85-48e4-b6e6-a2962d189b2b
+Parent: 3648772f-0cb9-4b90-9e65-a97b2c729008
+Template: 3ba3d006-1648-4cc7-8d19-ffadfdc46d0f
+Path: /sitecore/system/Marketing Control Panel/Taxonomies/Channel/Offline/Partner Marketing
+SharedFields:
+- ID: 8fb875eb-3ad3-44ff-87e1-998370cc3199
+  # Code
+  Value: 40
+Languages:
+- Language: da
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150812T120304Z
+    - ID: 52807595-0f8f-4b20-8d2a-cb71d28c6103
+      # __Owner
+      Value: sitecore\admin
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+    - ID: 8bdee96a-e8f5-446a-a1d2-568c3018c98e
+      # Image
+      Value: "<image mediaid=\"{249D0372-501C-4778-AD93-3D68429CB857}\" />"
+    - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+      # __Display name
+      Value: Partnermarketing
+- Language: de-DE
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150812T115846Z
+    - ID: 52807595-0f8f-4b20-8d2a-cb71d28c6103
+      # __Owner
+      Value: sitecore\admin
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+    - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+      # __Display name
+      Value: Partner Marketing
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20141115T101926Z
+    - ID: 52807595-0f8f-4b20-8d2a-cb71d28c6103
+      # __Owner
+      Value: sitecore\admin
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+    - ID: 8bdee96a-e8f5-446a-a1d2-568c3018c98e
+      # Image
+      Value: "<image mediaid=\"{249D0372-501C-4778-AD93-3D68429CB857}\" />"
+- Language: ja-JP
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150812T115429Z
+    - ID: 52807595-0f8f-4b20-8d2a-cb71d28c6103
+      # __Owner
+      Value: sitecore\admin
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+    - ID: 8bdee96a-e8f5-446a-a1d2-568c3018c98e
+      # Image
+      Value: "<image mediaid=\"{249D0372-501C-4778-AD93-3D68429CB857}\" />"
+    - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+      # __Display name
+      Value: パートナー マーケティング

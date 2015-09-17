@@ -1,0 +1,95 @@
+﻿---
+ID: 19563cba-d45d-4314-968e-a05c039671d5
+Parent: 9329a198-16f5-42f4-a0a5-19d5a090bfa1
+Template: 94fd1606-139e-46ee-86ff-bc5bf3c79804
+Path: /sitecore/system/Marketing Control Panel/Campaigns/Social/Google Plus/Google Plus Share Buttons
+SharedFields:
+- ID: 0f47d1b4-bcb4-4f7f-9065-6ecb46aab9a1
+  # Title
+  Value: Google Plus Share Buttons
+- ID: 4c1bf83b-06e2-4b07-ad16-0e65d95e356e
+  # Channel
+  Value: {DC70F72E-0A36-404D-8B10-86FE765A3BCC}
+- ID: 4daffaf8-9845-488f-b0fc-3b7e7880ffeb
+  # Type
+  Value: Online
+- ID: a4f985d9-98b3-4b52-aaaf-4344f6e747c6
+  # __Workflow
+  Value: {689E2994-4656-4C58-9112-7826CB46EE69}
+Languages:
+- Language: da
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150812T120203Z
+    - ID: 3e431de1-525e-47a3-b6b0-1ccbec3a8c98
+      # __Workflow state
+      Value: {EDCBB550-BED3-490F-82B8-7B2F14CCD26E}
+    - ID: 52807595-0f8f-4b20-8d2a-cb71d28c6103
+      # __Owner
+      Value: sitecore\admin
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+    - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+      # __Display name
+      Value: Del-knapper i Google+
+- Language: de-DE
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150812T115750Z
+    - ID: 3e431de1-525e-47a3-b6b0-1ccbec3a8c98
+      # __Workflow state
+      Value: {EDCBB550-BED3-490F-82B8-7B2F14CCD26E}
+    - ID: 52807595-0f8f-4b20-8d2a-cb71d28c6103
+      # __Owner
+      Value: sitecore\admin
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+    - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+      # __Display name
+      Value: Google+ Share Buttons
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20140130T095409Z
+    - ID: 3e431de1-525e-47a3-b6b0-1ccbec3a8c98
+      # __Workflow state
+      Value: {EDCBB550-BED3-490F-82B8-7B2F14CCD26E}
+    - ID: 52807595-0f8f-4b20-8d2a-cb71d28c6103
+      # __Owner
+      Value: sitecore\admin
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+    - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+      # __Display name
+      Value: Google+ Share Buttons
+- Language: ja-JP
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150812T115351Z
+    - ID: 3e431de1-525e-47a3-b6b0-1ccbec3a8c98
+      # __Workflow state
+      Value: {EDCBB550-BED3-490F-82B8-7B2F14CCD26E}
+    - ID: 52807595-0f8f-4b20-8d2a-cb71d28c6103
+      # __Owner
+      Value: sitecore\admin
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+    - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+      # __Display name
+      Value: Google+ シェア ボタン

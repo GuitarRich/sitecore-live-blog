@@ -1,0 +1,106 @@
+﻿---
+ID: 45545df7-ce57-4e59-9e35-ada353616dc3
+Parent: b62e6c0c-8be3-4f51-939a-db039eefa3a4
+Template: 6674a4af-eace-445e-89f1-e2f464026056
+Path: /sitecore/system/Settings/Analytics/Reports/Item Reports/Local Searches Leading to this Page
+SharedFields:
+- ID: 06d5295c-ed2f-4a54-9bf2-26228d113318
+  # __Icon
+  Value: Applications/32x32/exit.png
+- ID: 0cc4ad84-f69d-44d2-9600-5c7522aa2401
+  # File Name
+  Value: /sitecore/shell/Applications/Analytics/Reports/ItemReports/LocalSearchesLeadingToThisPage.mrt
+- ID: 16802c7a-011a-41ff-88b4-c33e6c737f3f
+  # Queries
+  Value: DataSource=%7b89F1C44D-32F6-4543-A12D-53AEA9A9CF1F%7d&Page=%7b0335CB18-C887-4F23-A674-A560D89B3A99%7d
+- ID: ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e
+  # __Sortorder
+  Value: 100
+Languages:
+- Language: da
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150812T120214Z
+    - ID: 52807595-0f8f-4b20-8d2a-cb71d28c6103
+      # __Owner
+      Value: sitecore\admin
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+    - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+      # __Display name
+      Value: Lokale søgninger, der fører til denne side
+    - ID: d71dcbf1-3e4c-4acd-9244-58aa5c1c8528
+      # Report Title
+      Value: Lokale søgninger førende til denne side
+    - ID: f38bb3c8-94d9-4815-8ce2-06fa4eb8fc80
+      # Report Description
+      Value: Denne rapport hjælper dig med at besvare følgende spørgsmål:<ul><li>Hvilke lokale søgeord fører besøgende til denne side?</li></ul>Denne rapport anfører søgeord, som besøgende bruger på din hjemmeside, og som fører dem til denne side. Dette er ordene og sætningerne, som besøgende er interesseret i, men ikke er i stand til at finde via menuen, links eller andre typiske browsingaktiviteter.
+- Language: de-DE
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150812T115802Z
+    - ID: 52807595-0f8f-4b20-8d2a-cb71d28c6103
+      # __Owner
+      Value: sitecore\admin
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+    - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+      # __Display name
+      Value: Lokale Suchen, die auf diese Seite führen
+    - ID: d71dcbf1-3e4c-4acd-9244-58aa5c1c8528
+      # Report Title
+      Value: Lokale Suchen, die auf diese Seite führen
+    - ID: f38bb3c8-94d9-4815-8ce2-06fa4eb8fc80
+      # Report Description
+      Value: Dieser Report hilft Ihnen, die folgende Frage zu beantworten:<ul><li>Welche lokalen Suchbegriffe bringen Besucher auf diese Seite?</li></ul>Dieser Report listet die Suchbegriffe auf, die Besucher auf Ihrer Seite verwenden und welche sie auf diese Seite bringen. Dies sind die Wörter und Phrasen, an denen Besucher interessiert sind, aber diese nicht über das Menü, Links oder andere typische Browsingaktivitäten finden können.
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20090127T202122
+    - ID: 52807595-0f8f-4b20-8d2a-cb71d28c6103
+      # __Owner
+      Value: sitecore\admin
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+    - ID: d71dcbf1-3e4c-4acd-9244-58aa5c1c8528
+      # Report Title
+      Value: Local Searches Leading to this Page
+    - ID: f38bb3c8-94d9-4815-8ce2-06fa4eb8fc80
+      # Report Description
+      Value: |
+        This report helps you answer the following question:<ul><li>Which local search terms lead visitors to this page?</li></ul>This report lists the search terms that visitors use on your site and which lead them to this page. These are the words and phrases that visitors are interested in but are unable to find through the menu, links, or other typical browsing activities.
+        
+- Language: ja-JP
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150812T115359Z
+    - ID: 52807595-0f8f-4b20-8d2a-cb71d28c6103
+      # __Owner
+      Value: sitecore\admin
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+    - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+      # __Display name
+      Value: このページに繋がるローカル検索
+    - ID: d71dcbf1-3e4c-4acd-9244-58aa5c1c8528
+      # Report Title
+      Value: このページに繋がるローカル検索
+    - ID: f38bb3c8-94d9-4815-8ce2-06fa4eb8fc80
+      # Report Description
+      Value: このレポートは次のような問に答えるために役立つ情報を提供します。<ul><li>ビジターはどのローカル検索用語を使用してこのページに来訪しているか。</li></ul>このレポートはサイトでビジターが使用し、それによってこのページに来訪した検索用語を一覧表示します。これらはビジターが関心を持っているが、メニューやリンクまたは通常の閲覧アクティビティで見つけることができなかった単語や熟語です。

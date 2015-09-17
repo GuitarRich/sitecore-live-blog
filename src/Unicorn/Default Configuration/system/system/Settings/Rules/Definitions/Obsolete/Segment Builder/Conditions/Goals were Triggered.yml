@@ -1,0 +1,83 @@
+﻿---
+ID: 601448d3-23d4-4c4c-a0fe-e92ca2ca9f6e
+Parent: 0cdead62-a62c-4e87-88fb-d1078375ef11
+Template: f0d16eee-3a05-4e43-a082-795a32b873c0
+Path: /sitecore/system/Settings/Rules/Definitions/Obsolete/Segment Builder/Conditions/Goals were Triggered
+SharedFields:
+- ID: ab51c8b2-f0e1-4471-9aae-cc080d774923
+  # Type
+  Value:  Sitecore.Analytics.Rules.SegmentBuilder.Conditions.HasGoalsCondition,Sitecore.SegmentBuilder
+Languages:
+- Language: da
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150203T012151:635585233117619429Z
+    - ID: 52807595-0f8f-4b20-8d2a-cb71d28c6103
+      # __Owner
+      Value: sitecore\admin
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+    - ID: af321234-4eb9-4ef5-9197-65903351939c
+      # Text
+      Value: hvor den besøgende har udløst målene [GoalIds,Treelist,root=/sitecore/system/Marketing Center/Goals&selection={475E9026-333F-432D-A4DC-52E03B75CB6B}|{059CFBDF-49FC-4F14-A4E5-B63E1E1AFB1E},specific] mindst én gang
+    - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+      # __Display name
+      Value: Har målbetingelse
+- Language: de-DE
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150203T012427:635585234671357732Z
+    - ID: 52807595-0f8f-4b20-8d2a-cb71d28c6103
+      # __Owner
+      Value: sitecore\admin
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+    - ID: af321234-4eb9-4ef5-9197-65903351939c
+      # Text
+      Value: wo der Besucher die [GoalIds,Treelist,root=/sitecore/system/Marketing Center/Goals&selection={475E9026-333F-432D-A4DC-52E03B75CB6B}|{059CFBDF-49FC-4F14-A4E5-B63E1E1AFB1E},spezifischen] Ziele mindestens einmal ausgelöst hat
+    - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+      # __Display name
+      Value: hat Zielbedingungen
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20090202T181635
+    - ID: 52807595-0f8f-4b20-8d2a-cb71d28c6103
+      # __Owner
+      Value: sitecore\admin
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+    - ID: af321234-4eb9-4ef5-9197-65903351939c
+      # Text
+      Value: where the [GoalIds,Treelist,root=/sitecore/system/Marketing Center/Goals&selection={475E9026-333F-432D-A4DC-52E03B75CB6B}|{059CFBDF-49FC-4F14-A4E5-B63E1E1AFB1E},specific] goals were triggered by contact at least once
+- Language: ja-JP
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150203T012308:635585233881207571Z
+    - ID: 52807595-0f8f-4b20-8d2a-cb71d28c6103
+      # __Owner
+      Value: sitecore\admin
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+    - ID: af321234-4eb9-4ef5-9197-65903351939c
+      # Text
+      Value: 条件： （ゴール） ビジターが一回以上 [GoalIds,Treelist,root=/sitecore/system/Marketing Center/Goals&selection={475E9026-333F-432D-A4DC-52E03B75CB6B}|{059CFBDF-49FC-4F14-A4E5-B63E1E1AFB1E},特定の] ゴールをトリガーした場合
+    - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+      # __Display name
+      Value: ゴール条件あり

@@ -1,0 +1,16 @@
+﻿---
+ID: b50e3868-1d2e-4b5d-bc05-135f23ce1abe
+Parent: 32566f0e-7686-45f1-a12f-d7260bd78bc3
+Template: a87a00b1-e6db-45ab-8b54-636fec3b5523
+Path: /sitecore/layout/Renderings/Live Blog
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150912T013413Z
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin

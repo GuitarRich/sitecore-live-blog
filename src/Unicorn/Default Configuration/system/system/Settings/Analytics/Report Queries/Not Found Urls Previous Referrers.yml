@@ -1,0 +1,89 @@
+﻿---
+ID: 6ed9c6c6-5628-40a8-b389-25fcb87b1f69
+Parent: daa53ca5-8136-462f-8b2a-f66365be1238
+Template: a90f48c4-4d4f-41d7-8497-070a9a50304e
+Path: /sitecore/system/Settings/Analytics/Report Queries/Not Found Urls Previous Referrers
+SharedFields:
+- ID: 72b1c86f-ae19-4534-abcf-0692378d41cf
+  # Data Source
+  Value: reporting
+- ID: a61cc636-3272-4fb6-bcf9-762940047a78
+  # Query
+  Value: |
+    select top 25 
+    	[ReferringSites].[ReferringSite] as [Referrer],
+    	CAST([Keywords].[Keywords] as nvarchar(100)) as [Keywords],
+    	COUNT([ReferringSites].[ReferringSite])	as [ReferrerTotal]
+    from [Fact_Failures],[ReferringSites], [Keywords], [FailureDetails]
+    where [Fact_Failures].[ReferringSiteId]  = [ReferringSites].[ReferringSiteId]  
+    	AND [Fact_Failures].[FailureDetailsId] = [FailureDetails].[FailureDetailsId] 
+    	AND [Fact_Failures].[KeywordsId] = [Keywords].[KeywordsId] 
+    	AND [FailureDetails].[Url] = @PageUrl
+            AND [Fact_Failures].[Date] BETWEEN @StartDate AND @EndDate
+    group by
+    	[ReferringSites].[ReferringSite],
+    	CAST([Keywords].[Keywords] as nvarchar(100)) 
+    order by 
+    	[ReferrerTotal] desc
+Languages:
+- Language: da
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150812T120226Z
+    - ID: 52807595-0f8f-4b20-8d2a-cb71d28c6103
+      # __Owner
+      Value: sitecore\admin
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+    - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+      # __Display name
+      Value: Ikke fundne URL'er fra tidligere henvisere
+- Language: de-DE
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150812T115814Z
+    - ID: 52807595-0f8f-4b20-8d2a-cb71d28c6103
+      # __Owner
+      Value: sitecore\admin
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+    - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+      # __Display name
+      Value: Nicht gefundene Urls Vorhergehende Verweisungen
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20110412T163644
+    - ID: 52807595-0f8f-4b20-8d2a-cb71d28c6103
+      # __Owner
+      Value: sitecore\admin
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+- Language: ja-JP
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150812T115408Z
+    - ID: 52807595-0f8f-4b20-8d2a-cb71d28c6103
+      # __Owner
+      Value: sitecore\admin
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+    - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+      # __Display name
+      Value: ページが見つからないエラーが報告された URL (直前の参照元)

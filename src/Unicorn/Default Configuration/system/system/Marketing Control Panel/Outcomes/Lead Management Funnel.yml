@@ -1,0 +1,95 @@
+﻿---
+ID: 8d21a54a-195a-45ff-a034-05f4d9c9a9af
+Parent: 062a1e69-0bf6-4d6d-ac4f-c11d0f7dc1e1
+Template: b90ca3f2-bcca-467a-be54-adda78bc3ac3
+Path: /sitecore/system/Marketing Control Panel/Outcomes/Lead Management Funnel
+SharedFields:
+- ID: a4f985d9-98b3-4b52-aaaf-4344f6e747c6
+  # __Workflow
+  Value: {689E2994-4656-4C58-9112-7826CB46EE69}
+Languages:
+- Language: da
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150812T120236Z
+    - ID: 3e431de1-525e-47a3-b6b0-1ccbec3a8c98
+      # __Workflow state
+      Value: {EDCBB550-BED3-490F-82B8-7B2F14CCD26E}
+    - ID: 52807595-0f8f-4b20-8d2a-cb71d28c6103
+      # __Owner
+      Value: sitecore\admin
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+    - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+      # __Display name
+      Value: Lead Management-kanal
+    - ID: f4a3e03c-2311-4276-b820-0f827d5e113a
+      # Name
+      Value: Lead Management-kanal
+- Language: de-DE
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150812T115824Z
+    - ID: 3e431de1-525e-47a3-b6b0-1ccbec3a8c98
+      # __Workflow state
+      Value: {EDCBB550-BED3-490F-82B8-7B2F14CCD26E}
+    - ID: 52807595-0f8f-4b20-8d2a-cb71d28c6103
+      # __Owner
+      Value: sitecore\admin
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+    - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+      # __Display name
+      Value: Lead Management Funnel
+    - ID: f4a3e03c-2311-4276-b820-0f827d5e113a
+      # Name
+      Value: Lead Management Funnel
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20140709T100441Z
+    - ID: 3e431de1-525e-47a3-b6b0-1ccbec3a8c98
+      # __Workflow state
+      Value: {EDCBB550-BED3-490F-82B8-7B2F14CCD26E}
+    - ID: 52807595-0f8f-4b20-8d2a-cb71d28c6103
+      # __Owner
+      Value: sitecore\admin
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+    - ID: f4a3e03c-2311-4276-b820-0f827d5e113a
+      # Name
+      Value: Lead Management Funnel
+- Language: ja-JP
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150812T115411Z
+    - ID: 3e431de1-525e-47a3-b6b0-1ccbec3a8c98
+      # __Workflow state
+      Value: {EDCBB550-BED3-490F-82B8-7B2F14CCD26E}
+    - ID: 52807595-0f8f-4b20-8d2a-cb71d28c6103
+      # __Owner
+      Value: sitecore\admin
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+    - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+      # __Display name
+      Value: リード マネージメント フィルター
+    - ID: f4a3e03c-2311-4276-b820-0f827d5e113a
+      # Name
+      Value: リード マネージメント フィルター

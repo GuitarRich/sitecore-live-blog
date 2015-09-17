@@ -1,0 +1,28 @@
+﻿---
+ID: fc118f80-8638-483c-a810-214e91f69ca4
+Parent: a87a00b1-e6db-45ab-8b54-636fec3b5523
+Template: a87a00b1-e6db-45ab-8b54-636fec3b5523
+Path: /sitecore/templates/Common/Folder/__Standard Values
+SharedFields:
+- ID: 1172f251-dad4-4efb-a329-0c63500e4f1e
+  # __Masters
+  Type: TreelistEx
+  Value: {A87A00B1-E6DB-45AB-8B54-636FEC3B5523}
+- ID: a0cb3965-8884-4c7a-8815-b6b2e5ced162
+  # __Editors
+  Type: TreelistEx
+  Value: {A0C460F4-DBAE-4A5A-8F3A-C4ADFCDACEEA}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20070126T130200
+    - ID: 52807595-0f8f-4b20-8d2a-cb71d28c6103
+      # __Owner
+      Value: sitecore\admin
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\Admin

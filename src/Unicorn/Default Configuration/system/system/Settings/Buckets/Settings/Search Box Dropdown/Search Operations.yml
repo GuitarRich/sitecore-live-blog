@@ -1,0 +1,104 @@
+﻿---
+ID: e17c0039-0d69-4137-be6f-c430a1a994da
+Parent: 00e978ae-076d-402f-b540-b1aca5bc65a1
+Template: 9f63f3ed-bfb8-49a3-b370-1830e0a5920f
+Path: /sitecore/system/Settings/Buckets/Settings/Search Box Dropdown/Search Operations
+SharedFields:
+- ID: 06d5295c-ed2f-4a54-9bf2-26228d113318
+  # __Icon
+  Value: Applications/32x32/find_again.png
+- ID: 37fe9542-c8e7-41d6-95b0-ae559a48eb04
+  # Command Name
+  Value: operations
+- ID: ccd35091-1a66-4ce5-a1d3-77a2ccd29142
+  # Type
+  Value: Sitecore.Buckets.Search.SearchDropdowns.SearchOperations, Sitecore.Buckets
+Languages:
+- Language: da
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150812T120301Z
+    - ID: 39d0a502-8aec-4ee6-8b9e-3c31ccb579c8
+      # Display Text
+      Value: Liste over handlinger, du kan foretage med resultaterne.
+    - ID: 52807595-0f8f-4b20-8d2a-cb71d28c6103
+      # __Owner
+      Value: sitecore\admin
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+    - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+      # __Display name
+      Value: Søgehandlinger
+    - ID: d9bdf564-ff37-4564-b943-00d4d89c19f1
+      # List Name
+      Value: Søgehandlinger
+- Language: de-DE
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150812T115845Z
+    - ID: 39d0a502-8aec-4ee6-8b9e-3c31ccb579c8
+      # Display Text
+      Value: Liste der Operationen, die Sie mit den Ergebnissen durchführen können.
+    - ID: 52807595-0f8f-4b20-8d2a-cb71d28c6103
+      # __Owner
+      Value: sitecore\admin
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+    - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+      # __Display name
+      Value: Suchaktionen
+    - ID: d9bdf564-ff37-4564-b943-00d4d89c19f1
+      # List Name
+      Value: Suchaktionen
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20111103T122200
+    - ID: 39d0a502-8aec-4ee6-8b9e-3c31ccb579c8
+      # Display Text
+      Value: List of operations that you can perform on the results.
+    - ID: 52807595-0f8f-4b20-8d2a-cb71d28c6103
+      # __Owner
+      Value: sitecore\admin
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+    - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+      # __Display name
+      Value: Search Operations
+    - ID: d9bdf564-ff37-4564-b943-00d4d89c19f1
+      # List Name
+      Value: Search Operations
+- Language: ja-JP
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150812T115428Z
+    - ID: 39d0a502-8aec-4ee6-8b9e-3c31ccb579c8
+      # Display Text
+      Value: 検索結果に対して実行可能な操作のリスト
+    - ID: 52807595-0f8f-4b20-8d2a-cb71d28c6103
+      # __Owner
+      Value: sitecore\admin
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+    - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+      # __Display name
+      Value: 検索操作
+    - ID: d9bdf564-ff37-4564-b943-00d4d89c19f1
+      # List Name
+      Value: 検索操作

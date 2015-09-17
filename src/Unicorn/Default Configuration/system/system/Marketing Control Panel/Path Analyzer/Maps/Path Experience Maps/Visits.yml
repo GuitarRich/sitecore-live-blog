@@ -1,0 +1,92 @@
+﻿---
+ID: ee56d222-9c42-41a4-83a5-bb48d50537c7
+Parent: ffb4e220-3181-4c22-b0ba-8400b56ba200
+Template: 98360c58-f51f-43a4-b057-9ef459c0ff10
+Path: /sitecore/system/Marketing Control Panel/Path Analyzer/Maps/Path Experience Maps/Visits
+SharedFields:
+- ID: 1172f251-dad4-4efb-a329-0c63500e4f1e
+  # __Masters
+  Type: TreelistEx
+  Value: {1A0C1FE0-7956-4020-981B-4CEA3C4F114A}
+- ID: 5b9f5881-8542-4aca-967b-2ab8ce815d07
+  # Rule
+  Type: Rules
+  Value: |
+    <ruleset>
+      <rule uid="{B5772885-5FC0-49B1-A7C8-110CD6C72A1D}">
+        <conditions>
+          <condition id="{5F804210-DC32-4EF1-9430-1D342189961E}" uid="2B83D54183CA476D939646DAE0FBED69" />
+        </conditions>
+        <actions>
+          <action id="{F0FDE44B-B200-416C-A048-C833D4106CA6}" uid="7EB9CFFBB8BE4CAFAD0B7C01ECFB7095" />
+        </actions>
+      </rule>
+    </ruleset>
+- ID: 9c6106ea-7a5a-48e2-8cad-f0f693b1e2d4
+  # __Read Only
+  Value: 1
+- ID: ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e
+  # __Sortorder
+  Value: 25
+Languages:
+- Language: da
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150812T120305Z
+    - ID: 52807595-0f8f-4b20-8d2a-cb71d28c6103
+      # __Owner
+      Value: sitecore\admin
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+    - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+      # __Display name
+      Value: Besøg
+- Language: de-DE
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150812T115846Z
+    - ID: 52807595-0f8f-4b20-8d2a-cb71d28c6103
+      # __Owner
+      Value: sitecore\admin
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+    - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+      # __Display name
+      Value: Besuche
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20140411T163752
+    - ID: 52807595-0f8f-4b20-8d2a-cb71d28c6103
+      # __Owner
+      Value: sitecore\admin
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+- Language: ja-JP
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150812T115430Z
+    - ID: 52807595-0f8f-4b20-8d2a-cb71d28c6103
+      # __Owner
+      Value: sitecore\admin
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+    - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+      # __Display name
+      Value: 訪問数

@@ -1,0 +1,97 @@
+﻿---
+ID: 238d9b14-2da6-435e-918e-f37615da7658
+Parent: ff0bc016-2d01-4f55-a020-ef6fc2fe7559
+Template: 664e5035-eb8c-4ba1-9731-a098fcc9127a
+Path: /sitecore/system/Settings/Rules/Insert Options/Rules/Bucket
+SharedFields:
+- ID: fa307b86-da2a-44bd-887d-e2057cdb4948
+  # Rule
+  Type: Rules
+  Value: |
+    <ruleset>
+      <rule uid="{E4DAEE95-7F3D-4438-A5A2-5D2F6A65CA71}">
+        <conditions>
+          <and uid="513D5E19DC744CC0813FAF07BFDA36EE">
+            <condition id="{58FC232E-C94E-4CDD-A41C-1633BBACB407}" uid="D9E4B9F6FB3D4F83979D9199682E1EF2" />
+            <condition id="{61C016A2-5210-4F1D-A663-BDA18BE487F6}" uid="C78F9109886C4873B89E4A9E73BAC499" fieldname="__Is Bucket" operatorid="{10537C58-1684-4CAB-B4C0-40C10907CE31}" value="1" />
+          </and>
+        </conditions>
+        <actions>
+          <action id="{918FFCF0-F9E1-4DB6-A191-3EFA5A91C583}" uid="79A78601B7BC494591AEF1B238C34C6F" insertoptionid="{98EC37BF-BCA6-40C6-A772-5C52190EF205}" />
+        </actions>
+      </rule>
+    </ruleset>
+Languages:
+- Language: da
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150812T120207Z
+    - ID: 52807595-0f8f-4b20-8d2a-cb71d28c6103
+      # __Owner
+      Value: sitecore\admin
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+    - ID: 9e0287d9-af90-41ad-8d36-332375e194d6
+      # Name
+      Value: Tilføj foretrukken søgeindstilling
+    - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+      # __Display name
+      Value: Bucket
+- Language: de-DE
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150812T115754Z
+    - ID: 52807595-0f8f-4b20-8d2a-cb71d28c6103
+      # __Owner
+      Value: sitecore\admin
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+    - ID: 9e0287d9-af90-41ad-8d36-332375e194d6
+      # Name
+      Value: Favoriten Suchoption hinzufügen
+    - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+      # __Display name
+      Value: Bucket
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20120912T071300
+    - ID: 52807595-0f8f-4b20-8d2a-cb71d28c6103
+      # __Owner
+      Value: sitecore\admin
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+    - ID: 9e0287d9-af90-41ad-8d36-332375e194d6
+      # Name
+      Value: Add Favourite Search Option
+- Language: ja-JP
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150812T115352Z
+    - ID: 52807595-0f8f-4b20-8d2a-cb71d28c6103
+      # __Owner
+      Value: sitecore\admin
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+    - ID: 9e0287d9-af90-41ad-8d36-332375e194d6
+      # Name
+      Value: お気に入りの検索オプションを追加する
+    - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+      # __Display name
+      Value: バケット

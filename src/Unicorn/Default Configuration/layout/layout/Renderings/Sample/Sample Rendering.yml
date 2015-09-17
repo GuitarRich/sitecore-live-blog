@@ -1,0 +1,151 @@
+﻿---
+ID: 493b3a83-0fa7-4484-8fc9-4680991cf743
+Parent: 1936b96e-da1f-4a3a-8aaf-8c46268e2d84
+Template: f1f1d639-4f54-40c2-8be0-81266b392ceb
+Path: /sitecore/layout/Renderings/Sample/Sample Rendering
+SharedFields:
+- ID: 06d5295c-ed2f-4a54-9bf2-26228d113318
+  # __Icon
+  Value: Applications/32x32/text_align_left.png
+- ID: 78783f79-1411-4b91-958d-ad81f81e2485
+  # Path
+  Value: /xsl/sample rendering.xslt
+- ID: 8aa9bb12-1a7b-4bc0-851a-25b7a1ff3a88
+  # Placeholder
+  Value: content
+Languages:
+- Language: da
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150812T120214Z
+    - ID: 52807595-0f8f-4b20-8d2a-cb71d28c6103
+      # __Owner
+      Value: sitecore\admin
+    - ID: 58266fb1-bed3-46f1-997d-117a3f5556ee
+      # Description
+      Value: |
+        <div>
+          <b>Eksempel på rendering</b>
+        <div>
+        <div style="padding:8px 8px 0px 8px;width:200px">
+        <img height="32" width="32" alt="Sample Rendering" style="float:left;margin:0px 8px 0px 0px" src="/sitecore/shell/Themes/standard/Applications/32x32/text_align_left.png?w=32&amp;h=32&amp;as=1" />
+        <div>
+        Eksemplet på renderingen aftegner en titel og en tekst.
+        <div>
+        </div>
+        </div>
+        </div>
+        </div>
+        <div>
+        </div>
+        </div>
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+    - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+      # __Display name
+      Value: Eksempel på rendering
+- Language: de-DE
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150812T115803Z
+    - ID: 52807595-0f8f-4b20-8d2a-cb71d28c6103
+      # __Owner
+      Value: sitecore\admin
+    - ID: 58266fb1-bed3-46f1-997d-117a3f5556ee
+      # Description
+      Value: |
+        <div>
+          <b>Beispiel-Rendering</b>
+        <div>
+        <div style="padding:8px 8px 0px 8px;width:200px">
+        <img height="32" width="32" alt="Sample Rendering" style="float:left;margin:0px 8px 0px 0px" src="~/icon/Applications/32x32/text_align_left.png?w=32&amp;h=32&amp;as=1" />
+        <div>
+        Das Beispiel-Rendering bezieht einen Titel und einen Text.
+        <div>
+        </div>
+        </div>
+        </div>
+        </div>
+        <div>
+        </div>
+        </div>
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+    - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+      # __Display name
+      Value: Beispiel-Rendering
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20080311T115653:633408334132248977
+    - ID: 52807595-0f8f-4b20-8d2a-cb71d28c6103
+      # __Owner
+      Value: sitecore\admin
+    - ID: 58266fb1-bed3-46f1-997d-117a3f5556ee
+      # Description
+      Value: |
+        
+        		<div>
+          <b>Sample Rendering</b>
+        <div>
+        <div style="padding:8px 8px 0px 8px;width:200px">
+        <img height="32" width="32" alt="Sample Rendering" style="float:left;margin:0px 8px 0px 0px" src="~/icon/Applications/32x32/text_align_left.png?w=32&amp;h=32&amp;as=1" />
+        <div>
+        The sample rendering draws a title and a text.
+        <div>
+        </div>
+        </div>
+        </div>
+        </div>
+        <div>
+        </div>
+        </div>
+        
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+- Language: ja-JP
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150812T115400Z
+    - ID: 52807595-0f8f-4b20-8d2a-cb71d28c6103
+      # __Owner
+      Value: sitecore\admin
+    - ID: 58266fb1-bed3-46f1-997d-117a3f5556ee
+      # Description
+      Value: |
+        <div>
+          <b>サンプル レンダリング</b>
+        <div>
+        <div style="padding:8px 8px 0px 8px;width:200px">
+        <img height="32" width="32" alt="サンプル レンダリング" style="float:left;margin:0px 8px 0px 0px" src="~/icon/Applications/32x32/text_align_left.png?w=32&amp;h=32&amp;as=1" />
+        <div>
+        サンプル レンダリングは [タイトル] と [テキスト] フィールドを描画します。
+        <div>
+        </div>
+        </div>
+        </div>
+        </div>
+        <div>
+        </div>
+        </div>
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+    - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+      # __Display name
+      Value: サンプル レンダリング

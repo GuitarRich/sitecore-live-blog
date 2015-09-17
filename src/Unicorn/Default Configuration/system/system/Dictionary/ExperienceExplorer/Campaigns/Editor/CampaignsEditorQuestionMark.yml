@@ -1,0 +1,91 @@
+﻿---
+ID: 917ce994-9e43-4ce9-9fd6-351a6abcc0f5
+Parent: d12bccd4-2213-4a4e-b8c3-ee41ef8d1f14
+Template: 6d1cd897-1936-4a3a-a511-289a94c2a7b1
+Path: /sitecore/system/Dictionary/ExperienceExplorer/Campaigns/Editor/CampaignsEditorQuestionMark
+SharedFields:
+- ID: 580c75a8-c01a-4580-83cb-987776ceb3af
+  # Key
+  Value: CampaignsEditorQuestionMark
+Languages:
+- Language: da
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150812T120237Z
+    - ID: 2ba3454a-9a9c-4cdf-a9f8-107fd484eb6e
+      # Phrase
+      Value: |
+        <p>Kampagner sporer digitale marketingtiltag. Du kan oprette og konfigurere kampagner i marketingkontrolpanelet.</p>
+        <p>Du kan tilknytte den kampagne, du vil udløse under dette besøg.</p>
+    - ID: 52807595-0f8f-4b20-8d2a-cb71d28c6103
+      # __Owner
+      Value: sitecore\admin
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+    - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+      # __Display name
+      Value: CampaignsEditorQuestionMark
+- Language: de-DE
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150812T115824Z
+    - ID: 2ba3454a-9a9c-4cdf-a9f8-107fd484eb6e
+      # Phrase
+      Value: |
+        <p>Kampagnen verfolgen digitale Marketinginitiativen. Sie Können Kampagnen in der Marketing Control Panel erstellung und konfigurieren.</p>
+        <p>Sie können die Kampagne hinzufügen, die Sie während dieses Besuchs auslösen wollen.</p>
+    - ID: 52807595-0f8f-4b20-8d2a-cb71d28c6103
+      # __Owner
+      Value: sitecore\admin
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+    - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+      # __Display name
+      Value: KampagnenEditorFragezeichen
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20130225T101900
+    - ID: 2ba3454a-9a9c-4cdf-a9f8-107fd484eb6e
+      # Phrase
+      Value: |
+        <p>Campaigns track digital marketing initiatives. You can create and configure campaigns in the Marketing Control Panel.</p>
+        <p>You can associate the campaign that you want to trigger during this visit.</p>
+    - ID: 52807595-0f8f-4b20-8d2a-cb71d28c6103
+      # __Owner
+      Value: sitecore\admin
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+- Language: ja-JP
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150812T115412Z
+    - ID: 2ba3454a-9a9c-4cdf-a9f8-107fd484eb6e
+      # Phrase
+      Value: |
+        <p>キャンペーンはデジタル マーケティングの開始をトラッキングします。 マーケティング コントロール パネルでキャンペーンを作成し設定することができます。</p>
+        <p>訪問中にトリガーしたいキャンペーンを関連付けることができます。</p>
+    - ID: 52807595-0f8f-4b20-8d2a-cb71d28c6103
+      # __Owner
+      Value: sitecore\admin
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+    - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+      # __Display name
+      Value: キャンペーン エディターの疑問符

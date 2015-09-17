@@ -1,0 +1,79 @@
+﻿---
+ID: 593d668c-81c8-4dd3-8097-1a0a6fa80d6e
+Parent: 7941d7d1-24ae-4478-beab-0227e14a1cf9
+Template: 00a60c7a-2373-4e30-8197-920b8374509e
+Path: /sitecore/system/Modules/Experience Explorer/Components/ExpViewer/Visitor Information
+Languages:
+- Language: da
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150812T120217Z
+    - ID: 4882658b-7490-4f7a-a16f-080bb4ae9e99
+      # Accordion Name
+      Value: Information om den besøgende
+    - ID: 52807595-0f8f-4b20-8d2a-cb71d28c6103
+      # __Owner
+      Value: sitecore\admin
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+    - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+      # __Display name
+      Value: Information om den besøgende
+- Language: de-DE
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150812T115808Z
+    - ID: 4882658b-7490-4f7a-a16f-080bb4ae9e99
+      # Accordion Name
+      Value: Besucher Information
+    - ID: 52807595-0f8f-4b20-8d2a-cb71d28c6103
+      # __Owner
+      Value: sitecore\admin
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+    - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+      # __Display name
+      Value: Besucher Information
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20130401T224117
+    - ID: 4882658b-7490-4f7a-a16f-080bb4ae9e99
+      # Accordion Name
+      Value: Visitor Information
+    - ID: 52807595-0f8f-4b20-8d2a-cb71d28c6103
+      # __Owner
+      Value: sitecore\admin
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+- Language: ja-JP
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150812T115406Z
+    - ID: 4882658b-7490-4f7a-a16f-080bb4ae9e99
+      # Accordion Name
+      Value: 訪問者情報
+    - ID: 52807595-0f8f-4b20-8d2a-cb71d28c6103
+      # __Owner
+      Value: sitecore\admin
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+    - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+      # __Display name
+      Value: 訪問者情報

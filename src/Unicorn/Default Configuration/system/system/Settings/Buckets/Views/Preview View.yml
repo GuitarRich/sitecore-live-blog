@@ -1,0 +1,97 @@
+﻿---
+ID: 75da7671-c7a8-4ddf-bb8a-9a22b3d86d7b
+Parent: 3b750f26-520e-4b33-852a-9633c54706be
+Template: 6c534f05-6b39-4afd-baf1-4cce81b29376
+Path: /sitecore/system/Settings/Buckets/Views/Preview View
+SharedFields:
+- ID: 2edef3fc-7264-443a-b0f4-3a2e3b602882
+  # Header Template
+  Value: <p>
+- ID: 390576a2-5452-4cae-ab91-116a8892cfd2
+  # Footer Template
+  Value: </p>
+- ID: 3a13dafa-0e96-4214-8c42-bc114cea529b
+  # Item Template
+  Value: |
+    <p style="margin: 0px 15px 20px 15px;
+    border: 1px solid #d6d6d6;
+    padding: 0 0 20px 0;
+    min-height: 72px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    list-style: none outside none;
+    text-align: left;
+    position: relative;
+    zoom: 1;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;"><iframe id="Editor" width="100%" height="100%" src="/?sc_site=website&sc_itemid=ItemIdPlaceholder&sc_lang=en&sc_mode=preview&sc_duration=temporary&sc_device=FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3" frameborder="no" marginwidth="0" marginheight="0"></iframe></p>
+- ID: b41248a7-5111-4a19-907d-4e7ee4358069
+  # Enabled
+  Value: 1
+- ID: bb7ff36d-6368-4117-ab7c-01aeff56bea2
+  # Name
+  Value: Preview View
+Languages:
+- Language: da
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150812T120229Z
+    - ID: 52807595-0f8f-4b20-8d2a-cb71d28c6103
+      # __Owner
+      Value: sitecore\admin
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+    - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+      # __Display name
+      Value: Preview visning
+- Language: de-DE
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150812T115816Z
+    - ID: 52807595-0f8f-4b20-8d2a-cb71d28c6103
+      # __Owner
+      Value: sitecore\admin
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+    - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+      # __Display name
+      Value: Vorschau Ansicht
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20121020T212600Z
+    - ID: 52807595-0f8f-4b20-8d2a-cb71d28c6103
+      # __Owner
+      Value: sitecore\admin
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+- Language: ja-JP
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150812T115409Z
+    - ID: 52807595-0f8f-4b20-8d2a-cb71d28c6103
+      # __Owner
+      Value: sitecore\admin
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+    - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+      # __Display name
+      Value: プレビュー　ビュー

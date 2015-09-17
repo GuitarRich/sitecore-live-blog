@@ -1,0 +1,86 @@
+﻿---
+ID: e57e6818-bfd1-47bb-a879-ef070156fc94
+Parent: c591e630-93f4-46f3-9f11-551f6a3aa37c
+Template: 419f8ffb-2713-4cec-86a7-7585a727fe25
+Path: /sitecore/system/Workflows/Sample Workflow/Awaiting Approval/Approve with Test/Validation Action
+SharedFields:
+- ID: 202f2a2c-6274-467f-a9c8-3ec4585a3060
+  # Critical Error
+  Value: You cannot approve an item with validation errors.
+- ID: 281ab75c-db54-4471-9675-c01fb380fb62
+  # Error
+  Value: You cannot approve an item with validation errors.
+- ID: 322164dc-27ac-404e-b7dc-b74c13cdba1e
+  # Type
+  Value: Sitecore.Workflows.Simple.ValidatorsAction, Sitecore.Kernel
+- ID: 95fd25aa-742d-41d2-8d04-6406bba8c60d
+  # Max Result
+  Value: Warning
+- ID: a50d7933-f230-4434-9538-29c802f0ce23
+  # Fatal Error
+  Value: You cannot approve an item with validation errors.
+- ID: ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e
+  # __Sortorder
+  Value: 0
+Languages:
+- Language: da
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150525T133042:635681574427444736Z
+    - ID: 52807595-0f8f-4b20-8d2a-cb71d28c6103
+      # __Owner
+      Value: sitecore\admin
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+    - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+      # __Display name
+      Value: Valideringshandling
+- Language: de-DE
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150525T134857:635681585379417418Z
+    - ID: 52807595-0f8f-4b20-8d2a-cb71d28c6103
+      # __Owner
+      Value: sitecore\admin
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+    - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+      # __Display name
+      Value: Validierungsaktion
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20071113T152154
+    - ID: 52807595-0f8f-4b20-8d2a-cb71d28c6103
+      # __Owner
+      Value: sitecore\admin
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+- Language: ja-JP
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150525T134019:635681580195630988Z
+    - ID: 52807595-0f8f-4b20-8d2a-cb71d28c6103
+      # __Owner
+      Value: sitecore\admin
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+    - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+      # __Display name
+      Value: 監査チェック

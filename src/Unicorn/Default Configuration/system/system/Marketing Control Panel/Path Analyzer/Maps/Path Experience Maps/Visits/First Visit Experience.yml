@@ -1,0 +1,121 @@
+﻿---
+ID: e049ad86-d98b-4639-a450-77d1b294a270
+Parent: ee56d222-9c42-41a4-83a5-bb48d50537c7
+Template: 1a0c1fe0-7956-4020-981b-4cea3c4f114a
+Path: /sitecore/system/Marketing Control Panel/Path Analyzer/Maps/Path Experience Maps/Visits/First Visit Experience
+SharedFields:
+- ID: 0a6277ff-b5ba-490b-8441-986b4f519fbf
+  # Rule
+  Type: Rules
+  Value: |
+    <ruleset>
+      <rule uid="{7D817E34-4960-478E-86E8-EE52B57BEC0C}">
+        <conditions>
+          <condition id="{61370693-189D-44A0-ABC5-2592DBD579ED}" uid="8F9DDF5FAB434797A21A4D86F2DD0894" operatorid="{066602E2-ED1D-44C2-A698-7ED27FD3A2CC}" no="1" />
+        </conditions>
+      </rule>
+    </ruleset>
+- ID: 9c6106ea-7a5a-48e2-8cad-f0f693b1e2d4
+  # __Read Only
+  Value: 1
+- ID: a4f985d9-98b3-4b52-aaaf-4344f6e747c6
+  # __Workflow
+  Value: {B879D176-4226-4C74-9ED4-6E61E813CBF7}
+Languages:
+- Language: da
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150812T120300Z
+    - ID: 31fcbeb2-376a-481f-bb44-ef52301f33ca
+      # Description
+      Value: <p>Denne oversigt viser kun oplevelsen for det første besøg.</p>
+    - ID: 3e431de1-525e-47a3-b6b0-1ccbec3a8c98
+      # __Workflow state
+      Value: {D86A72B4-7C3D-447E-9622-66B0DC1243F8}
+    - ID: 52807595-0f8f-4b20-8d2a-cb71d28c6103
+      # __Owner
+      Value: sitecore\admin
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+    - ID: a44d8693-f962-4f76-8fb8-62525ce67ba1
+      # Name
+      Value: Kun oplevelse for første besøg.
+    - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+      # __Display name
+      Value: Oplevelse for første besøg
+- Language: de-DE
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150812T115845Z
+    - ID: 31fcbeb2-376a-481f-bb44-ef52301f33ca
+      # Description
+      Value: <p>Diese Karte zeigt nur die Erfahrungen des ersten Besuchs.</p>
+    - ID: 3e431de1-525e-47a3-b6b0-1ccbec3a8c98
+      # __Workflow state
+      Value: {D86A72B4-7C3D-447E-9622-66B0DC1243F8}
+    - ID: 52807595-0f8f-4b20-8d2a-cb71d28c6103
+      # __Owner
+      Value: sitecore\admin
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+    - ID: a44d8693-f962-4f76-8fb8-62525ce67ba1
+      # Name
+      Value: Nur Erstbesucherfahrungen
+    - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+      # __Display name
+      Value: Erfahrungen des ersten Besuchs
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20140401T225231Z
+    - ID: 31fcbeb2-376a-481f-bb44-ef52301f33ca
+      # Description
+      Value: <p>This map shows only first visit experience.</p>
+    - ID: 3e431de1-525e-47a3-b6b0-1ccbec3a8c98
+      # __Workflow state
+      Value: {D86A72B4-7C3D-447E-9622-66B0DC1243F8}
+    - ID: 52807595-0f8f-4b20-8d2a-cb71d28c6103
+      # __Owner
+      Value: sitecore\admin
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+    - ID: a44d8693-f962-4f76-8fb8-62525ce67ba1
+      # Name
+      Value: Only first visits experience.
+- Language: ja-JP
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150812T115428Z
+    - ID: 31fcbeb2-376a-481f-bb44-ef52301f33ca
+      # Description
+      Value: <p>このマップは最初の訪問エクスペリエンスのみを表示します</p>
+    - ID: 3e431de1-525e-47a3-b6b0-1ccbec3a8c98
+      # __Workflow state
+      Value: {D86A72B4-7C3D-447E-9622-66B0DC1243F8}
+    - ID: 52807595-0f8f-4b20-8d2a-cb71d28c6103
+      # __Owner
+      Value: sitecore\admin
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+    - ID: a44d8693-f962-4f76-8fb8-62525ce67ba1
+      # Name
+      Value: 初回訪問エクスペリエンス限定
+    - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+      # __Display name
+      Value: 初回訪問エクスペリエンス

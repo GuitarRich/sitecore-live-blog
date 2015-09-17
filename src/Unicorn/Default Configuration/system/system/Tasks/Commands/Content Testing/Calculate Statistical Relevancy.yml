@@ -1,0 +1,26 @@
+﻿---
+ID: 6a79c206-0cd2-4ddd-9dff-5bf21e002931
+Parent: 3d7b63b3-096b-4bec-9e05-a6b3d8b31b29
+Template: 58119a3e-560e-4da6-97c6-1ace8a5b1219
+Path: /sitecore/system/Tasks/Commands/Content Testing/Calculate Statistical Relevancy
+SharedFields:
+- ID: 4bc75539-d5c4-487b-af35-ff13d62bd286
+  # Method
+  Value: Calculate
+- ID: 752579a7-ef2f-45b7-b9d1-9b682308b7a5
+  # Type
+  Value: Sitecore.ContentTesting.Tasks.StatisticalRelevancy, Sitecore.ContentTesting
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20140701T160340
+    - ID: 52807595-0f8f-4b20-8d2a-cb71d28c6103
+      # __Owner
+      Value: sitecore\admin
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin

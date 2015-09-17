@@ -1,0 +1,97 @@
+﻿---
+ID: 964a1b11-fffb-46b6-a301-aaaf6a82704a
+Parent: 84009799-c07f-4586-9e05-5d3f024c976a
+Template: 0a43a0fe-7e0e-49ef-95d4-e3de34f4f175
+Path: /sitecore/system/Settings/Analytics/Engagement Automation/Predefined items/Conditions/Is Email Address Validated
+SharedFields:
+- ID: 21f3482b-bb14-4555-ba5d-af20d400d5b9
+  # Rule
+  Type: Rules
+  Value: |
+    <ruleset>
+      <rule uid="{DF7C89C0-57C8-408B-BE78-840564723D6D}">
+        <conditions>
+          <condition id="{198E2B64-CBE4-4B6F-8FD7-2A304A410693}" uid="803F715264E34CE992F59BC985367FC5" operatorid="{814EF7D0-1639-44FD-AEEF-735B5AC14425}" AuthenticationLevel="1" Level="1" />
+        </conditions>
+      </rule>
+    </ruleset>
+- ID: e13dcd09-d9bb-43c9-8d7d-438c79d714ca
+  # Evaluate
+  Value: {B81C1F4C-8B83-44D9-902F-448463DBCCBC}
+Languages:
+- Language: da
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 06f2d72a-1924-4b9a-ba1e-186ce4e57efd
+      # Description
+      Value: Mailadressen er valideret som korrekt.
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150812T120238Z
+    - ID: 52807595-0f8f-4b20-8d2a-cb71d28c6103
+      # __Owner
+      Value: sitecore\admin
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+    - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+      # __Display name
+      Value: Er mailadressen valideret
+- Language: de-DE
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 06f2d72a-1924-4b9a-ba1e-186ce4e57efd
+      # Description
+      Value: Die E-Mail Adresse wurde als gültig bestätigt
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150812T115825Z
+    - ID: 52807595-0f8f-4b20-8d2a-cb71d28c6103
+      # __Owner
+      Value: sitecore\admin
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+    - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+      # __Display name
+      Value: Ist die E-Mail Adresse bestätigt
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 06f2d72a-1924-4b9a-ba1e-186ce4e57efd
+      # Description
+      Value: The email address has been validated as correct.
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20110221T112700
+    - ID: 52807595-0f8f-4b20-8d2a-cb71d28c6103
+      # __Owner
+      Value: sitecore\admin
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+    - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+      # __Display name
+      Value: Is Email Address Validated
+- Language: ja-JP
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 06f2d72a-1924-4b9a-ba1e-186ce4e57efd
+      # Description
+      Value: 電子メール アドレスは有効なアドレスと検証された場合に真 (True) と判定されます。
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150812T115412Z
+    - ID: 52807595-0f8f-4b20-8d2a-cb71d28c6103
+      # __Owner
+      Value: sitecore\admin
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+    - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+      # __Display name
+      Value: 電子メール アドレスが有効の場合

@@ -1,0 +1,114 @@
+﻿---
+ID: 512c1c49-5ad2-4ae7-bec6-0ce9f1a9932a
+Parent: ef2d7fda-0687-4c1b-901f-849bc1fa7f6b
+Template: 6674a4af-eace-445e-89f1-e2f464026056
+Path: /sitecore/system/Settings/Analytics/Reports/Reports/Site Health/Common Mistakes
+SharedFields:
+- ID: 06d5295c-ed2f-4a54-9bf2-26228d113318
+  # __Icon
+  Value: Applications/32x32/Error.png
+- ID: 0cc4ad84-f69d-44d2-9600-5c7522aa2401
+  # File Name
+  Value: /sitecore/shell/Applications/Analytics/Reports/CommonMistakes.mrt
+- ID: 16802c7a-011a-41ff-88b4-c33e6c737f3f
+  # Queries
+  Value: Failures=%7b42DFC2E6-7BF8-4599-B804-B08713D2B5EC%7d&LatestSessions=%7b89849AEE-8C65-4FE0-A837-6CB60F32F4BB%7d
+Languages:
+- Language: da
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150812T120215Z
+    - ID: 52807595-0f8f-4b20-8d2a-cb71d28c6103
+      # __Owner
+      Value: sitecore\admin
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+    - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+      # __Display name
+      Value: Almindelige fejl
+    - ID: d71dcbf1-3e4c-4acd-9244-58aa5c1c8528
+      # Report Title
+      Value: Almindelige fejl
+    - ID: f38bb3c8-94d9-4815-8ce2-06fa4eb8fc80
+      # Report Description
+      Value: |
+        Denne rapport hjælper dig med at besvare følgende spørgsmål:<ul><li>Hvor opstår der fejl på hjemmesiden?</li></ul>Denne rapport anfører besøg, der stødte på et problem. Problemer er grupperet efter kategori med besøg sorteret efter dato og tid. De hyppigste problemkategorier bliver vist først. Eksempler på de anførte problemer er:<ul><li>Side ikke fundet</li><li>Ingen søgehit fundet</li><li>Framelding</li></ul>Rapporten viser problemkategorien, hvor ofte den forekom, og hvornår den forekom. Brug denne rapport for at identificere de fejl, som dine besøgende finder.<br/>
+        Kør denne rapport hver dag for at identificere problemer på din hjemmeside.<br/>
+        Klik på dato og tid under Seneste besøg for at åbne Besøgsoplysningsrapporten og få vist al aktivitet i den session.
+- Language: de-DE
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150812T115805Z
+    - ID: 52807595-0f8f-4b20-8d2a-cb71d28c6103
+      # __Owner
+      Value: sitecore\admin
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+    - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+      # __Display name
+      Value: Häufige Fehler
+    - ID: d71dcbf1-3e4c-4acd-9244-58aa5c1c8528
+      # Report Title
+      Value: Häufige Fehler
+    - ID: f38bb3c8-94d9-4815-8ce2-06fa4eb8fc80
+      # Report Description
+      Value: |
+        Dieser Report hilft Ihnen dabei, die folgende Frage zu beantworten:<ul><li>Wo auf der Website treten Fehler auf?</li></ul>Dieser Report listet Besuche, die ein Problem verursacht haben. Probleme werden nach Kategorien mit den Besuchen, geordnet nach Datum, gruppiert.  Die häufigste Kategorie von Problemen erscheint zuerst. Beispiele aufgelisteter Probleme sind:<ul><li>Seite nicht gefunden</li><li>Keine Suchtreffer gefunden</li><li>Abbestellen</li></ul>Der Report zeigt die Kategorie des Problems, wie oft es aufgetreten ist und wann es aufgetreten ist. Benutzen Sie diesen Report, um die Fehler, die Ihre Besucher finden zu identifizieren.<br/>
+        Führen Sie diesen Report täglich aus, um Probleme auf Ihrer Website zu identifizieren.<br/>
+        Klicken Sie auf Datum Uhrzeit unter 'Neuste Besuche', um den Report Besuchsdetails zu öffnen und alle Aktivität in dieser Session anzuzeigen. Report Beschreibung
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20110412T111131
+    - ID: 52807595-0f8f-4b20-8d2a-cb71d28c6103
+      # __Owner
+      Value: sitecore\admin
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+    - ID: d71dcbf1-3e4c-4acd-9244-58aa5c1c8528
+      # Report Title
+      Value: Common Mistakes
+    - ID: f38bb3c8-94d9-4815-8ce2-06fa4eb8fc80
+      # Report Description
+      Value: |
+        This report helps you answer the following question:<ul><li>Where do mistakes occur on the website?</li></ul>This report lists visits that incurred a problem. Problems are grouped by category with the visits sorted by date time. The most frequent category of problems appears first. Examples of problems listed are:<ul><li>Page Not Found</li><li>No Search Hits Found</li><li>Unsubscribe</li></ul>The report shows the category of problem, how often it occurred, and when it occurred. Use this report to identify the errors your visitors are finding.<br/>
+        Run this report every day to identify problems on your website.<br/>
+        Click the date time under Latest Visits to open the  Visit Details report and display all activity in that session.
+        
+- Language: ja-JP
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150812T115403Z
+    - ID: 52807595-0f8f-4b20-8d2a-cb71d28c6103
+      # __Owner
+      Value: sitecore\admin
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+    - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+      # __Display name
+      Value: 頻度の高いエラー
+    - ID: d71dcbf1-3e4c-4acd-9244-58aa5c1c8528
+      # Report Title
+      Value: 頻度の高いエラー
+    - ID: f38bb3c8-94d9-4815-8ce2-06fa4eb8fc80
+      # Report Description
+      Value: |
+        このレポートは次の用途に使用できます：<ul><li>どのようなエラーがウェブサイト上で発生しているか？</li></ul>このレポートは問題が発生した訪問の一覧です。訪問日時毎に問題は分類されます。最も頻度の高い問題のカテゴリーを先頭に表示します。例：以下の問題が表示されます<ul><li>ページが見つかりません</li><li>検索結果がみつかりません</li><li>購読の解除</li></ul>このレポートは問題のカテゴリー、発生頻度や日時を表示します。このレポートを使用してビジターに発生したエラーを特定してください。<br/>
+        このレポートはウェブサイトの問題を識別するために毎日チェックしてください。<br/>
+        [最新の訪問] 項目の日時をクリックして [訪問の詳細] レポートを表示し、セッション内のすべてのアクティビティを閲覧することもできます。

@@ -1,0 +1,85 @@
+﻿---
+ID: d2d6f9f0-6f26-44d6-8345-d44037831928
+Parent: 696fac52-92b8-4ff0-9f9e-e8b997110469
+Template: a90f48c4-4d4f-41d7-8497-070a9a50304e
+Path: /sitecore/system/Settings/Analytics/Report Queries/Content Testing/Test Outcome by Test Id
+SharedFields:
+- ID: 72b1c86f-ae19-4534-abcf-0692378d41cf
+  # Data Source
+  Value: reporting
+- ID: a61cc636-3272-4fb6-bcf9-762940047a78
+  # Query
+  Value: |
+    SELECT
+            [TestOwner]
+            ,[CompletionDate]
+            ,[TestScore]
+            ,[Effect]
+            ,[Guess]
+    FROM
+            [Fact_TestOutcomes]
+    WHERE
+            [TestSetId] = @TestId
+    
+Languages:
+- Language: da
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150525T133035:635681574351503834Z
+    - ID: 52807595-0f8f-4b20-8d2a-cb71d28c6103
+      # __Owner
+      Value: sitecore\admin
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+    - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+      # __Display name
+      Value: Testresultat efter test-id
+- Language: de-DE
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150525T134849:635681585297384593Z
+    - ID: 52807595-0f8f-4b20-8d2a-cb71d28c6103
+      # __Owner
+      Value: sitecore\admin
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+    - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+      # __Display name
+      Value: Testergebnis nach Test Id
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20140424T222828
+    - ID: 52807595-0f8f-4b20-8d2a-cb71d28c6103
+      # __Owner
+      Value: sitecore\admin
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+- Language: ja-JP
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150525T134010:635681580103752640Z
+    - ID: 52807595-0f8f-4b20-8d2a-cb71d28c6103
+      # __Owner
+      Value: sitecore\admin
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+    - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+      # __Display name
+      Value: テスト ID によるテスト結果

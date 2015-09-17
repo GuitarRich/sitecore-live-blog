@@ -1,0 +1,135 @@
+﻿---
+ID: 6868b051-6208-4f56-918b-cd02e5ce5c43
+Parent: 30038eef-ca75-4cca-84c3-ffb1f3a19f21
+Template: 271f5cf1-95c7-474d-9f04-06c6ebb20d8f
+Path: /sitecore/system/Settings/Rules/Definitions/Elements/Visitor/Visibility/GeoIP visibility
+Languages:
+- Language: da
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150812T120224Z
+    - ID: 52807595-0f8f-4b20-8d2a-cb71d28c6103
+      # __Owner
+      Value: sitecore\admin
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+    - ID: 664ceceb-0446-4063-92a3-1e14837f4d0c
+      # Rule
+      Type: Rules
+      Value: |
+        <ruleset>
+          <rule uid="{E8E788A7-195C-46A5-96EF-CB10F7C66BB1}">
+            <conditions>
+              <condition id="{419CF8CE-EDC4-4D24-B7C4-4730DB9E9CDE}" uid="4B81E1E304B642D6841C806B8D367583" except="true" />
+            </conditions>
+            <actions>
+              <action id="{EDDE9129-8CF8-4630-A625-56BA8E38489E}" uid="48B4910E821A4253A530AEFF77F41F43" />
+            </actions>
+          </rule>
+        </ruleset>
+    - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+      # __Display name
+      Value: Synlighed for GeoIP
+    - ID: f9abbe04-6a99-49da-906d-8b0a709c377f
+      # Name
+      Value: Synlighed for GeoIP
+- Language: de-DE
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150812T115812Z
+    - ID: 52807595-0f8f-4b20-8d2a-cb71d28c6103
+      # __Owner
+      Value: sitecore\admin
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+    - ID: 664ceceb-0446-4063-92a3-1e14837f4d0c
+      # Rule
+      Type: Rules
+      Value: |
+        <ruleset>
+          <rule uid="{E8E788A7-195C-46A5-96EF-CB10F7C66BB1}">
+            <conditions>
+              <condition id="{419CF8CE-EDC4-4D24-B7C4-4730DB9E9CDE}" uid="4B81E1E304B642D6841C806B8D367583" except="true" />
+            </conditions>
+            <actions>
+              <action id="{EDDE9129-8CF8-4630-A625-56BA8E38489E}" uid="48B4910E821A4253A530AEFF77F41F43" />
+            </actions>
+          </rule>
+        </ruleset>
+    - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+      # __Display name
+      Value: GeoIP Sichtbarkeit
+    - ID: f9abbe04-6a99-49da-906d-8b0a709c377f
+      # Name
+      Value: GeoIP Sichtbarkeit
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20120807T152400
+    - ID: 52807595-0f8f-4b20-8d2a-cb71d28c6103
+      # __Owner
+      Value: sitecore\admin
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+    - ID: 664ceceb-0446-4063-92a3-1e14837f4d0c
+      # Rule
+      Type: Rules
+      Value: |
+        <ruleset>
+          <rule uid="{E8E788A7-195C-46A5-96EF-CB10F7C66BB1}">
+            <conditions>
+              <condition id="{419CF8CE-EDC4-4D24-B7C4-4730DB9E9CDE}" uid="4B81E1E304B642D6841C806B8D367583" except="true" />
+            </conditions>
+            <actions>
+              <action id="{EDDE9129-8CF8-4630-A625-56BA8E38489E}" uid="48B4910E821A4253A530AEFF77F41F43" />
+            </actions>
+          </rule>
+        </ruleset>
+    - ID: f9abbe04-6a99-49da-906d-8b0a709c377f
+      # Name
+      Value: GeoIP visibility
+- Language: ja-JP
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150812T115408Z
+    - ID: 52807595-0f8f-4b20-8d2a-cb71d28c6103
+      # __Owner
+      Value: sitecore\admin
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+    - ID: 664ceceb-0446-4063-92a3-1e14837f4d0c
+      # Rule
+      Type: Rules
+      Value: |
+        <ruleset>
+          <rule uid="{E8E788A7-195C-46A5-96EF-CB10F7C66BB1}">
+            <conditions>
+              <condition id="{419CF8CE-EDC4-4D24-B7C4-4730DB9E9CDE}" uid="4B81E1E304B642D6841C806B8D367583" except="true" />
+            </conditions>
+            <actions>
+              <action id="{EDDE9129-8CF8-4630-A625-56BA8E38489E}" uid="48B4910E821A4253A530AEFF77F41F43" />
+            </actions>
+          </rule>
+        </ruleset>
+    - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+      # __Display name
+      Value: GeoIP 表示/非表示
+    - ID: f9abbe04-6a99-49da-906d-8b0a709c377f
+      # Name
+      Value: GeoIP 表示/非表示

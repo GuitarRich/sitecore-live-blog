@@ -1,0 +1,98 @@
+﻿---
+ID: 229baddc-59d2-4294-bf2a-08e5b2bf6b29
+Parent: ff0bc016-2d01-4f55-a020-ef6fc2fe7559
+Template: 664e5035-eb8c-4ba1-9731-a098fcc9127a
+Path: /sitecore/system/Settings/Rules/Insert Options/Rules/Analytics Campaigns
+SharedFields:
+- ID: fa307b86-da2a-44bd-887d-e2057cdb4948
+  # Rule
+  Type: Rules
+  Value: |
+    <ruleset>
+      <rule uid="{E7AB9171-9846-45EF-B81C-8AB87742CA52}">
+        <conditions>
+          <and uid="{DC0C2263-6BE7-4A1A-BB8E-789AD8E70522}">
+            <condition id="{7D5DA661-BEF9-441C-B1F7-D80DE3E0972F}" uid="{16986651-A29E-4B02-8A0C-B69AE7B7981F}" itemid="{EC095310-746F-4C1B-A73F-941863564DC2}" />
+            <condition id="{5DE6D53E-EA62-4D17-8BDD-FEBCD80AC07B}" uid="{9F24CF8B-208C-4F73-85F7-3E6CF74BFE54}" templateid="{A87A00B1-E6DB-45AB-8B54-636FEC3B5523}" />
+          </and>
+        </conditions>
+        <actions>
+          <action id="{918FFCF0-F9E1-4DB6-A191-3EFA5A91C583}" uid="{F1E653AA-B941-4B4F-8372-CC3B29CA3976}" insertoptionid="{94FD1606-139E-46EE-86FF-BC5BF3C79804}" />
+          <action id="{918FFCF0-F9E1-4DB6-A191-3EFA5A91C583}" uid="6B83C300AB944252A3FE4E8AA6CD6267" insertoptionid="{56682FE6-9679-4B69-9589-60C99AA08BEC}" />
+        </actions>
+      </rule>
+    </ruleset>
+Languages:
+- Language: da
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150812T120206Z
+    - ID: 52807595-0f8f-4b20-8d2a-cb71d28c6103
+      # __Owner
+      Value: sitecore\admin
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+    - ID: 9e0287d9-af90-41ad-8d36-332375e194d6
+      # Name
+      Value: Tilføj alias, når skabelonen er et eksempel på et element
+    - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+      # __Display name
+      Value: Analytics-kampagner
+- Language: de-DE
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150812T115753Z
+    - ID: 52807595-0f8f-4b20-8d2a-cb71d28c6103
+      # __Owner
+      Value: sitecore\admin
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+    - ID: 9e0287d9-af90-41ad-8d36-332375e194d6
+      # Name
+      Value: Wenn das Template ein Beispiel Item ist, fügen Sie einen Alias hinzu
+    - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+      # __Display name
+      Value: Analytics Kampagne
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20090401T122100
+    - ID: 52807595-0f8f-4b20-8d2a-cb71d28c6103
+      # __Owner
+      Value: sitecore\admin
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+    - ID: 9e0287d9-af90-41ad-8d36-332375e194d6
+      # Name
+      Value: When Template is Sample Item, add Alias
+- Language: ja-JP
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150812T115352Z
+    - ID: 52807595-0f8f-4b20-8d2a-cb71d28c6103
+      # __Owner
+      Value: sitecore\admin
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+    - ID: 9e0287d9-af90-41ad-8d36-332375e194d6
+      # Name
+      Value: テンプレートがサンプル アイテムの場合、エイリアスを追加する
+    - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+      # __Display name
+      Value: アナリティクス キャンペーン

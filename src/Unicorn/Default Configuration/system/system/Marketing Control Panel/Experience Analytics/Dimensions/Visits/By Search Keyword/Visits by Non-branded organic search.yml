@@ -1,0 +1,101 @@
+﻿---
+ID: 90bc2aa8-8062-4954-a986-a6b045b3dca7
+Parent: df6fcd1e-cbca-4747-9109-abf132189a01
+Template: a87ee256-044e-450d-a73c-9a464aa773ef
+Path: /sitecore/system/Marketing Control Panel/Experience Analytics/Dimensions/Visits/By Search Keyword/Visits by Non-branded organic search
+SharedFields:
+- ID: 4bf22e26-3a47-454e-b047-5f31480396fe
+  # Filter
+  Value: {F83BBBC6-1470-4BE7-BA18-5E4CAFE4D0CE}
+- ID: a4f985d9-98b3-4b52-aaaf-4344f6e747c6
+  # __Workflow
+  Value: {933DFBF3-3D97-4FF7-9F5E-74579BD1A219}
+- ID: ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e
+  # __Sortorder
+  Value: 50
+Languages:
+- Language: da
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150812T120237Z
+    - ID: 3e431de1-525e-47a3-b6b0-1ccbec3a8c98
+      # __Workflow state
+      Value: {3C70E8B1-D6D2-42CC-8E21-1AE8EC72A0FB}
+    - ID: 52807595-0f8f-4b20-8d2a-cb71d28c6103
+      # __Owner
+      Value: sitecore\admin
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+    - ID: 9b0413da-641e-46d9-8a2a-d8598479952c
+      # Name
+      Value: Besøg efter ikke-branded organisk søgning
+    - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+      # __Display name
+      Value: Besøg efter ikke-branded organisk søgning
+- Language: de-DE
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150812T115824Z
+    - ID: 3e431de1-525e-47a3-b6b0-1ccbec3a8c98
+      # __Workflow state
+      Value: {3C70E8B1-D6D2-42CC-8E21-1AE8EC72A0FB}
+    - ID: 52807595-0f8f-4b20-8d2a-cb71d28c6103
+      # __Owner
+      Value: sitecore\admin
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+    - ID: 9b0413da-641e-46d9-8a2a-d8598479952c
+      # Name
+      Value: Besuche nach Non-Branded organischer Suche
+    - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+      # __Display name
+      Value: Besuche nach Non-Branded organischer Suche
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20141007T074307Z
+    - ID: 3e431de1-525e-47a3-b6b0-1ccbec3a8c98
+      # __Workflow state
+      Value: {3C70E8B1-D6D2-42CC-8E21-1AE8EC72A0FB}
+    - ID: 52807595-0f8f-4b20-8d2a-cb71d28c6103
+      # __Owner
+      Value: sitecore\admin
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+    - ID: 9b0413da-641e-46d9-8a2a-d8598479952c
+      # Name
+      Value: Visits by Non-branded organic search
+- Language: ja-JP
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150812T115412Z
+    - ID: 3e431de1-525e-47a3-b6b0-1ccbec3a8c98
+      # __Workflow state
+      Value: {3C70E8B1-D6D2-42CC-8E21-1AE8EC72A0FB}
+    - ID: 52807595-0f8f-4b20-8d2a-cb71d28c6103
+      # __Owner
+      Value: sitecore\admin
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+    - ID: 9b0413da-641e-46d9-8a2a-d8598479952c
+      # Name
+      Value: ブランド指定なしのオーガニック検索からの訪問
+    - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+      # __Display name
+      Value: ブランド指定なしのオーガニック検索からの訪問

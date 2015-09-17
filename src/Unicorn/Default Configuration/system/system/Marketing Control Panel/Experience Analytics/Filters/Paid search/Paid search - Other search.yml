@@ -1,0 +1,127 @@
+﻿---
+ID: 127e380e-65e1-478e-abe7-15565ec136ae
+Parent: f201003b-514b-4a86-8c56-48b39de53306
+Template: 07003270-d56d-42c2-90e1-99125e0ed1af
+Path: /sitecore/system/Marketing Control Panel/Experience Analytics/Filters/Paid search/Paid search - Other search
+SharedFields:
+- ID: ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e
+  # __Sortorder
+  Value: 500
+Languages:
+- Language: da
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 1e72123a-f0fc-48ef-ae9f-78872597cebf
+      # Rule
+      Type: Rules
+      Value: |
+        <ruleset>
+          <rule uid="{AB79A790-CB73-409A-A41D-7D38F792DA98}">
+            <conditions>
+              <condition id="{2F421912-F1B3-49D8-82B8-50A64C80E4E3}" uid="5C58C3D03C2A491EB84EA59CA706753E" ChannelId="{B5234879-DFFC-47AF-8267-59D4D3DF6226}" />
+            </conditions>
+            <actions>
+              <action id="{E7AD708C-9943-4173-9055-ED9B078932B2}" uid="0CF98D9DE0384ADDB87E04B46E512692" />
+            </actions>
+          </rule>
+        </ruleset>
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150812T120200Z
+    - ID: 52807595-0f8f-4b20-8d2a-cb71d28c6103
+      # __Owner
+      Value: sitecore\admin
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+    - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+      # __Display name
+      Value: Betalt søgning – anden søgning
+- Language: de-DE
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 1e72123a-f0fc-48ef-ae9f-78872597cebf
+      # Rule
+      Type: Rules
+      Value: |
+        <ruleset>
+          <rule uid="{AB79A790-CB73-409A-A41D-7D38F792DA98}">
+            <conditions>
+              <condition id="{2F421912-F1B3-49D8-82B8-50A64C80E4E3}" uid="5C58C3D03C2A491EB84EA59CA706753E" ChannelId="{B5234879-DFFC-47AF-8267-59D4D3DF6226}" />
+            </conditions>
+            <actions>
+              <action id="{E7AD708C-9943-4173-9055-ED9B078932B2}" uid="0CF98D9DE0384ADDB87E04B46E512692" />
+            </actions>
+          </rule>
+        </ruleset>
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150812T115748Z
+    - ID: 52807595-0f8f-4b20-8d2a-cb71d28c6103
+      # __Owner
+      Value: sitecore\admin
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+    - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+      # __Display name
+      Value: Bezahlte Suche - Andere Suche
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 1e72123a-f0fc-48ef-ae9f-78872597cebf
+      # Rule
+      Type: Rules
+      Value: |
+        <ruleset>
+          <rule uid="{AB79A790-CB73-409A-A41D-7D38F792DA98}">
+            <conditions>
+              <condition id="{2F421912-F1B3-49D8-82B8-50A64C80E4E3}" uid="5C58C3D03C2A491EB84EA59CA706753E" ChannelId="{B5234879-DFFC-47AF-8267-59D4D3DF6226}" />
+            </conditions>
+            <actions>
+              <action id="{E7AD708C-9943-4173-9055-ED9B078932B2}" uid="0CF98D9DE0384ADDB87E04B46E512692" />
+            </actions>
+          </rule>
+        </ruleset>
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20141007T102748Z
+    - ID: 52807595-0f8f-4b20-8d2a-cb71d28c6103
+      # __Owner
+      Value: sitecore\admin
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+- Language: ja-JP
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 1e72123a-f0fc-48ef-ae9f-78872597cebf
+      # Rule
+      Type: Rules
+      Value: |
+        <ruleset>
+          <rule uid="{AB79A790-CB73-409A-A41D-7D38F792DA98}">
+            <conditions>
+              <condition id="{2F421912-F1B3-49D8-82B8-50A64C80E4E3}" uid="5C58C3D03C2A491EB84EA59CA706753E" ChannelId="{B5234879-DFFC-47AF-8267-59D4D3DF6226}" />
+            </conditions>
+            <actions>
+              <action id="{E7AD708C-9943-4173-9055-ED9B078932B2}" uid="0CF98D9DE0384ADDB87E04B46E512692" />
+            </actions>
+          </rule>
+        </ruleset>
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150812T115351Z
+    - ID: 52807595-0f8f-4b20-8d2a-cb71d28c6103
+      # __Owner
+      Value: sitecore\admin
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+    - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+      # __Display name
+      Value: 有料検索 - その他の検索

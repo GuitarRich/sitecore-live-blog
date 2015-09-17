@@ -1,0 +1,103 @@
+﻿---
+ID: 809528b1-588a-42a7-93c1-41e73800100a
+Parent: 1ce3b36c-9b0c-4eb5-a996-bfcb4eaa5287
+Template: 5c547d4e-7111-4995-95b0-6b561751bf2e
+Path: /sitecore/layout/Placeholder Settings/webedit
+SharedFields:
+- ID: 7256bdab-1fd2-49dd-b205-cb4873d2917c
+  # Placeholder Key
+  Value: webedit
+Languages:
+- Language: da
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150812T120231Z
+    - ID: 52807595-0f8f-4b20-8d2a-cb71d28c6103
+      # __Owner
+      Value: sitecore\admin
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+    - ID: 87871ff5-1965-46d6-884f-01d6a0b9c4c1
+      # Description
+      Value: |
+        <div style="font-size: 0.8em;">
+        <p style="margin-top: 0px;">Sitecore 6.4 og nyere udgaver understøtter webedit-placeholderen for kompatibilitet med tidligere udgaver, men udfaser denne funktion.</p>
+        <p>Hvis et layout indeholder en placeholder med tasten "webedit", indsætter Sideredigering bjælken Sideredigering i den pågældende placeholder, og bjælken scroller op og ned sammen med siden. <p>Hvis et layout ikke indeholder en placeholder med tasten "webedit", vises sideredigeringsbjælken øverst i browservinduet, når brugeren ruller op og ned igennem den renderede side og giver dermed en bedre brugeroplevelse.</p>
+        <p>Formålet med dette definitionselement for webeditplaceholderindstillinger er at forhindre brugere af Sideredigering i at binde præsentationskontroller til "webeditplaceholderen", når den er til stede.</p>
+        </div>
+    - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+      # __Display name
+      Value: webredigering
+- Language: de-DE
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150812T115819Z
+    - ID: 52807595-0f8f-4b20-8d2a-cb71d28c6103
+      # __Owner
+      Value: sitecore\admin
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+    - ID: 87871ff5-1965-46d6-884f-01d6a0b9c4c1
+      # Description
+      Value: |
+        <div style="font-size: 0.8em;">
+        <p style="margin-top: 0px;">Sitecore 6.4 und höher unterstützt den Webedit-Platzhalter für Kompatibilität mit vorangegangenen Versionen, aber missbilligt diese Funktion.</p>
+        <p>Wenn ein Layout einen Platzhalter mit dem "Webedit"-Schlüssel enthält, fügt der Page Editor  das Page Editor Ribbon in den Platzhalter ein und der Ribbon scrollt mit der Seite hoch und runter. Wenn ein Layout keinen Platzhalter mit dem "Webedit"- Schlüssel enthält, zeigt der Page Editor das Ribbon immer ganz oben im Browser-Fenster an, wenn der Benutzer hoch und runter durch die gerenderte Seite scrollt und bietet so ein besseres Benutzer Erlebnis.</p>
+        <p>Der Zweck dieses Webedit-Platzhalter-Einstellungs-Definitionsitems liegt darin, Page Editor Benutzer davon abzuhalten, Präsentations-Controls mit dem "Webedit" Platzhalter, sofern dieser vorhanden ist, zu verbinden.</p>
+        </div>
+    - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+      # __Display name
+      Value: WebEdit
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20100713T155300
+    - ID: 52807595-0f8f-4b20-8d2a-cb71d28c6103
+      # __Owner
+      Value: sitecore\admin
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\Admin
+    - ID: 87871ff5-1965-46d6-884f-01d6a0b9c4c1
+      # Description
+      Value: |
+        <div style="font-size: 0.8em;">
+        <p style="margin-top: 0px;">Sitecore 6.4 and later supports the webedit placeholder for compatibility with previous releases, but deprecates this feature.</p>
+        <p>If a layout contains a placeholder with the "webedit" key, the Experience Editor inserts the Experience Editor ribbon into that placeholder, and the ribbon scrolls up and down with the page. If a layout does not contain a placeholder with the "webedit" key, the Experience Editor always displays the ribbon at the top of the browser window when the user scrolls up and down through the rendered page thereby providing a better user experience.</p>
+        <p>The purpose of this webedit placeholder settings definition item is to prevent Experience Editor users from binding presentation controls to the "webedit" placeholder when it is present.</p>
+        </div>
+- Language: ja-JP
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150812T115410Z
+    - ID: 52807595-0f8f-4b20-8d2a-cb71d28c6103
+      # __Owner
+      Value: sitecore\admin
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+    - ID: 87871ff5-1965-46d6-884f-01d6a0b9c4c1
+      # Description
+      Value: |
+        <div style="font-size: 0.8em;">
+        <p style="margin-top: 0px;">以前のバージョンとの互換性を保つために Sitecore 6.4 およびそれ以降では 「webedit」 プレースホルダーをサポートしていますが、このフィーチャーは非推奨です。</p>
+        <p>レイアウトに 「webedit」 キーのプレースホルダーが含まれる場合は、エクスペリエンス エディターのリボンをプレースホルダーに挿入し、ページのスクロールと共にリボンが上下します。レイアウトに 「webedit」 キーのプレースホルダーが含まれない場合は、エクスペリエンス エディターは絶えずブラウザーの上部に表示し、ページのスクロール時に上下しないためユーザー エクスペリエンスが向上します。</p>
+        <p>この 「webedit」 プレースホルダー設定アイテムは、エクスペリエンス エディターのユーザーが誤ってプレゼンテーション コンポーネントを 「webedit」 プレースホルダーにバインドすることを防ぐために存在しています。</p>
+        </div>
+    - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+      # __Display name
+      Value: ウェブ編集 (webedit)

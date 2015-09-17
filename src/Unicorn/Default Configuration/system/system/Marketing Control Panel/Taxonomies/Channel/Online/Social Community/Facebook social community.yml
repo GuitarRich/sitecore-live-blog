@@ -1,0 +1,83 @@
+﻿---
+ID: a9f2d058-95a5-4461-b1e5-8502d2303af1
+Parent: b869646e-f584-412f-8dc4-fc613451ca19
+Template: 3b4fde65-16a8-491d-bf15-99ce83cf3506
+Path: /sitecore/system/Marketing Control Panel/Taxonomies/Channel/Online/Social Community/Facebook social community
+SharedFields:
+- ID: 8fb875eb-3ad3-44ff-87e1-998370cc3199
+  # Code
+  Value: 05
+Languages:
+- Language: da
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150812T120242Z
+    - ID: 52807595-0f8f-4b20-8d2a-cb71d28c6103
+      # __Owner
+      Value: sitecore\admin
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+    - ID: 8bdee96a-e8f5-446a-a1d2-568c3018c98e
+      # Image
+      Value: "<image mediaid=\"{4FBAAC96-0788-437D-96A7-83544358DA69}\" />"
+    - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+      # __Display name
+      Value: Facebook, socialt medie
+- Language: de-DE
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150812T115832Z
+    - ID: 52807595-0f8f-4b20-8d2a-cb71d28c6103
+      # __Owner
+      Value: sitecore\admin
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+    - ID: 8bdee96a-e8f5-446a-a1d2-568c3018c98e
+      # Image
+      Value: "<image mediaid=\"{53C13607-D632-4354-8777-5ADF3E07BE92}\" />"
+    - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+      # __Display name
+      Value: Facebook Social Community
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20141115T114636Z
+    - ID: 52807595-0f8f-4b20-8d2a-cb71d28c6103
+      # __Owner
+      Value: sitecore\admin
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+    - ID: 8bdee96a-e8f5-446a-a1d2-568c3018c98e
+      # Image
+      Value: "<image mediaid=\"{4FBAAC96-0788-437D-96A7-83544358DA69}\" />"
+- Language: ja-JP
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150812T115414Z
+    - ID: 52807595-0f8f-4b20-8d2a-cb71d28c6103
+      # __Owner
+      Value: sitecore\admin
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+    - ID: 8bdee96a-e8f5-446a-a1d2-568c3018c98e
+      # Image
+      Value: "<image mediaid=\"{53C13607-D632-4354-8777-5ADF3E07BE92}\" />"
+    - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+      # __Display name
+      Value: Facebook ソーシャル コミュニティ

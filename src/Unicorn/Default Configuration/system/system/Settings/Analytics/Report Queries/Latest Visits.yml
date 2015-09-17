@@ -1,0 +1,96 @@
+﻿---
+ID: 3a53b5a1-04f5-42f3-8fd6-cd506ded5e68
+Parent: daa53ca5-8136-462f-8b2a-f66365be1238
+Template: a90f48c4-4d4f-41d7-8497-070a9a50304e
+Path: /sitecore/system/Settings/Analytics/Report Queries/Latest Visits
+SharedFields:
+- ID: 5b267810-1945-4c4b-8fb3-fd68a537eeb2
+  # Filters
+  Type: TreelistEx
+  Value: |
+    {582C9DD5-8E92-4B15-873F-CB8AE43B867E}
+    {BBA8B015-FC5F-467F-B59E-1B9E45157ACA}
+- ID: 72b1c86f-ae19-4534-abcf-0692378d41cf
+  # Data Source
+  Value: collection
+- ID: a61cc636-3272-4fb6-bcf9-762940047a78
+  # Query
+  Value: |
+    {
+      collection: "Interactions",
+      query: {StartDateTime: { $gt: @StartDate, $lt: @EndDate}},
+      fields: [
+        "_id",
+        "GeoData.BusinessName",
+        "LocationId",
+        "Value",
+        "GeoData.Country",
+        "StartDateTime",
+        "ContactVisitIndex",
+        "ContactId"
+      ],
+      sortby: {"StartDateTime":-1},
+      limit: 50
+    }
+Languages:
+- Language: da
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150812T120212Z
+    - ID: 52807595-0f8f-4b20-8d2a-cb71d28c6103
+      # __Owner
+      Value: sitecore\admin
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+    - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+      # __Display name
+      Value: Seneste besøg
+- Language: de-DE
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150812T115759Z
+    - ID: 52807595-0f8f-4b20-8d2a-cb71d28c6103
+      # __Owner
+      Value: sitecore\admin
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+    - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+      # __Display name
+      Value: Neueste Besuche
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20110413T155200
+    - ID: 52807595-0f8f-4b20-8d2a-cb71d28c6103
+      # __Owner
+      Value: sitecore\admin
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+- Language: ja-JP
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150812T115354Z
+    - ID: 52807595-0f8f-4b20-8d2a-cb71d28c6103
+      # __Owner
+      Value: sitecore\admin
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+    - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+      # __Display name
+      Value: 最新の訪問 (人間)

@@ -1,0 +1,79 @@
+﻿---
+ID: 9551fa9b-2c25-40a1-9c00-038de67abdc2
+Parent: c0c108be-fca9-4b41-befa-95bf47dcb58a
+Template: 61618000-f943-4b7a-8286-28f8593a630f
+Path: /sitecore/system/Settings/Analytics/Test Winner Strategies/Manual
+Languages:
+- Language: da
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 15f1de80-696e-418b-b017-f70f464e313b
+      # Name
+      Value: Vælg vinder manuelt
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150525T133011:635681574117285088Z
+    - ID: 52807595-0f8f-4b20-8d2a-cb71d28c6103
+      # __Owner
+      Value: sitecore\admin
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+    - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+      # __Display name
+      Value: Vælg vinder manuelt
+- Language: de-DE
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 15f1de80-696e-418b-b017-f70f464e313b
+      # Name
+      Value: Gewinner manuell auswählen
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150525T134820:635681585007694999Z
+    - ID: 52807595-0f8f-4b20-8d2a-cb71d28c6103
+      # __Owner
+      Value: sitecore\admin
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+    - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+      # __Display name
+      Value: Gewinner manuell auswählen
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 15f1de80-696e-418b-b017-f70f464e313b
+      # Name
+      Value: Manually select winner
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20140508T123340
+    - ID: 52807595-0f8f-4b20-8d2a-cb71d28c6103
+      # __Owner
+      Value: sitecore\admin
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+- Language: ja-JP
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 15f1de80-696e-418b-b017-f70f464e313b
+      # Name
+      Value: 手動で最良のテスト結果を選択します
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150525T133939:635681579799688194Z
+    - ID: 52807595-0f8f-4b20-8d2a-cb71d28c6103
+      # __Owner
+      Value: sitecore\admin
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+    - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+      # __Display name
+      Value: 手動で最良のテスト結果を選択します

@@ -1,0 +1,79 @@
+﻿---
+ID: 8a7f256f-28e9-4b32-83cd-d4169d59e179
+Parent: 9487dd44-dfb8-47fb-a570-c5a60a3e83a9
+Template: 271f5cf1-95c7-474d-9f04-06c6ebb20d8f
+Path: /sitecore/system/Settings/Rules/Definitions/Elements/Context/Visibility/Rule Elements Visibility Rule
+Languages:
+- Language: da
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150812T120235Z
+    - ID: 52807595-0f8f-4b20-8d2a-cb71d28c6103
+      # __Owner
+      Value: sitecore\admin
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+    - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+      # __Display name
+      Value: Synlighed for regelelementer
+    - ID: f9abbe04-6a99-49da-906d-8b0a709c377f
+      # Name
+      Value: Synlighed for regelelementer
+- Language: de-DE
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150812T115823Z
+    - ID: 52807595-0f8f-4b20-8d2a-cb71d28c6103
+      # __Owner
+      Value: sitecore\admin
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+    - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+      # __Display name
+      Value: Regel Elemente Sichtbarkeitsregel
+    - ID: f9abbe04-6a99-49da-906d-8b0a709c377f
+      # Name
+      Value: Regel Elemente Sichtbarkeitsregel
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20120926T183044
+    - ID: 52807595-0f8f-4b20-8d2a-cb71d28c6103
+      # __Owner
+      Value: sitecore\admin
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+    - ID: f9abbe04-6a99-49da-906d-8b0a709c377f
+      # Name
+      Value: Rule Elements Visibility Rule
+- Language: ja-JP
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150812T115411Z
+    - ID: 52807595-0f8f-4b20-8d2a-cb71d28c6103
+      # __Owner
+      Value: sitecore\admin
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+    - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+      # __Display name
+      Value: ルール要素の表示/非表示ルール
+    - ID: f9abbe04-6a99-49da-906d-8b0a709c377f
+      # Name
+      Value: ルール要素の表示/非表示ルール

@@ -1,0 +1,111 @@
+﻿---
+ID: c1d2d946-2624-4753-a3ac-b8fda171bde1
+Parent: a913a5b2-b5c7-4ea5-b91c-02f157e3b26f
+Template: 6d1cd897-1936-4a3a-a511-289a94c2a7b1
+Path: /sitecore/system/Dictionary/ExperienceExplorer/Geo/Editor/GeoEditorTest_OUT_OF_QUERIES
+SharedFields:
+- ID: 580c75a8-c01a-4580-83cb-987776ceb3af
+  # Key
+  Value: GeoEditorTest_OUT_OF_QUERIES
+Languages:
+- Language: da
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150812T120252Z
+    - ID: 2ba3454a-9a9c-4cdf-a9f8-107fd484eb6e
+      # Phrase
+      Value: |
+        Din MaxMind-licens er <b>løbet tør for forespørgsler</b>.
+        <br /><br />
+        Du kan få oplysninger om tilmelding til MaxMind og køb af flere opslag under: 
+        <br />
+        http://sdn.sitecore.net/Products/OMS/MaxMind.aspx.
+        <br /><br />
+        Du kan bruge din MaxMind-Sitecore-licensnøgle til at købe ekstra forespørgsler på www.maxmind.com/app/sitecore.
+    - ID: 52807595-0f8f-4b20-8d2a-cb71d28c6103
+      # __Owner
+      Value: sitecore\admin
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+    - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+      # __Display name
+      Value: GeoEditorTest_OUT_OF_QUERIES
+- Language: de-DE
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150812T115840Z
+    - ID: 2ba3454a-9a9c-4cdf-a9f8-107fd484eb6e
+      # Phrase
+      Value: |
+        Ihre MaxMind Lizenz hat <b>die Anfragen aufgebraucht</b>.
+        <br /><br />
+        Informationen  zur Anmeldung bei MaxMind und den Kauf von mehr Lookups finden Sie hier:  
+        <br />
+        http://sdn.sitecore.net/Products/OMS/MaxMind.aspx.
+        <br /><br />
+        Sie können Ihren MaxMind-Sitecore Lizenzschlüssel benutzen, um zusätzliche Queries bei www.maxmind.com/app/sitecore zu kaufen.
+    - ID: 52807595-0f8f-4b20-8d2a-cb71d28c6103
+      # __Owner
+      Value: sitecore\admin
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+    - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+      # __Display name
+      Value: GeoEditorTest_OUT_OF_QUERIES
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20130314T081045
+    - ID: 2ba3454a-9a9c-4cdf-a9f8-107fd484eb6e
+      # Phrase
+      Value: |
+        You MaxMind license is <b>out of queries</b>.
+        <br /><br />
+        For information on signing up with MaxMind and purchasing more lookups, refer to: 
+        <br />
+        http://sdn.sitecore.net/Products/OMS/MaxMind.aspx.
+        <br /><br />
+        You can use your MaxMind-Sitecore license key to purchase additional queries at www.maxmind.com/app/sitecore.
+    - ID: 52807595-0f8f-4b20-8d2a-cb71d28c6103
+      # __Owner
+      Value: sitecore\admin
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+- Language: ja-JP
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150812T115422Z
+    - ID: 2ba3454a-9a9c-4cdf-a9f8-107fd484eb6e
+      # Phrase
+      Value: |
+        MaxMind ライセンスに <b>クエリがありません。</b>
+        <br /><br />
+        MaxMind の契約手続きおよび lookups の購入に関する情報は、以下のリンクを参照してください。 
+        <br />
+        http://sdn.sitecore.net/Products/OMS/MaxMind.aspx.
+        <br /><br />
+        MaxMind-Sitecore ライセンス キーを使用して、追加のクエリを www.maxmind.com/app/sitecore からご購入いただけます。
+    - ID: 52807595-0f8f-4b20-8d2a-cb71d28c6103
+      # __Owner
+      Value: sitecore\admin
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+    - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+      # __Display name
+      Value: Geo エディター テストのクエリ範囲外

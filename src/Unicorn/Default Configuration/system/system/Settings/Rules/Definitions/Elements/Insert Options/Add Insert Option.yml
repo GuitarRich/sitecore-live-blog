@@ -1,0 +1,83 @@
+﻿---
+ID: 918ffcf0-f9e1-4db6-a191-3efa5a91c583
+Parent: 063ec868-948c-40f7-aa5f-0d3850dbe420
+Template: f90052a5-b4e6-4e6d-9812-1e1b88a6fcea
+Path: /sitecore/system/Settings/Rules/Definitions/Elements/Insert Options/Add Insert Option
+SharedFields:
+- ID: ff55d5a7-6d4b-4cd1-83e0-bac268073f66
+  # Type
+  Value: Sitecore.Rules.InsertOptions.AddInsertOption,Sitecore.Kernel
+Languages:
+- Language: da
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150812T120237Z
+    - ID: 52807595-0f8f-4b20-8d2a-cb71d28c6103
+      # __Owner
+      Value: sitecore\admin
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+    - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+      # __Display name
+      Value: Tilføj indsætningsindstilling
+    - ID: eeb36a3b-40d9-4af5-862a-de257b84dca3
+      # Text
+      Value: tilføj [insertoptionid,Tree,root=/sitecore/templates,specific] indsætningsindstillinger
+- Language: de-DE
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150812T115824Z
+    - ID: 52807595-0f8f-4b20-8d2a-cb71d28c6103
+      # __Owner
+      Value: sitecore\admin
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+    - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+      # __Display name
+      Value: Einfügeoption hinzufügen
+    - ID: eeb36a3b-40d9-4af5-862a-de257b84dca3
+      # Text
+      Value: Hinzufügen [insertoptionid,Tree,root=/sitecore/templates,spezifischer] Einfügeoptionen
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20080923T084301
+    - ID: 52807595-0f8f-4b20-8d2a-cb71d28c6103
+      # __Owner
+      Value: sitecore\admin
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+    - ID: eeb36a3b-40d9-4af5-862a-de257b84dca3
+      # Text
+      Value: add [insertoptionid,Tree,root=/sitecore/templates,specific] insert option
+- Language: ja-JP
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150812T115412Z
+    - ID: 52807595-0f8f-4b20-8d2a-cb71d28c6103
+      # __Owner
+      Value: sitecore\admin
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+    - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+      # __Display name
+      Value: 挿入オプションを追加
+    - ID: eeb36a3b-40d9-4af5-862a-de257b84dca3
+      # Text
+      Value: 挿入オプションに [insertoptionid,Tree,root=/sitecore/templates,特定のテンプレート] を追加する

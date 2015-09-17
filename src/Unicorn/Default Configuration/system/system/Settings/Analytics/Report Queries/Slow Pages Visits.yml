@@ -1,0 +1,103 @@
+﻿---
+ID: 1b524692-31c2-4773-a259-cda5a2b0b904
+Parent: daa53ca5-8136-462f-8b2a-f66365be1238
+Template: a90f48c4-4d4f-41d7-8497-070a9a50304e
+Path: /sitecore/system/Settings/Analytics/Report Queries/Slow Pages Visits
+SharedFields:
+- ID: 72b1c86f-ae19-4534-abcf-0692378d41cf
+  # Data Source
+  Value: reporting
+- ID: a61cc636-3272-4fb6-bcf9-762940047a78
+  # Query
+  Value: |
+    select top 100
+                [Accounts].[BusinessName] as [GeoData_BusinessName],
+    			[Accounts].[Country] as [GeoData_Country],		
+    			[Fact_SlowPages].[ContactVisitIndex],
+    			[Contacts].[Classification],
+    			[VisitorClassification].[Text],
+    			[Fact_SlowPages].[VisitId] as _id, 
+    			[Fact_SlowPages].[Date] as [StartDateTime],
+    			[Fact_SlowPages].[Value],
+    			[Fact_SlowPages].[AccountId] as [LocationId],
+                [Fact_SlowPages].[ContactId]
+    from [Fact_SlowPages] 
+    inner join [Contacts] on [Fact_SlowPages].[ContactId] = [Contacts].[ContactId]
+    left join  [VisitorClassification] on [VisitorClassification].[VisitorClassification] = [Contacts].[Classification]
+    inner join [Accounts] on [Accounts].[AccountId] = [Fact_SlowPages].[AccountId] 
+    inner join [Items] on [Fact_SlowPages].[ItemId] = [Items].ItemId
+    
+    where [Fact_SlowPages].[Date] BETWEEN @StartDate AND @EndDate
+      and [Items].[Url] = @url
+    group by [VisitId], [BusinessName], 
+    [Accounts].[Country], 
+    [Fact_SlowPages].[ContactVisitIndex],
+    [Contacts].[Classification],
+    [VisitorClassification].[Text], 
+    [Fact_SlowPages].[Date],
+    [Fact_SlowPages].[Value], 
+    [Fact_SlowPages].[ContactId], 
+    [Fact_SlowPages].[Accountid]
+    order by  [Fact_SlowPages].[Date] desc
+Languages:
+- Language: da
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150812T120203Z
+    - ID: 52807595-0f8f-4b20-8d2a-cb71d28c6103
+      # __Owner
+      Value: sitecore\admin
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+    - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+      # __Display name
+      Value: Langsomme sidebesøg
+- Language: de-DE
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150812T115751Z
+    - ID: 52807595-0f8f-4b20-8d2a-cb71d28c6103
+      # __Owner
+      Value: sitecore\admin
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+    - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+      # __Display name
+      Value: Langsame Seiten Besuche
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20110510T150520
+    - ID: 52807595-0f8f-4b20-8d2a-cb71d28c6103
+      # __Owner
+      Value: sitecore\admin
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+- Language: ja-JP
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150812T115351Z
+    - ID: 52807595-0f8f-4b20-8d2a-cb71d28c6103
+      # __Owner
+      Value: sitecore\admin
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+    - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+      # __Display name
+      Value: 表示に時間が長くかかるページへの訪問

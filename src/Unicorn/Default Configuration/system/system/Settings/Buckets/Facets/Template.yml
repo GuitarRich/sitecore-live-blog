@@ -1,0 +1,89 @@
+﻿---
+ID: 154dc6da-89c4-4704-8cda-95994d794bea
+Parent: 0b42dc05-5cf9-4dd5-9a3a-8bdf11be2b88
+Template: 5c125b6d-c481-4c24-b5b9-9a23fe396bf0
+Path: /sitecore/system/Settings/Buckets/Facets/Template
+SharedFields:
+- ID: 06d5295c-ed2f-4a54-9bf2-26228d113318
+  # __Icon
+  Value: applications/32x32/form_green.png
+- ID: 0e23bb51-c071-41b5-9d83-ac410b89b85a
+  # Parameters
+  Value: _templatename
+- ID: 182bd0f4-c902-4a19-a1ba-d189caa18e1b
+  # Global
+  Value: 1
+Languages:
+- Language: da
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150812T120201Z
+    - ID: 31ca077f-ef38-4980-8a24-05408031b2bc
+      # Name
+      Value: Skabelon
+    - ID: 52807595-0f8f-4b20-8d2a-cb71d28c6103
+      # __Owner
+      Value: sitecore\admin
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+    - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+      # __Display name
+      Value: Skabelon
+- Language: de-DE
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150812T115749Z
+    - ID: 31ca077f-ef38-4980-8a24-05408031b2bc
+      # Name
+      Value: Template
+    - ID: 52807595-0f8f-4b20-8d2a-cb71d28c6103
+      # __Owner
+      Value: sitecore\admin
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+    - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+      # __Display name
+      Value: Template
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20111219T144000
+    - ID: 31ca077f-ef38-4980-8a24-05408031b2bc
+      # Name
+      Value: Template
+    - ID: 52807595-0f8f-4b20-8d2a-cb71d28c6103
+      # __Owner
+      Value: sitecore\admin
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+- Language: ja-JP
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150812T115351Z
+    - ID: 31ca077f-ef38-4980-8a24-05408031b2bc
+      # Name
+      Value: テンプレート
+    - ID: 52807595-0f8f-4b20-8d2a-cb71d28c6103
+      # __Owner
+      Value: sitecore\admin
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+    - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+      # __Display name
+      Value: テンプレート

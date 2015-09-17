@@ -1,0 +1,83 @@
+﻿---
+ID: bcf3b8fc-1fd2-4bba-834f-188a39f98035
+Parent: b0c071dd-0825-40db-92f6-502b478e001a
+Template: f90052a5-b4e6-4e6d-9812-1e1b88a6fcea
+Path: /sitecore/system/Settings/Rules/Definitions/Elements/Search Query Builder/OrderBy
+SharedFields:
+- ID: ff55d5a7-6d4b-4cd1-83e0-bac268073f66
+  # Type
+  Value: Sitecore.ContentSearch.Rules.Actions.QueryableOrderByAction,Sitecore.ContentSearch
+Languages:
+- Language: da
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150812T120250Z
+    - ID: 52807595-0f8f-4b20-8d2a-cb71d28c6103
+      # __Owner
+      Value: sitecore\admin
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+    - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+      # __Display name
+      Value: OrderBy
+    - ID: eeb36a3b-40d9-4af5-862a-de257b84dca3
+      # Text
+      Value: sortér resultater efter [orderOperator,OrderByOperator,,order operator] [fieldName,,,field name]
+- Language: de-DE
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150812T115839Z
+    - ID: 52807595-0f8f-4b20-8d2a-cb71d28c6103
+      # __Owner
+      Value: sitecore\admin
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+    - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+      # __Display name
+      Value: GeordnetNach
+    - ID: eeb36a3b-40d9-4af5-862a-de257b84dca3
+      # Text
+      Value: Ergebnisse sortieren nach [orderOperator,OrderByOperator,,order operator] [fieldName,,,Feldname]
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20130910T155826
+    - ID: 52807595-0f8f-4b20-8d2a-cb71d28c6103
+      # __Owner
+      Value: sitecore\admin
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+    - ID: eeb36a3b-40d9-4af5-862a-de257b84dca3
+      # Text
+      Value: order results by [orderOperator,OrderByOperator,,order operator] [fieldName,,,field name]
+- Language: ja-JP
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150812T115420Z
+    - ID: 52807595-0f8f-4b20-8d2a-cb71d28c6103
+      # __Owner
+      Value: sitecore\admin
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+    - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+      # __Display name
+      Value: OrderBy
+    - ID: eeb36a3b-40d9-4af5-862a-de257b84dca3
+      # Text
+      Value: [fieldName,,,フィールド名] を [orderOperator,OrderByOperator,,並べ替えルール] で並べ替える

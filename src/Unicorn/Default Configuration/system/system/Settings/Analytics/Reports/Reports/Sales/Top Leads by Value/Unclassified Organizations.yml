@@ -1,0 +1,118 @@
+﻿---
+ID: 53347a52-b78f-4168-9fc7-acf9e656de37
+Parent: d57f371f-6468-4170-b604-6bdc00f60357
+Template: 6674a4af-eace-445e-89f1-e2f464026056
+Path: /sitecore/system/Settings/Analytics/Reports/Reports/Sales/Top Leads by Value/Unclassified Organizations
+SharedFields:
+- ID: 06d5295c-ed2f-4a54-9bf2-26228d113318
+  # __Icon
+  Value: Business/32x32/phone_pick_up.png
+- ID: 0cc4ad84-f69d-44d2-9600-5c7522aa2401
+  # File Name
+  Value: /sitecore/shell/Applications/Analytics/Reports/TopLeadsByValueUnclassified.mrt
+- ID: 16802c7a-011a-41ff-88b4-c33e6c737f3f
+  # Queries
+  Value: DataSource=%7bC5BC372F-30EB-4251-87D2-BB22350E4510%7d&Subscription=%7b01B7653E-2ADD-409B-8000-E215D46F0F6B%7d
+Languages:
+- Language: da
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150812T120216Z
+    - ID: 52807595-0f8f-4b20-8d2a-cb71d28c6103
+      # __Owner
+      Value: sitecore\admin
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+    - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+      # __Display name
+      Value: Ikke-klassificerede organisationer
+    - ID: d71dcbf1-3e4c-4acd-9244-58aa5c1c8528
+      # Report Title
+      Value: Vigtigste potentielle kunder efter værdi - Ikke-klassificerede organisationer - Periodisk
+    - ID: f38bb3c8-94d9-4815-8ce2-06fa4eb8fc80
+      # Report Description
+      Value: |
+        Denne rapport hjælper dig med at besvare følgende spørgsmål:<ul><li>Hvilke ikke-klassificerede organisationer har en høj værdi i en angivet tidsperiode og vil sandsynligvis blive kundeemner?</li></ul>Denne rapport anfører organisationer klassificeret efter den samlede værdi, de har akkumuleret i den periode, du angav. Disse ikke-klassificerede organisationer kan være kundeemner, konkurrenter, pressen osv. En større værdi betyder, at de er mere engageret i din hjemmeside.<br/>
+        Organisationerne med den højeste klassificering har den største interesse i din hjemmeside, dine produkter eller tjenester. Værdi er en vægtning på baggrund af en værdi iværksat af en organisation som f.eks. anmodning om en onlinedemonstration. Aktivitetsniveauer beregnes af en algoritme, der måler aktiviteten som en eller flere unikke besøgende over tid.<br/>
+        Kør denne rapport hver uge eller måned for at identificere nye kundeemner.<br/>
+        Klik på navnet på en organisation for at åbne rapporten <i>Virksomhedsoversigt</i>.
+- Language: de-DE
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150812T115806Z
+    - ID: 52807595-0f8f-4b20-8d2a-cb71d28c6103
+      # __Owner
+      Value: sitecore\admin
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+    - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+      # __Display name
+      Value: Unklassifizierte Organisationen
+    - ID: d71dcbf1-3e4c-4acd-9244-58aa5c1c8528
+      # Report Title
+      Value: Top Leads nach Wert - unklassifizierte Organisationen - periodisch
+    - ID: f38bb3c8-94d9-4815-8ce2-06fa4eb8fc80
+      # Report Description
+      Value: |
+        Dieser Report hilft Ihnen dabei, die folgende Frage zu beantworten:<ul><li>Welche nicht-klassifizierten Unternehmen haben während eines spezifischen Zeitraums  einen hohen Wert und werden wahrscheinlich zu potentiellen Kunden werden?</li></ul>Dieser Report listet Unternehmen, gewichtet nach dem Gesamtwert, den diese in einem von Ihnen spezifizierten Zeitrahmen akkumuliert haben. Diese nicht-klassifizierten Unternehmen können potentielle Kunden, Mitbewerber, Presse und so weiter sein. Wenn sie potentielle Kunden sind, bedeutet ein höherer Wert, dass sie verbundener mit Ihrer Website sind.<br/> 
+        Die Unternehmen mit den höchsten Rankings, haben das größte Interesse an Ihrer Website, Produkten oder Dienstleistungen.  Wert ist eine Bewertung, die auf eine von einem Unternehmen initiierte Aktivität, wie die Nachfrage für eine Online-Vorführung, gegeben wird. Der Aktivitätslevel wird mit einem Algorithmus berechnet, der die Aktivität eines oder mehrerer spezifischen/spezifischer Besucher(s) im Laufe der Zeit misst.<br/>
+        Führen Sie diesen Report wöchentlich oder monatlich aus, um so potentielle Kunden identifizieren zu können.<br/>
+        Klicken Sie den Namen eines Unternehmens an, um den <i>Business Überblick</i> Report zu öffnen.
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20110125T104004
+    - ID: 52807595-0f8f-4b20-8d2a-cb71d28c6103
+      # __Owner
+      Value: sitecore\admin
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+    - ID: d71dcbf1-3e4c-4acd-9244-58aa5c1c8528
+      # Report Title
+      Value: Top Leads by Value - Unclassified Organizations - Periodic
+    - ID: f38bb3c8-94d9-4815-8ce2-06fa4eb8fc80
+      # Report Description
+      Value: |
+        This report helps you answer the following question:<ul><li>Which unclassified organizations have a high value during a specific period of time and are likely to become prospects?</li></ul>This report lists organizations ranked by the total value they have accumulated in the time frame you specified. These unclassified organizations can be prospects, competitors, press, and so on. A higher value means they have engaged more with your website.<br/>
+        The organizations with the highest rankings have the greatest interest in your website, products, or services. Value is a weighting placed on an activity initiated by an organization, such as requesting an online demonstration. Activity Level is calculated by an algorithm that measures the activity of one or more unique visitors over time.<br/>
+        Run this report every week or month to identify new prospects.<br/>
+        Click the name of an organization to open the <i>Business Overview</i> report.
+        
+- Language: ja-JP
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150812T115404Z
+    - ID: 52807595-0f8f-4b20-8d2a-cb71d28c6103
+      # __Owner
+      Value: sitecore\admin
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+    - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+      # __Display name
+      Value: 上位リード (バリュー) - 未分類の組織 - 定期
+    - ID: d71dcbf1-3e4c-4acd-9244-58aa5c1c8528
+      # Report Title
+      Value: 上位リード (バリュー) - 未分類の組織 - 定期
+    - ID: f38bb3c8-94d9-4815-8ce2-06fa4eb8fc80
+      # Report Description
+      Value: |
+        このレポートは次のような問に答えるために役立つ情報を提供します。<ul><li>ある期間中に高い評価値を持ち、見込み顧客となる可能性の高い未分類の組織はどれか。</li></ul>このレポートは指定した期間中に集計評価値の順に組織を一覧表示します。これらの未分類の組織は、見込み顧客、競合他社、プレス、などであることが考えられます。高い評価値は、その Web サイトに高い関わり合いを持っていることを示しています。
+        最も高いランクにある組織は、その Web サイトと製品およびサービスに最も高い関心を寄せていることを示します。評価値は組織によってなされたアクティビティによって重み付けされています。たとえば、オンライン デモの申し込みなどです。アクティビティ レベルは、ある期間中におけるユニーク ビジターのアクティビティを測定するアルゴリズムによって計算されます。
+        このレポートを毎週または毎月実行して、新しい見込み顧客を認識することができます。
+        <i>ビジネスの概要</i>レポートを開くためには、組織の名前をクリックします。

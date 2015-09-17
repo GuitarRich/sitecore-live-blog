@@ -1,0 +1,98 @@
+﻿---
+ID: e8a36c49-3c43-405e-a074-8decb6f483e9
+Parent: ff0bc016-2d01-4f55-a020-ef6fc2fe7559
+Template: 664e5035-eb8c-4ba1-9731-a098fcc9127a
+Path: /sitecore/system/Settings/Rules/Insert Options/Rules/Goals
+SharedFields:
+- ID: fa307b86-da2a-44bd-887d-e2057cdb4948
+  # Rule
+  Type: Rules
+  Value: |
+    <ruleset>
+      <rule uid="{2E89945B-16DE-4654-97BE-D820EA843AA9}">
+        <conditions>
+          <and uid="{DC0C2263-6BE7-4A1A-BB8E-789AD8E70522}">
+            <condition id="{7D5DA661-BEF9-441C-B1F7-D80DE3E0972F}" uid="{16986651-A29E-4B02-8A0C-B69AE7B7981F}" itemid="{0CB97A9F-CAFB-42A0-8BE1-89AB9AE32BD9}" />
+            <condition id="{5DE6D53E-EA62-4D17-8BDD-FEBCD80AC07B}" uid="{9F24CF8B-208C-4F73-85F7-3E6CF74BFE54}" templateid="{A87A00B1-E6DB-45AB-8B54-636FEC3B5523}" />
+          </and>
+        </conditions>
+        <actions>
+          <action id="{918FFCF0-F9E1-4DB6-A191-3EFA5A91C583}" uid="{F1E653AA-B941-4B4F-8372-CC3B29CA3976}" insertoptionid="{475E9026-333F-432D-A4DC-52E03B75CB6B}" />
+          <action id="{918FFCF0-F9E1-4DB6-A191-3EFA5A91C583}" uid="62D71EA3567E4C71BCA8FECC003E7ED6" insertoptionid="{DB6E13B8-786C-4DD6-ACF2-3E5E6A959905}" />
+        </actions>
+      </rule>
+    </ruleset>
+Languages:
+- Language: da
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150812T120304Z
+    - ID: 52807595-0f8f-4b20-8d2a-cb71d28c6103
+      # __Owner
+      Value: sitecore\admin
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+    - ID: 9e0287d9-af90-41ad-8d36-332375e194d6
+      # Name
+      Value: Når elementet er et subelement til 'Mål', og skabelonen er baseret på 'Mappe', skal du tilføje indsætningsindstillingen for mål
+    - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+      # __Display name
+      Value: Mål
+- Language: de-DE
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150812T115846Z
+    - ID: 52807595-0f8f-4b20-8d2a-cb71d28c6103
+      # __Owner
+      Value: sitecore\admin
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+    - ID: 9e0287d9-af90-41ad-8d36-332375e194d6
+      # Name
+      Value: Wenn das Item ein Subitem von Zielen und das Template vom Typ Ordner ist, fügen Sie Ziel Einfügeoption hinzu
+    - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+      # __Display name
+      Value: Ziele
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20080923T083739
+    - ID: 52807595-0f8f-4b20-8d2a-cb71d28c6103
+      # __Owner
+      Value: sitecore\admin
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+    - ID: 9e0287d9-af90-41ad-8d36-332375e194d6
+      # Name
+      Value: When item is a subitem of Goals and the template is folder, add Goal insert option
+- Language: ja-JP
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150812T115429Z
+    - ID: 52807595-0f8f-4b20-8d2a-cb71d28c6103
+      # __Owner
+      Value: sitecore\admin
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+    - ID: 9e0287d9-af90-41ad-8d36-332375e194d6
+      # Name
+      Value: アイテムがゴールのサブアイテムおよびテンプレートがフォルダーの場合、ゴールを挿入オプションに追加する
+    - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+      # __Display name
+      Value: ゴール

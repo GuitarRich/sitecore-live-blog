@@ -1,0 +1,86 @@
+﻿---
+ID: 8355eb8a-44ec-47fc-8ffd-6412c400a397
+Parent: 0b42dc05-5cf9-4dd5-9a3a-8bdf11be2b88
+Template: 5c125b6d-c481-4c24-b5b9-9a23fe396bf0
+Path: /sitecore/system/Settings/Buckets/Facets/Language Template
+SharedFields:
+- ID: 06d5295c-ed2f-4a54-9bf2-26228d113318
+  # __Icon
+  Value: Applications/32x32/scroll2_edit.png
+- ID: 0e23bb51-c071-41b5-9d83-ac410b89b85a
+  # Parameters
+  Value: parsedlanguage,_templatename
+Languages:
+- Language: da
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150812T120232Z
+    - ID: 31ca077f-ef38-4980-8a24-05408031b2bc
+      # Name
+      Value: Sprogskabelon
+    - ID: 52807595-0f8f-4b20-8d2a-cb71d28c6103
+      # __Owner
+      Value: sitecore\admin
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+    - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+      # __Display name
+      Value: Sprogskabelon
+- Language: de-DE
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150812T115820Z
+    - ID: 31ca077f-ef38-4980-8a24-05408031b2bc
+      # Name
+      Value: Sprache Template
+    - ID: 52807595-0f8f-4b20-8d2a-cb71d28c6103
+      # __Owner
+      Value: sitecore\admin
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+    - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+      # __Display name
+      Value: Sprache Template
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20121030T174200
+    - ID: 31ca077f-ef38-4980-8a24-05408031b2bc
+      # Name
+      Value: Language Template
+    - ID: 52807595-0f8f-4b20-8d2a-cb71d28c6103
+      # __Owner
+      Value: sitecore\admin
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+- Language: ja-JP
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150812T115410Z
+    - ID: 31ca077f-ef38-4980-8a24-05408031b2bc
+      # Name
+      Value: 言語テンプレート
+    - ID: 52807595-0f8f-4b20-8d2a-cb71d28c6103
+      # __Owner
+      Value: sitecore\admin
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+    - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+      # __Display name
+      Value: 言語テンプレート

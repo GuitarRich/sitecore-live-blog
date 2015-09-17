@@ -1,0 +1,91 @@
+﻿---
+ID: 08ef5ef9-80a1-4bdc-bf82-f10cc4ca0c8f
+Parent: 055634ef-74f9-4b13-a282-f1d1bbb4c0cf
+Template: 550b5cef-242c-463f-8ed5-983922a39863
+Path: /sitecore/system/Marketing Control Panel/Personalization/Predefined Conditions/visitor is robot
+SharedFields:
+- ID: 5c29555e-6565-4984-a692-115b49c047a0
+  # Rule
+  Type: Rules
+  Value: |
+    <ruleset>
+      <rule uid="{3F67B9D0-5928-4EFE-919A-CEC75EFBCF6C}">
+        <conditions>
+          <condition id="{A21BB2BF-0D28-4BFC-846E-4E6DED5F5666}" uid="756EA687FBF64B9CBABA126DCC323B84" operatorid="{814EF7D0-1639-44FD-AEEF-735B5AC14425}" VisitorIdentification="900" />
+        </conditions>
+      </rule>
+    </ruleset>
+Languages:
+- Language: da
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 062041c0-682e-4bd3-a778-85451ea11956
+      # Name
+      Value: besøgende er personlig
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150812T120157Z
+    - ID: 52807595-0f8f-4b20-8d2a-cb71d28c6103
+      # __Owner
+      Value: sitecore\admin
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+    - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+      # __Display name
+      Value: besøgende er en robot
+- Language: de-DE
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 062041c0-682e-4bd3-a778-85451ea11956
+      # Name
+      Value: Besucher ist menschlich
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150812T115744Z
+    - ID: 52807595-0f8f-4b20-8d2a-cb71d28c6103
+      # __Owner
+      Value: sitecore\admin
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+    - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+      # __Display name
+      Value: Besucher ist Robot
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 062041c0-682e-4bd3-a778-85451ea11956
+      # Name
+      Value: visitor is human
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20090202T184722
+    - ID: 52807595-0f8f-4b20-8d2a-cb71d28c6103
+      # __Owner
+      Value: sitecore\admin
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+- Language: ja-JP
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 062041c0-682e-4bd3-a778-85451ea11956
+      # Name
+      Value: ビジターが人間
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150812T115350Z
+    - ID: 52807595-0f8f-4b20-8d2a-cb71d28c6103
+      # __Owner
+      Value: sitecore\admin
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+    - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+      # __Display name
+      Value: ビジターがロボット

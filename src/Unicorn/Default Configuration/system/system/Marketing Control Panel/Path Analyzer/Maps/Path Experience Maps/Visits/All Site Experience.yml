@@ -1,0 +1,113 @@
+﻿---
+ID: 68e713d8-a382-4378-8fb0-9d7f7ad14b25
+Parent: ee56d222-9c42-41a4-83a5-bb48d50537c7
+Template: 1a0c1fe0-7956-4020-981b-4cea3c4f114a
+Path: /sitecore/system/Marketing Control Panel/Path Analyzer/Maps/Path Experience Maps/Visits/All Site Experience
+SharedFields:
+- ID: 9c6106ea-7a5a-48e2-8cad-f0f693b1e2d4
+  # __Read Only
+  Value: 1
+- ID: a4f985d9-98b3-4b52-aaaf-4344f6e747c6
+  # __Workflow
+  Value: {B879D176-4226-4C74-9ED4-6E61E813CBF7}
+- ID: ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e
+  # __Sortorder
+  Value: 50
+Languages:
+- Language: da
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150812T120224Z
+    - ID: 31fcbeb2-376a-481f-bb44-ef52301f33ca
+      # Description
+      Value: <p>Denne oversigt viser alle hjemmesideoplevelser.</p>
+    - ID: 3e431de1-525e-47a3-b6b0-1ccbec3a8c98
+      # __Workflow state
+      Value: {D86A72B4-7C3D-447E-9622-66B0DC1243F8}
+    - ID: 52807595-0f8f-4b20-8d2a-cb71d28c6103
+      # __Owner
+      Value: sitecore\admin
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+    - ID: a44d8693-f962-4f76-8fb8-62525ce67ba1
+      # Name
+      Value: Alle hjemmesideoplevelser
+    - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+      # __Display name
+      Value: Alle hjemmesideoplevelser
+- Language: de-DE
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150812T115812Z
+    - ID: 31fcbeb2-376a-481f-bb44-ef52301f33ca
+      # Description
+      Value: <p>Diese Karte zeigt alle Seitenerfahrungen.</p>
+    - ID: 3e431de1-525e-47a3-b6b0-1ccbec3a8c98
+      # __Workflow state
+      Value: {D86A72B4-7C3D-447E-9622-66B0DC1243F8}
+    - ID: 52807595-0f8f-4b20-8d2a-cb71d28c6103
+      # __Owner
+      Value: sitecore\admin
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+    - ID: a44d8693-f962-4f76-8fb8-62525ce67ba1
+      # Name
+      Value: Alle Seitenerfahrungen
+    - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+      # __Display name
+      Value: Alle Seitenerfahrungen
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20140401T225231Z
+    - ID: 31fcbeb2-376a-481f-bb44-ef52301f33ca
+      # Description
+      Value: <p>This map shows all site experience.</p>
+    - ID: 3e431de1-525e-47a3-b6b0-1ccbec3a8c98
+      # __Workflow state
+      Value: {D86A72B4-7C3D-447E-9622-66B0DC1243F8}
+    - ID: 52807595-0f8f-4b20-8d2a-cb71d28c6103
+      # __Owner
+      Value: sitecore\admin
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+    - ID: a44d8693-f962-4f76-8fb8-62525ce67ba1
+      # Name
+      Value: All Site Experience
+- Language: ja-JP
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150812T115408Z
+    - ID: 31fcbeb2-376a-481f-bb44-ef52301f33ca
+      # Description
+      Value: <p>このマップはすべてのサイト エクスペリエンスを表示します</p>
+    - ID: 3e431de1-525e-47a3-b6b0-1ccbec3a8c98
+      # __Workflow state
+      Value: {D86A72B4-7C3D-447E-9622-66B0DC1243F8}
+    - ID: 52807595-0f8f-4b20-8d2a-cb71d28c6103
+      # __Owner
+      Value: sitecore\admin
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+    - ID: a44d8693-f962-4f76-8fb8-62525ce67ba1
+      # Name
+      Value: すべてのサイト エクスペリエンス
+    - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+      # __Display name
+      Value: すべてのサイト エクスペリエンス

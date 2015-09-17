@@ -1,0 +1,83 @@
+﻿---
+ID: dd682fff-0337-42a2-8517-07d03505e7f8
+Parent: 4493f3c7-1405-4f73-86ee-fa85b2d38177
+Template: 3b4fde65-16a8-491d-bf15-99ce83cf3506
+Path: /sitecore/system/Marketing Control Panel/Taxonomies/Channel/Offline/Sales/Cold calling
+SharedFields:
+- ID: 8fb875eb-3ad3-44ff-87e1-998370cc3199
+  # Code
+  Value: 03
+Languages:
+- Language: da
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150812T120259Z
+    - ID: 52807595-0f8f-4b20-8d2a-cb71d28c6103
+      # __Owner
+      Value: sitecore\admin
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+    - ID: 8bdee96a-e8f5-446a-a1d2-568c3018c98e
+      # Image
+      Value: "<image mediaid=\"{39D9B2EE-B56C-4BB4-A8BD-16A92DB3CC29}\" />"
+    - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+      # __Display name
+      Value: Cold calling
+- Language: de-DE
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150812T115845Z
+    - ID: 52807595-0f8f-4b20-8d2a-cb71d28c6103
+      # __Owner
+      Value: sitecore\admin
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+    - ID: 8bdee96a-e8f5-446a-a1d2-568c3018c98e
+      # Image
+      Value: "<image mediaid=\"{39D9B2EE-B56C-4BB4-A8BD-16A92DB3CC29}\" />"
+    - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+      # __Display name
+      Value: Kaltakquise
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20141115T104733Z
+    - ID: 52807595-0f8f-4b20-8d2a-cb71d28c6103
+      # __Owner
+      Value: sitecore\admin
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+    - ID: 8bdee96a-e8f5-446a-a1d2-568c3018c98e
+      # Image
+      Value: "<image mediaid=\"{39D9B2EE-B56C-4BB4-A8BD-16A92DB3CC29}\" />"
+- Language: ja-JP
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150812T115428Z
+    - ID: 52807595-0f8f-4b20-8d2a-cb71d28c6103
+      # __Owner
+      Value: sitecore\admin
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+    - ID: 8bdee96a-e8f5-446a-a1d2-568c3018c98e
+      # Image
+      Value: "<image mediaid=\"{39D9B2EE-B56C-4BB4-A8BD-16A92DB3CC29}\" />"
+    - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+      # __Display name
+      Value: 営業電話

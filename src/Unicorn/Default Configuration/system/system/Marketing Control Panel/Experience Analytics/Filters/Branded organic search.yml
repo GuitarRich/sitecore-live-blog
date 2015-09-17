@@ -1,0 +1,127 @@
+﻿---
+ID: 3c117487-2acc-45a9-8b72-146e2dd9b70a
+Parent: f1c4275c-8f38-4570-babf-c95837cc87cf
+Template: 07003270-d56d-42c2-90e1-99125e0ed1af
+Path: /sitecore/system/Marketing Control Panel/Experience Analytics/Filters/Branded organic search
+SharedFields:
+- ID: ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e
+  # __Sortorder
+  Value: 0
+Languages:
+- Language: da
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 1e72123a-f0fc-48ef-ae9f-78872597cebf
+      # Rule
+      Type: Rules
+      Value: |
+        <ruleset>
+          <rule uid="{34C5C769-4F32-4FE1-B8A3-ABC0C44C99EE}">
+            <conditions>
+              <condition id="{2F421912-F1B3-49D8-82B8-50A64C80E4E3}" uid="45E787A6C28140A4B3143E6BD5E0E5B0" ChannelId="{FB8FA660-0A07-4EE9-A9F4-930FC5D10AEC}" />
+            </conditions>
+            <actions>
+              <action id="{E7AD708C-9943-4173-9055-ED9B078932B2}" uid="C8F707675C0344A496335F55AA01450D" />
+            </actions>
+          </rule>
+        </ruleset>
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150812T120213Z
+    - ID: 52807595-0f8f-4b20-8d2a-cb71d28c6103
+      # __Owner
+      Value: sitecore\admin
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+    - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+      # __Display name
+      Value: Branded organisk søgning
+- Language: de-DE
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 1e72123a-f0fc-48ef-ae9f-78872597cebf
+      # Rule
+      Type: Rules
+      Value: |
+        <ruleset>
+          <rule uid="{34C5C769-4F32-4FE1-B8A3-ABC0C44C99EE}">
+            <conditions>
+              <condition id="{2F421912-F1B3-49D8-82B8-50A64C80E4E3}" uid="45E787A6C28140A4B3143E6BD5E0E5B0" ChannelId="{FB8FA660-0A07-4EE9-A9F4-930FC5D10AEC}" />
+            </conditions>
+            <actions>
+              <action id="{E7AD708C-9943-4173-9055-ED9B078932B2}" uid="C8F707675C0344A496335F55AA01450D" />
+            </actions>
+          </rule>
+        </ruleset>
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150812T115800Z
+    - ID: 52807595-0f8f-4b20-8d2a-cb71d28c6103
+      # __Owner
+      Value: sitecore\admin
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+    - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+      # __Display name
+      Value: Branded organsiche Suche
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 1e72123a-f0fc-48ef-ae9f-78872597cebf
+      # Rule
+      Type: Rules
+      Value: |
+        <ruleset>
+          <rule uid="{34C5C769-4F32-4FE1-B8A3-ABC0C44C99EE}">
+            <conditions>
+              <condition id="{2F421912-F1B3-49D8-82B8-50A64C80E4E3}" uid="45E787A6C28140A4B3143E6BD5E0E5B0" ChannelId="{FB8FA660-0A07-4EE9-A9F4-930FC5D10AEC}" />
+            </conditions>
+            <actions>
+              <action id="{E7AD708C-9943-4173-9055-ED9B078932B2}" uid="C8F707675C0344A496335F55AA01450D" />
+            </actions>
+          </rule>
+        </ruleset>
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20141007T074206Z
+    - ID: 52807595-0f8f-4b20-8d2a-cb71d28c6103
+      # __Owner
+      Value: sitecore\admin
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+- Language: ja-JP
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 1e72123a-f0fc-48ef-ae9f-78872597cebf
+      # Rule
+      Type: Rules
+      Value: |
+        <ruleset>
+          <rule uid="{34C5C769-4F32-4FE1-B8A3-ABC0C44C99EE}">
+            <conditions>
+              <condition id="{2F421912-F1B3-49D8-82B8-50A64C80E4E3}" uid="45E787A6C28140A4B3143E6BD5E0E5B0" ChannelId="{FB8FA660-0A07-4EE9-A9F4-930FC5D10AEC}" />
+            </conditions>
+            <actions>
+              <action id="{E7AD708C-9943-4173-9055-ED9B078932B2}" uid="C8F707675C0344A496335F55AA01450D" />
+            </actions>
+          </rule>
+        </ruleset>
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150812T115355Z
+    - ID: 52807595-0f8f-4b20-8d2a-cb71d28c6103
+      # __Owner
+      Value: sitecore\admin
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+    - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+      # __Display name
+      Value: ブランド指定ありのオーガニック検索

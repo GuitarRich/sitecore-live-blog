@@ -1,0 +1,83 @@
+﻿---
+ID: d0f541bf-a58b-4fd2-a72e-12c7519b4a14
+Parent: fccb80b8-77a2-461d-9d9d-6a4c4d39ed17
+Template: 998b965e-6ab8-4568-810f-8101d60d0cc3
+Path: /sitecore/system/Settings/Validation Rules/Field Rules/Sample/Max Length 40/Trim
+SharedFields:
+- ID: cab694fc-e37c-44eb-9012-488b775cf638
+  # Message
+  Value: validator:trim(markerid=$Target)
+Languages:
+- Language: da
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150812T120256Z
+    - ID: 52807595-0f8f-4b20-8d2a-cb71d28c6103
+      # __Owner
+      Value: sitecore\admin
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+    - ID: 9b72a62b-2775-423d-b17a-ec34a9f31af8
+      # Display name
+      Value: Beskær
+    - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+      # __Display name
+      Value: Beskær
+- Language: de-DE
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150812T115843Z
+    - ID: 52807595-0f8f-4b20-8d2a-cb71d28c6103
+      # __Owner
+      Value: sitecore\admin
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+    - ID: 9b72a62b-2775-423d-b17a-ec34a9f31af8
+      # Display name
+      Value: Zuschneiden
+    - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+      # __Display name
+      Value: Zuschneiden
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20070118T135840
+    - ID: 52807595-0f8f-4b20-8d2a-cb71d28c6103
+      # __Owner
+      Value: sitecore\admin
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\Admin
+    - ID: 9b72a62b-2775-423d-b17a-ec34a9f31af8
+      # Display name
+      Value: Trim
+- Language: ja-JP
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150812T115426Z
+    - ID: 52807595-0f8f-4b20-8d2a-cb71d28c6103
+      # __Owner
+      Value: sitecore\admin
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+    - ID: 9b72a62b-2775-423d-b17a-ec34a9f31af8
+      # Display name
+      Value: トリミング
+    - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+      # __Display name
+      Value: トリミング

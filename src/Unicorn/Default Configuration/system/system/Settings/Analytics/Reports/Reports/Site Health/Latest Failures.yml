@@ -1,0 +1,116 @@
+﻿---
+ID: 0898ab8c-87d4-4639-88e7-4e1c81e7f84c
+Parent: ef2d7fda-0687-4c1b-901f-849bc1fa7f6b
+Template: 6674a4af-eace-445e-89f1-e2f464026056
+Path: /sitecore/system/Settings/Analytics/Reports/Reports/Site Health/Latest Failures
+SharedFields:
+- ID: 06d5295c-ed2f-4a54-9bf2-26228d113318
+  # __Icon
+  Value: People/32x32/Clock_stop.png
+- ID: 0cc4ad84-f69d-44d2-9600-5c7522aa2401
+  # File Name
+  Value: /sitecore/shell/Applications/Analytics/Reports/LatestFailures.mrt
+- ID: 16802c7a-011a-41ff-88b4-c33e6c737f3f
+  # Queries
+  Value: Failures=%7bF372C702-D4F6-4642-938A-1E59A1CAD3FD%7d
+Languages:
+- Language: da
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150812T120157Z
+    - ID: 52807595-0f8f-4b20-8d2a-cb71d28c6103
+      # __Owner
+      Value: sitecore\admin
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+    - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+      # __Display name
+      Value: Seneste mislykkede forsøg
+    - ID: d71dcbf1-3e4c-4acd-9244-58aa5c1c8528
+      # Report Title
+      Value: Seneste mislykkede forsøg
+    - ID: f38bb3c8-94d9-4815-8ce2-06fa4eb8fc80
+      # Report Description
+      Value: |
+        Denne rapport hjælper dig med at besvare følgende spørgsmål:<ul><li>Hvor opstår der mislykkede forsøg på hjemmesiden?</li></ul>Denne rapport anfører mislykkede forsøg efter tidspunkt for forekomst. Eksempler på de anførte problemer er:<ul><li>Side ikke fundet</li><li>Ingen søgehit fundet</li><li>Framelding</li></ul>Rapporten viser dato og tidspunkt for forekomsten, mislykket forsøgstype, URL for placering af mislykket forsøg og yderlige oplysninger om mislykket forsøg som f.eks. "søgeord" eller "Siden .... ikke fundet."
+        Brug denne rapport for at identificere mislykkede forsøg med henblik på fejlafhjælpning.<br/>
+        Kør denne rapport hver dag for at identificere problemer på din hjemmeside.
+        Klik på Beskrivelse af mislykket forsøg for at åbne Besøgsoplysningsrapporten og få vist besøgsoplysninger og aktivitet.
+- Language: de-DE
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150812T115744Z
+    - ID: 52807595-0f8f-4b20-8d2a-cb71d28c6103
+      # __Owner
+      Value: sitecore\admin
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+    - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+      # __Display name
+      Value: Neueste Ausfälle
+    - ID: d71dcbf1-3e4c-4acd-9244-58aa5c1c8528
+      # Report Title
+      Value: Neueste Ausfälle
+    - ID: f38bb3c8-94d9-4815-8ce2-06fa4eb8fc80
+      # Report Description
+      Value: |
+        Dieser Report hilft Ihnen dabei, die folgende Frage zu beantworten:<ul><li>Wo auf dieser Seite kommen Störungen vor?</li></ul>Dieser Report listet Störungen nach dem Zeitpunkt des Auftretens. Beispiele aufgelisteter Probleme sind:<ul><li>Seite nicht gefunden</li><li>Keine Suchtreffer gefunden (lokale Suchen)</li><li>Abbestellen</li><li>Login</li></ul>Der Report zeigt das Datum und die Uhrzeit des Auftretens, die Art des Störfalls, URL des Orts der Störung und weitere Informationen, die mit der Störung in Zusammenhang stehen, wie “Suchbegriff” oder “Die Seite … wurde nicht gefunden.”
+        Benutzen Sie diesen Report zur Identifizierung von Störungen zur Fehlerbehebung.<br/>
+        Führen Sie diesen Report täglich aus, um Probleme auf Ihrer Website zu identifizieren.
+        Klicken Sie auf das Störungsskript, um den Report Besuchsdetails zu öffnen, wo Sie dann die Besucherinformationen und Aktivität sehen können.
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20110412T111203
+    - ID: 52807595-0f8f-4b20-8d2a-cb71d28c6103
+      # __Owner
+      Value: sitecore\admin
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+    - ID: d71dcbf1-3e4c-4acd-9244-58aa5c1c8528
+      # Report Title
+      Value: Latest Failures
+    - ID: f38bb3c8-94d9-4815-8ce2-06fa4eb8fc80
+      # Report Description
+      Value: |
+        This report helps you answer the following question:<ul><li>Where do failures occur on the website?</li></ul>This report lists failures by time of occurrence. Examples of problems listed are:<ul><li>Page Not Found</li><li>No Search Hits Found (local searches)</li><li>Unsubscribe</li><li>Login</li></ul>The report shows the date and time of occurrence, type of failure, URL of failure location, and additional information related to the failure such as “search term”, or “The page … not found.”
+        Use this report to identify failures for troubleshooting.<br/>
+        Run this report every day to identify problems on your website.
+        Click the Failure description to open the Visit Details report where you can see the visitor information and activity. 
+        
+- Language: ja-JP
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150812T115350Z
+    - ID: 52807595-0f8f-4b20-8d2a-cb71d28c6103
+      # __Owner
+      Value: sitecore\admin
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+    - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+      # __Display name
+      Value: 最新のエラー
+    - ID: d71dcbf1-3e4c-4acd-9244-58aa5c1c8528
+      # Report Title
+      Value: 最新のエラー
+    - ID: f38bb3c8-94d9-4815-8ce2-06fa4eb8fc80
+      # Report Description
+      Value: |
+        このレポートは次の用途に使用できます：<ul><li>直近でどのようなエラーがウェブサイト上で発生しているか？</li></ul>このレポートは発生した問題の一覧です。 例：以下の問題が表示されます<ul><li>ページが見つかりません</li><li>検索結果がみつかりません (ローカル検索)</li><li>購読の解除</li><li>ログイン</li></ul>このレポートは発生日時、エラーの種類、エラー場所の URL および「検索ワード」や「ページが見つかりません」に関連する追加情報を表示します。このレポートを使用してトラブルシューティングを行うエラーを特定してください。<br/>
+        このレポートはウェブサイトの問題を識別するために毎日チェックしてください。[エラー] 項目の説明クリックして [訪問の詳細] レポートを表示し、セッション内のすべてのアクティビティを閲覧することもできます。

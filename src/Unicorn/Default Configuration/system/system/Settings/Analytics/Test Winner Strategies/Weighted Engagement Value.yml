@@ -1,0 +1,91 @@
+﻿---
+ID: f7f39c16-49b8-4fc0-b826-688c0dbd2005
+Parent: c0c108be-fca9-4b41-befa-95bf47dcb58a
+Template: 61618000-f943-4b7a-8286-28f8593a630f
+Path: /sitecore/system/Settings/Analytics/Test Winner Strategies/Weighted Engagement Value
+Languages:
+- Language: da
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 15f1de80-696e-418b-b017-f70f464e313b
+      # Name
+      Value: Vælg vinder automatisk, medmindre vinderen ikke performer bedst i forbindelse med efterfølgende værdi/besøg
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150525T133049:635681574496510330Z
+    - ID: 430b11c1-5bfe-466d-8452-20e83e35227a
+      # Type
+      Value: Sitecore.ContentTesting.Analytics.WinnerStrategies.BestValueStrategy, Sitecore.ContentTesting
+    - ID: 52807595-0f8f-4b20-8d2a-cb71d28c6103
+      # __Owner
+      Value: sitecore\admin
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+    - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+      # __Display name
+      Value: Vælg vinder, der performer bedst, automatisk
+- Language: de-DE
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 15f1de80-696e-418b-b017-f70f464e313b
+      # Name
+      Value: Gewinner automatisch auswählen, außer wenn es  nicht das beste Ergebnis für den Trailing-Wert/-Besuch ist
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150525T134906:635681585466293595Z
+    - ID: 430b11c1-5bfe-466d-8452-20e83e35227a
+      # Type
+      Value: Sitecore.ContentTesting.Analytics.WinnerStrategies.BestValueStrategy, Sitecore.ContentTesting
+    - ID: 52807595-0f8f-4b20-8d2a-cb71d28c6103
+      # __Owner
+      Value: sitecore\admin
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+    - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+      # __Display name
+      Value: Gewinner automatisch wählen bester
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 15f1de80-696e-418b-b017-f70f464e313b
+      # Name
+      Value: Automatically select winner, unless it is not best performing for trailing value/visit
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20140508T093308Z
+    - ID: 430b11c1-5bfe-466d-8452-20e83e35227a
+      # Type
+      Value: Sitecore.ContentTesting.Analytics.WinnerStrategies.BestValueStrategy, Sitecore.ContentTesting
+    - ID: 52807595-0f8f-4b20-8d2a-cb71d28c6103
+      # __Owner
+      Value: sitecore\admin
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+- Language: ja-JP
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 15f1de80-696e-418b-b017-f70f464e313b
+      # Name
+      Value: 訪問毎のバリューの追跡が最適でない場合は、自動的に最良のテスト結果を選択します
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150525T134028:635681580289540457Z
+    - ID: 430b11c1-5bfe-466d-8452-20e83e35227a
+      # Type
+      Value: Sitecore.ContentTesting.Analytics.WinnerStrategies.BestValueStrategy, Sitecore.ContentTesting
+    - ID: 52807595-0f8f-4b20-8d2a-cb71d28c6103
+      # __Owner
+      Value: sitecore\admin
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+    - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+      # __Display name
+      Value: 自動的に最良のテスト結果を選択する

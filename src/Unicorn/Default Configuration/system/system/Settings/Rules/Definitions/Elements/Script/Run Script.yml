@@ -1,0 +1,83 @@
+﻿---
+ID: 94c5c335-0902-4b45-b528-11b220005dd7
+Parent: bd93e442-6e11-4ea0-977d-75c1804f0aa6
+Template: f90052a5-b4e6-4e6d-9812-1e1b88a6fcea
+Path: /sitecore/system/Settings/Rules/Definitions/Elements/Script/Run Script
+SharedFields:
+- ID: ff55d5a7-6d4b-4cd1-83e0-bac268073f66
+  # Type
+  Value: Sitecore.Rules.Actions.RunScript,Sitecore.Kernel
+Languages:
+- Language: da
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150812T120237Z
+    - ID: 52807595-0f8f-4b20-8d2a-cb71d28c6103
+      # __Owner
+      Value: sitecore\admin
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+    - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+      # __Display name
+      Value: Kør script
+    - ID: eeb36a3b-40d9-4af5-862a-de257b84dca3
+      # Text
+      Value: kør [scriptid,Script,,specific] script
+- Language: de-DE
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150812T115825Z
+    - ID: 52807595-0f8f-4b20-8d2a-cb71d28c6103
+      # __Owner
+      Value: sitecore\admin
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+    - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+      # __Display name
+      Value: Script ausführen
+    - ID: eeb36a3b-40d9-4af5-862a-de257b84dca3
+      # Text
+      Value: starten [scriptid,Script,,spezifisches] Script
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20081203T113157
+    - ID: 52807595-0f8f-4b20-8d2a-cb71d28c6103
+      # __Owner
+      Value: sitecore\admin
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+    - ID: eeb36a3b-40d9-4af5-862a-de257b84dca3
+      # Text
+      Value: run [scriptid,Script,,specific] script
+- Language: ja-JP
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150812T115412Z
+    - ID: 52807595-0f8f-4b20-8d2a-cb71d28c6103
+      # __Owner
+      Value: sitecore\admin
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+    - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+      # __Display name
+      Value: スクリプト実行
+    - ID: eeb36a3b-40d9-4af5-862a-de257b84dca3
+      # Text
+      Value: スクリプト実行： [scriptid,Script,,特定のスクリプト] を実行する

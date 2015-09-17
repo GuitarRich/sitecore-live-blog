@@ -1,0 +1,127 @@
+﻿---
+ID: 3504d727-2f31-4735-9686-63e86783c944
+Parent: b6cd7d67-7fb0-49d2-9212-3e91fdec1c2d
+Template: 349cda24-cab7-4991-ba2e-86116017995c
+Path: /sitecore/system/Settings/Analytics/Testing/End Test Behavior/Is Mv Test/Winner Found
+Languages:
+- Language: da
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150525T132933:635681573739312076Z
+    - ID: 48747fde-21c1-44c8-9b40-ee2571f9f2f9
+      # Rule
+      Type: Rules
+      Value: |
+        <ruleset>
+          <rule uid="{A4779D18-8A27-4389-9E05-9CE90BBA62EB}">
+            <conditions>
+              <condition id="{C13ED131-1FBC-4625-97BE-F26C362B7768}" uid="0BC21185FC0E49099AE65833178BDF4E" />
+            </conditions>
+            <actions>
+              <action id="{98B2FA9A-C3AC-4B0D-90B4-6F439C60463E}" uid="8F51801E83224B6CB4022765BFCD539D" />
+              <action id="{F24DF43F-E4D4-4189-A5B0-86C79FBA951F}" uid="BA821FBE011F44899F2757E91803E1C1" EmailId="WinnerFound" />
+            </actions>
+          </rule>
+        </ruleset>
+    - ID: 52807595-0f8f-4b20-8d2a-cb71d28c6103
+      # __Owner
+      Value: sitecore\admin
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+    - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+      # __Display name
+      Value: Vinder blev fundet
+- Language: de-DE
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150525T134733:635681584533473916Z
+    - ID: 48747fde-21c1-44c8-9b40-ee2571f9f2f9
+      # Rule
+      Type: Rules
+      Value: |
+        <ruleset>
+          <rule uid="{A4779D18-8A27-4389-9E05-9CE90BBA62EB}">
+            <conditions>
+              <condition id="{C13ED131-1FBC-4625-97BE-F26C362B7768}" uid="0BC21185FC0E49099AE65833178BDF4E" />
+            </conditions>
+            <actions>
+              <action id="{98B2FA9A-C3AC-4B0D-90B4-6F439C60463E}" uid="8F51801E83224B6CB4022765BFCD539D" />
+              <action id="{F24DF43F-E4D4-4189-A5B0-86C79FBA951F}" uid="BA821FBE011F44899F2757E91803E1C1" EmailId="GewinnerGefunden" />
+            </actions>
+          </rule>
+        </ruleset>
+    - ID: 52807595-0f8f-4b20-8d2a-cb71d28c6103
+      # __Owner
+      Value: sitecore\admin
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+    - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+      # __Display name
+      Value: Gewinner Gefunden
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20140721T165302
+    - ID: 48747fde-21c1-44c8-9b40-ee2571f9f2f9
+      # Rule
+      Type: Rules
+      Value: |
+        <ruleset>
+          <rule uid="{A4779D18-8A27-4389-9E05-9CE90BBA62EB}">
+            <conditions>
+              <condition id="{C13ED131-1FBC-4625-97BE-F26C362B7768}" uid="0BC21185FC0E49099AE65833178BDF4E" />
+            </conditions>
+            <actions>
+              <action id="{98B2FA9A-C3AC-4B0D-90B4-6F439C60463E}" uid="8F51801E83224B6CB4022765BFCD539D" />
+              <action id="{F24DF43F-E4D4-4189-A5B0-86C79FBA951F}" uid="BA821FBE011F44899F2757E91803E1C1" EmailId="WinnerFound" />
+            </actions>
+          </rule>
+        </ruleset>
+    - ID: 52807595-0f8f-4b20-8d2a-cb71d28c6103
+      # __Owner
+      Value: sitecore\admin
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+- Language: ja-JP
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150525T133849:635681579294060154Z
+    - ID: 48747fde-21c1-44c8-9b40-ee2571f9f2f9
+      # Rule
+      Type: Rules
+      Value: |
+        <ruleset>
+          <rule uid="{A4779D18-8A27-4389-9E05-9CE90BBA62EB}">
+            <conditions>
+              <condition id="{C13ED131-1FBC-4625-97BE-F26C362B7768}" uid="0BC21185FC0E49099AE65833178BDF4E" />
+            </conditions>
+            <actions>
+              <action id="{98B2FA9A-C3AC-4B0D-90B4-6F439C60463E}" uid="8F51801E83224B6CB4022765BFCD539D" />
+              <action id="{F24DF43F-E4D4-4189-A5B0-86C79FBA951F}" uid="BA821FBE011F44899F2757E91803E1C1" EmailId="WinnerFound" />
+            </actions>
+          </rule>
+        </ruleset>
+    - ID: 52807595-0f8f-4b20-8d2a-cb71d28c6103
+      # __Owner
+      Value: sitecore\admin
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+    - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+      # __Display name
+      Value: 最良のテスト結果が見つかりました

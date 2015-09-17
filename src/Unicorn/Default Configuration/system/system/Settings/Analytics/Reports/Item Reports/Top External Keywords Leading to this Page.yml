@@ -1,0 +1,116 @@
+﻿---
+ID: 7a9ebb2c-33df-48d8-8583-8c643bf6e19a
+Parent: b62e6c0c-8be3-4f51-939a-db039eefa3a4
+Template: 6674a4af-eace-445e-89f1-e2f464026056
+Path: /sitecore/system/Settings/Analytics/Reports/Item Reports/Top External Keywords Leading to this Page
+SharedFields:
+- ID: 06d5295c-ed2f-4a54-9bf2-26228d113318
+  # __Icon
+  Value: Applications/32x32/exit.png
+- ID: 0cc4ad84-f69d-44d2-9600-5c7522aa2401
+  # File Name
+  Value: /sitecore/shell/Applications/Analytics/Reports/ItemReports/TopSearchKeywords.mrt
+- ID: 16802c7a-011a-41ff-88b4-c33e6c737f3f
+  # Queries
+  Value: DataSource=%7b8E191C24-3A24-4F67-84CE-AFD3E6F3CE7D%7d&Page=%7b0335CB18-C887-4F23-A674-A560D89B3A99%7d
+- ID: ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e
+  # __Sortorder
+  Value: 100
+Languages:
+- Language: da
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150812T120230Z
+    - ID: 52807595-0f8f-4b20-8d2a-cb71d28c6103
+      # __Owner
+      Value: sitecore\admin
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+    - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+      # __Display name
+      Value: Vigtigste eksterne nøgleord, der fører til denne side
+    - ID: d71dcbf1-3e4c-4acd-9244-58aa5c1c8528
+      # Report Title
+      Value: Vigtigste eksterne nøgleord på denne side
+    - ID: f38bb3c8-94d9-4815-8ce2-06fa4eb8fc80
+      # Report Description
+      Value: |
+        Denne rapport hjælper dig med at besvare spørgsmålet:<ul><li>Hvilke nøgleord førte den besøgende til denne side?</li></ul>
+        Denne rapport viser de vigtigste eksterne nøgleord anvendt af besøgende på det tidspunkt for at komme til denne side. Nøgleord er klassificeret efter den værdi, der er akkumuleret af besøgende, der brugte dette nøgleord. <br/>
+        Du kan hjælpe med at booste søgemaskinens klassificering ved at bruge disse nøgleord i overskrifter og øge deres brug i sidens indhold. Du ønsker evt. at undersøge køb af disse nøgleord som adwords i søgemaskiner.
+- Language: de-DE
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150812T115818Z
+    - ID: 52807595-0f8f-4b20-8d2a-cb71d28c6103
+      # __Owner
+      Value: sitecore\admin
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+    - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+      # __Display name
+      Value: Top externe Keywords, die auf diese Seite führen
+    - ID: d71dcbf1-3e4c-4acd-9244-58aa5c1c8528
+      # Report Title
+      Value: Top externe Keywords zu dieser Seite
+    - ID: f38bb3c8-94d9-4815-8ce2-06fa4eb8fc80
+      # Report Description
+      Value: |
+        Dieser Report hilft Ihnen, die Fragen zu beantworten:<ul><li>Welche Keywords haben den Besucher auf diese Seite gebracht?</li></ul>
+        Dieser Report zeigt die Top externen Keywords, die Besucher in diesem Zeitraum benutzt haben, um auf diese Seite zu gelangen. Keywords werden nach dem von den Besuchern, die dieses Keyword benutzt haben akkumulierten Wert gewichtet. <br/>
+        Mit dem Benutzen dieser Keywords in Überschriften und einer häufigeren Verwendung dieser Wörter im Seiteninhalt, können Sie helfen das Suchmaschinen-Ranking zu erhöhen.  Sie sollten vielleicht prüfen, diese Keywords als Adwords in Suchmaschinen zu erwerben.
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20090127T202122
+    - ID: 52807595-0f8f-4b20-8d2a-cb71d28c6103
+      # __Owner
+      Value: sitecore\admin
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+    - ID: d71dcbf1-3e4c-4acd-9244-58aa5c1c8528
+      # Report Title
+      Value: Top External Keywords to this Page
+    - ID: f38bb3c8-94d9-4815-8ce2-06fa4eb8fc80
+      # Report Description
+      Value: |
+        This report helps you answer the question:<ul><li>Which keywords brought the visitor to this page?</li></ul>
+        This report shows the top external keywords visitors used in this time period to come to this page. Keywords are ranked by the value accumulated by visitors who used this keyword. <br/>
+        You can help boost search engine rankings by using these keywords in headlines and increasing their use in page content. You may want to investigate purchasing these keywords as adwords in search engines.
+- Language: ja-JP
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150812T115410Z
+    - ID: 52807595-0f8f-4b20-8d2a-cb71d28c6103
+      # __Owner
+      Value: sitecore\admin
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+    - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+      # __Display name
+      Value: このページに繋がる上位の外部検索キーワード
+    - ID: d71dcbf1-3e4c-4acd-9244-58aa5c1c8528
+      # Report Title
+      Value: このページの外部検索キーワード
+    - ID: f38bb3c8-94d9-4815-8ce2-06fa4eb8fc80
+      # Report Description
+      Value: |
+        このレポートは次のような問に答えるために役立つ情報を提供します。<ul><li>ユーザーはどのキーワードを使ってこのページに来訪したか。</li></ul>
+        このレポートはある期間中にこのページに来訪したビジターが使用した上位の外部キーワードを示します。キーワードはこのキーワードを使用したビジターによって累計された値によってランク付けされています。<br/>
+        これらのキーワードをヘッドラインに使用したり、ページのコンテンツでの使用を増加させることによって、検索エンジンのランキングの上昇のために役立てることができます。これらのキーワードを検索エンジンの AdWords で購入することを検討することもできます。

@@ -1,0 +1,89 @@
+﻿---
+ID: f813cf67-7e37-445e-a105-f7c3f478dd2c
+Parent: 8ff16827-b2ad-4cb9-8aae-9f105da1d7b9
+Template: 9f63f3ed-bfb8-49a3-b370-1830e0a5920f
+Path: /sitecore/system/Settings/Buckets/Settings/Search Operations/Fields/Add Tag
+SharedFields:
+- ID: 06d5295c-ed2f-4a54-9bf2-26228d113318
+  # __Icon
+  Value: Applications/32x32/bullet_ball_red.png
+- ID: 5e34a660-3099-4e49-87df-80eb1decf2a6
+  # Enabled
+  Value: 1
+- ID: ccd35091-1a66-4ce5-a1d3-77a2ccd29142
+  # Type
+  Value: bucket:addtag
+Languages:
+- Language: da
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150812T120309Z
+    - ID: 52807595-0f8f-4b20-8d2a-cb71d28c6103
+      # __Owner
+      Value: sitecore\admin
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+    - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+      # __Display name
+      Value: Tilføj tag
+    - ID: d9bdf564-ff37-4564-b943-00d4d89c19f1
+      # List Name
+      Value: Tilføj tag
+- Language: de-DE
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150812T115850Z
+    - ID: 52807595-0f8f-4b20-8d2a-cb71d28c6103
+      # __Owner
+      Value: sitecore\admin
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+    - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+      # __Display name
+      Value: Tag hinzufügen
+    - ID: d9bdf564-ff37-4564-b943-00d4d89c19f1
+      # List Name
+      Value: Tag hinzufügen
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20120207T104100
+    - ID: 52807595-0f8f-4b20-8d2a-cb71d28c6103
+      # __Owner
+      Value: sitecore\admin
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+    - ID: d9bdf564-ff37-4564-b943-00d4d89c19f1
+      # List Name
+      Value: Add tag
+- Language: ja-JP
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150812T115431Z
+    - ID: 52807595-0f8f-4b20-8d2a-cb71d28c6103
+      # __Owner
+      Value: sitecore\admin
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin
+    - ID: b5e02ad9-d56f-4c41-a065-a133db87bdeb
+      # __Display name
+      Value: タグの追加
+    - ID: d9bdf564-ff37-4564-b943-00d4d89c19f1
+      # List Name
+      Value: タグの追加
