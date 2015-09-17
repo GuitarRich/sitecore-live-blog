@@ -11,8 +11,8 @@
     <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>PokerCentral.Website</RootNamespace>
-    <AssemblyName>PokerCentral.Website</AssemblyName>
+    <RootNamespace>LiveBlog.Website</RootNamespace>
+    <AssemblyName>LiveBlog.Website</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <SolutionDir Condition="$(SolutionDir) == '' Or $(SolutionDir) == '*Undefined*'">..\</SolutionDir>
     <RestorePackages>true</RestorePackages>
@@ -134,6 +134,9 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="App_Config\Sitecore.config" />
+    <Content Include="assets\css\bootstrap-theme.min.css" />
+    <Content Include="assets\css\bootstrap.min.css" />
+    <Content Include="assets\css\theme.css" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Scripts\Sc.LiveBlog\jquery.signalR-2.2.0.js" />
     <Content Include="Scripts\Sc.LiveBlog\jquery.signalR-2.2.0.min.js" />
@@ -147,12 +150,16 @@
     <Content Include="App_Config\Include\Sitecore.Live.Blogger\Sitecore.Live.Blogger.config">
       <SubType>Designer</SubType>
     </Content>
+    <Content Include="App_Config\Include\SUGCON.Demo\SUGCON.Demo.Settings.config">
+      <SubType>Designer</SubType>
+    </Content>
     <None Include="Properties\PublishProfiles\Local.pubxml" />
     <Content Include="Views\_ViewStart.cshtml" />
     <Content Include="Views\LiveBlog\LiveBlog.cshtml" />
     <Content Include="Views\LiveBlog\Templates\DefaultEntry.cshtml" />
     <Content Include="Views\LiveBlog\Templates\Tweet.cshtml" />
     <Content Include="Views\LiveBlog\Templates\Quote.cshtml" />
+    <Content Include="Views\Layouts\MainLayout.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
