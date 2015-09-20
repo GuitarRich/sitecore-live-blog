@@ -11,6 +11,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sc.Giphy", "Sc.Giphy\Sc.Gip
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sc.Gihpy.Tests", "Sc.Gihpy.Tests\Sc.Gihpy.Tests.csproj", "{38503717-4F79-4E3A-98AA-18D940D8CDE3}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Components", "Components", "{C2534C05-E4CF-48FA-90BD-BA76C64393AB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Giphy", "Giphy", "{C5BB851B-590E-4EDA-83F3-495D386DB91D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "LiveBlog", "LiveBlog", "{74B3DBED-B03C-4EEA-95FB-FD7F21FD6DFA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Content Author Server|Any CPU = Content Author Server|Any CPU
@@ -126,5 +132,12 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A51AFFE7-3316-45B2-BFED-CE53546B9C4C} = {74B3DBED-B03C-4EEA-95FB-FD7F21FD6DFA}
+		{5CE506ED-65CC-4DA5-BD3D-0E2B76791CF7} = {C5BB851B-590E-4EDA-83F3-495D386DB91D}
+		{38503717-4F79-4E3A-98AA-18D940D8CDE3} = {C5BB851B-590E-4EDA-83F3-495D386DB91D}
+		{C5BB851B-590E-4EDA-83F3-495D386DB91D} = {C2534C05-E4CF-48FA-90BD-BA76C64393AB}
+		{74B3DBED-B03C-4EEA-95FB-FD7F21FD6DFA} = {C2534C05-E4CF-48FA-90BD-BA76C64393AB}
 	EndGlobalSection
 EndGlobal

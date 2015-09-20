@@ -186,6 +186,9 @@
     <Content Include="Views\LiveBlog\Templates\Tweet.cshtml" />
     <Content Include="Views\LiveBlog\Templates\Quote.cshtml" />
     <Content Include="Views\Layouts\MainLayout.cshtml" />
+    <Content Include="Scripts\scripts.coffee" />
+    <Content Include="Scripts\modules\init.coffee" />
+    <None Include="Scripts\modules\jquery.no-conflict.coffee" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -203,6 +206,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="Scripts\vendor\" />
     <Folder Include="sitecore\shell\" />
     <Folder Include="upload\" />
     <Folder Include="Views\Shared\" />
