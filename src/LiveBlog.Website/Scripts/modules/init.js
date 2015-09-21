@@ -19,7 +19,6 @@
 		ModalContainerCookie: 'atpModalContainer',
 		init: function () {
 			this.instance = new app.Views.App();
-			this.Analytics.init();
 			if (typeof history.pushState === "undefined" || isPageEditor) {
 				app.BackboneEnabled = false;
 				return false;
@@ -35,7 +34,7 @@
 		app.BackboneEnabled = false;
 	}
 
-	return require(["router", "views/app", "views/default/view", "util/backboneUtil"], function (Router, GoogleAnalytics, AppView, DefaultAction, BackboneUtil) {
+	return require(["router", "views/app", "views/default/view", "util/backboneUtil"], function (Router, AppView, DefaultAction, BackboneUtil) {
 		app.Router = Router;
 		app.Views.App = AppView;
 		app.Views.DefaultAction = DefaultAction;

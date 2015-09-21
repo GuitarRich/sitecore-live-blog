@@ -1,3 +1,3 @@
-﻿# CoffeeScript
-define ["jquery"], (jq) ->
-  jq.noConflict false
+﻿define(["jquery"], function(jq) {
+	return jq.noConflict(false);
+});

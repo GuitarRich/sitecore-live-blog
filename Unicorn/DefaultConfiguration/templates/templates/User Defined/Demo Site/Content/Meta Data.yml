@@ -1,0 +1,24 @@
+﻿---
+ID: 0b320b6f-ebf6-4e6e-be24-ea7a8a4768cc
+Parent: 0c6449f6-645d-4cb6-945a-7bb81276d19f
+Template: ab86861a-6030-46c5-b394-e8f99e8b87db
+Path: /sitecore/templates/User Defined/Demo Site/Content/Meta Data
+SharedFields:
+- ID: 06d5295c-ed2f-4a54-9bf2-26228d113318
+  # __Icon
+  Value: ApplicationsV2/16x16/ticket_blue.png
+- ID: 12c33f3f-86c5-43a5-aeb4-5598cec45116
+  # __Base template
+  Type: tree list
+  Value: {1930BBEB-7805-471A-A3BE-4858AC7CF696}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150912T014253Z
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin

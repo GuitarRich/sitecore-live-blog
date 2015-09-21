@@ -1,7 +1,7 @@
 ﻿/*
  * Add header comments :)
  */
-define(["jquery", "backbone", "views/baseView", "util/pageTransitions", "jquery.cookie"], function ($, Backbone, BaseView, PageTransitions) {
+define(["jquery", "backbone", "views/baseView", "util/pageTransitions"], function ($, Backbone, BaseView, PageTransitions) {
 	var AppView;
 	return AppView = BaseView.View.extend({
 		el: "#backbonePlaceholder",
