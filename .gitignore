@@ -7,6 +7,9 @@
 *.userosscache
 *.sln.docstates
 
+# Sitecore Binaries
+lib/
+
 # User-specific files (MonoDevelop/Xamarin Studio)
 *.userprefs
 

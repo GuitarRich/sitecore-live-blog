@@ -1,1 +1,3 @@
-﻿@Html.Sitecore().Placeholder("content")
+﻿<div id="mainContent" data-current-id="@Sitecore.Context.Item.ID.ToShortID()">
+	@Html.Sitecore().Placeholder("content")
+</div>

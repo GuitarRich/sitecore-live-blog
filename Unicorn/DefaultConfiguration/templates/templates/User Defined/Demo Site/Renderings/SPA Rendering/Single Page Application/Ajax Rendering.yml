@@ -1,0 +1,23 @@
+﻿---
+ID: d46c06f2-2aef-456a-a2e9-bdc0e51d0c6e
+Parent: c8c6fa48-4956-4691-bc27-98a57564f25f
+Template: 455a3e98-a627-4b40-8035-e683a0331ac7
+Path: /sitecore/templates/User Defined/Demo Site/Renderings/SPA Rendering/Single Page Application/Ajax Rendering
+SharedFields:
+- ID: 1eb8ae32-e190-44a6-968d-ed904c794ebf
+  # Source
+  Value: datasource={32566F0E-7686-45F1-A12F-D7260BD78BC3}
+- ID: 39847666-389d-409b-95bd-f2016f11eed5
+  # Unversioned
+  Value: 1
+- ID: ab162cc0-dc80-4abf-8871-998ee5d7ba32
+  # Type
+  Value: Droptree
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150921T032045Z

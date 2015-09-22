@@ -25,6 +25,7 @@ define(["jquery"], function ($) {
 			PrivatePageTransitions.prototype.defaults = {
 				pageHeader: "#pageHeader",
 				mainContainer: "#mainContainer",
+				navbar: "#navbar",
 				html: "html",
 				body: "body",
 				transitionDelay: 250
@@ -35,6 +36,7 @@ define(["jquery"], function ($) {
 				this.options.$mainContainer = $(this.options.mainContainer);
 				this.options.$html = $(this.options.html);
 				this.options.$body = $(this.options.body);
+				this.options.$navbar = $(this.options.navbar);
 			};
 
 			PrivatePageTransitions.prototype.transitionStart = function () {
@@ -72,104 +74,16 @@ define(["jquery"], function ($) {
 			};
 
 			PrivatePageTransitions.prototype.updatePage = function () {
-				this.modifyResponse();
 				$("#mainContent").remove();
-				this.options.$mainContainer.append(this.modifiedResponse);
-				return this.additionalSelectors();
-			};
-
-			PrivatePageTransitions.prototype.updateHeaderTags = function () {
-				var oldMeta = $("meta");
-				var oldTitle = $("title");
-				var head = $("head");
-				oldMeta.remove();
-				head.prepend(this.newMeta);
-				oldTitle.remove();
-				return head.prepend(this.newTitle);
-			};
-
-			PrivatePageTransitions.prototype.updateLargeDropin = function () {
-				var _ref, _template;
-				_template = (_ref = this.options.$largeDropinTemplate) != null ? _ref.html() : void 0;
-				if (_template) {
-					if (!this.options.$largeDropin.length) {
-						this.options.$wrapper.prepend(_template);
-					} else {
-						this.options.$largeDropin[0].outerHTML = _template;
-					}
-					return new LargeDropinAd({
-						openAdTimeout: 2000
-					});
-				}
-			};
-
-			PrivatePageTransitions.prototype.updateSubNavigation = function (timeOut) {
-				return setTimeout((function (_this) {
-					return function () {
-						var _ref, _template;
-						_this.additionalSelectors();
-						_template = (_ref = _this.options.$subNavigationTemplate) != null ? _ref.html() : void 0;
-						if (_template) {
-							_this.options.$subNavigation.remove();
-							$(_template).insertAfter(_this.options.mainHeader);
-							if (_this.options.$body.hasClass("is-mobile")) {
-								return new SubNavigation();
-							}
-						} else {
-							return _this.options.$subNavigation.remove();
-						}
-					};
-				})(this), timeOut || this.options.transitionDelay * 2.1);
-			};
-
-			PrivatePageTransitions.prototype.updateHeaderCallouts = function () {
-				var _ref, _template;
-				_template = (_ref = this.options.$headerCalloutsTemplate) != null ? _ref.html() : void 0;
-				if (_template) {
-					if (!this.options.$headerCallouts.length) {
-						return $(_template).insertAfter(this.options.mainHeader);
-					} else {
-						return this.options.$headerCallouts[0].outerHTML = _template;
-					}
-				} else {
-					return this.options.$headerCallouts.remove();
-				}
-			};
-
-			PrivatePageTransitions.prototype.updateLongForm = function () {
-				var _ref, _template;
-				_template = (_ref = this.options.$longFormTemplate) != null ? _ref.html() : void 0;
-				if (_template) {
-					if (!this.options.$longForm.length) {
-						this.options.$body.append(_template);
-					} else {
-						this.options.$longForm[0].outerHTML = _template;
-					}
-					return setTimeout((function (_this) {
-						return function () {
-							return new LongForm();
-						};
-					})(this), this.options.transitionDelay);
-				} else {
-					return setTimeout((function (_this) {
-						return function () {
-							var _ref1;
-							return (_ref1 = _this.options.$longForm) != null ? _ref1.remove() : void 0;
-						};
-					})(this), this.options.transitionDelay);
-				}
-			};
-
-			PrivatePageTransitions.prototype.updateStickyNav = function () { };
-
-			PrivatePageTransitions.prototype.updateOutsideElements = function (timeOut) {
+				this.options.$mainContainer.html(this.response);
 				this.additionalSelectors();
-				this.updateSubNavigation(timeOut);
-				this.updateHeaderCallouts();
-				this.updatePageHeader();
-				this.updateLargeDropin();
-				this.updateLongForm();
-				return this.updateStickyNav();
+				this.updateNavigation();
+			};
+
+			PrivatePageTransitions.prototype.updateNavigation = function () {
+				var shortId = $("#mainContent").data().currentId;
+				this.options.$navbar.find("li").removeClass("active");
+				this.options.$navbar.find("li[data-id='" + shortId + "']").addClass("active");
 			};
 
 			return PrivatePageTransitions;

@@ -1,0 +1,23 @@
+﻿---
+ID: 713662d0-78f4-4070-9f24-a02f000387cb
+Parent: e18f4bc6-46a2-4842-898b-b6613733f06f
+Template: b6f7eeb4-e8d7-476f-8936-5ace6a76f20b
+Path: /sitecore/layout/Devices/Ajax
+SharedFields:
+- ID: 32326f99-c0da-4817-9dbe-79e6de8005e4
+  # Query string
+  Value: ajax=true
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      # __Created
+      Value: 20150921T031447Z
+    - ID: 52807595-0f8f-4b20-8d2a-cb71d28c6103
+      # __Owner
+      Value: sitecore\admin
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      # __Created by
+      Value: sitecore\admin

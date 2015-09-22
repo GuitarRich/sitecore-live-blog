@@ -33,7 +33,9 @@
 	@Html.Sitecore().Placeholder("header")
 
 	<div id="mainContainer" class="container theme-showcase" role="main">
-		@Html.Sitecore().Placeholder("content")
+		<div id="mainContent">
+			@Html.Sitecore().Placeholder("content")
+		</div>
 	</div>
 </body>
 </html>

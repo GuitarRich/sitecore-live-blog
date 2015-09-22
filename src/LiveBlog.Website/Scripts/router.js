@@ -15,7 +15,7 @@ define(["jquery", "backbone"], function ($, Backbone) {
 		trackPageView: function () {
 			var url;
 			url = "/" + Backbone.history.getFragment();
-			return app.Analytics.trackPageView(url, document.title);
+			//return app.Analytics.trackPageView(url, document.title);
 		}
 	});
 });
