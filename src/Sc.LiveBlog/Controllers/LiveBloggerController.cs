@@ -2,26 +2,25 @@
 {
 	using System.Web.Mvc;
 
-	using Microsoft.AspNet.SignalR;
-
-	using Sc.LiveBlog.SignalR;
+	using Sc.LiveBlog.Model;
 
 	public class LiveBloggerController : Controller
 	{
 		public ActionResult LiveBlog()
 		{
-			return this.View();
+			var data = new LiveBlogViewModel();
+			return this.View(data);
 		}
 
-		public JsonResult PostBlog(string blogEntry, int blogType)
-		{
-			// TODO: What level of security do we need to put here? 
-			// Make sure they are logged in as a Sitecore user... Roles???
+		//public JsonResult PostBlog(string blogEntry, int blogType)
+		//{
+		//	// TODO: What level of security do we need to put here? 
+		//	// Make sure they are logged in as a Sitecore user... Roles???
 
-			var hubContext = GlobalHost.ConnectionManager.GetHubContext<LiveBlogNotifier>();
-			hubContext.Clients.All.blogPosted(blogEntry, blogType);
+		//	var hubContext = GlobalHost.ConnectionManager.GetHubContext<LiveBlogHub>();
+		//	hubContext.Clients.All.blogPosted(blogEntry, blogType);
 
-			return new JsonResult();
-		}
+		//	return new JsonResult();
+		//}
 	}
 }

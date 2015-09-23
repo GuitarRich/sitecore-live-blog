@@ -81,20 +81,24 @@
       <HintPath>..\packages\Newtonsoft.Json.7.0.1\lib\net45\Newtonsoft.Json.dll</HintPath>
       <Private>True</Private>
     </Reference>
+    <Reference Include="Ninject, Version=3.0.0.0, Culture=neutral, PublicKeyToken=c7192dc5380945e7, processorArchitecture=MSIL">
+      <HintPath>..\packages\Ninject.3.0.1.10\lib\net45-full\Ninject.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="Owin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=f0ebd12fd5e55cc5, processorArchitecture=MSIL">
       <HintPath>..\packages\Owin.1.0\lib\net40\Owin.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="Rainbow, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Rainbow.Core.1.0.0-rc1\lib\net45\Rainbow.dll</HintPath>
+      <HintPath>..\packages\Rainbow.Core.1.0.0-rc2\lib\net45\Rainbow.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="Rainbow.Storage.Sc, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Rainbow.Storage.Sc.1.0.0-rc1\lib\net45\Rainbow.Storage.Sc.dll</HintPath>
+      <HintPath>..\packages\Rainbow.Storage.Sc.1.0.0-rc2\lib\net45\Rainbow.Storage.Sc.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="Rainbow.Storage.Yaml, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Rainbow.Storage.Yaml.1.0.0-rc1\lib\net45\Rainbow.Storage.Yaml.dll</HintPath>
+      <HintPath>..\packages\Rainbow.Storage.Yaml.1.0.0-rc2\lib\net45\Rainbow.Storage.Yaml.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="Sitecore.Buckets.Client, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
@@ -167,7 +171,7 @@
     <Reference Include="System.EnterpriseServices" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="Unicorn, Version=3.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Unicorn.Core.3.0.0-rc2\lib\net45\Unicorn.dll</HintPath>
+      <HintPath>..\packages\Unicorn.Core.3.0.0-rc4\lib\net45\Unicorn.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="WebActivatorEx, Version=2.0.0.0, Culture=neutral, PublicKeyToken=7b26dc2a43f6a0d4, processorArchitecture=MSIL">
@@ -185,13 +189,17 @@
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="scripts\Sc.LiveBlog\hubs.js" />
     <Content Include="scripts\vendor\bootstrap.js" />
     <Content Include="scripts\vendor\bootstrap.min.js" />
+    <Content Include="scripts\Sc.LiveBlog\sc.liveblog.js" />
+    <Content Include="App_Config\Include\Rainbow.config" />
     <Content Include="App_Config\Include\Unicorn\Unicorn.UI.config" />
     <Content Include="App_Config\Include\Unicorn\Unicorn.Remote.config.disabled" />
     <Content Include="App_Config\Include\Unicorn\Unicorn.DataProvider.config" />
     <Content Include="App_Config\Include\Unicorn\Unicorn.Configs.NewItemsOnly.example" />
     <Content Include="App_Config\Include\Unicorn\Unicorn.Configs.Default.example" />
+    <Content Include="App_Config\Include\Unicorn\Unicorn.config" />
     <Content Include="App_Config\Include\Unicorn\Unicorn.AutoPublish.config" />
     <None Include="scripts\vendor\jquery-2.1.4.intellisense.js" />
     <Content Include="scripts\vendor\jquery-2.1.4.js" />
@@ -217,8 +225,6 @@
     <Content Include="App_Config\Include\SUGCON.Demo\SUGCON.Demo.Settings.config">
       <SubType>Designer</SubType>
     </Content>
-    <Content Include="App_Config\Include\Unicorn\Unicorn.config" />
-    <Content Include="App_Config\Include\Rainbow.config" />
     <Content Include="App_Config\Include\Unicorn\Unicorn.Deployed.config.disabled" />
     <None Include="App_Config\Include\Unicorn\Unicorn.Configs.Default.config" />
     <Content Include="fonts\glyphicons-halflings-regular.woff2" />
@@ -228,10 +234,10 @@
     <Content Include="Content\bootstrap.css.map" />
     <Content Include="Content\bootstrap-theme.css.map" />
     <None Include="Properties\PublishProfiles\Local.pubxml" />
-    <Content Include="Views\LiveBlog\LiveBlog.cshtml" />
-    <Content Include="Views\LiveBlog\Templates\DefaultEntry.cshtml" />
-    <Content Include="Views\LiveBlog\Templates\Tweet.cshtml" />
-    <Content Include="Views\LiveBlog\Templates\Quote.cshtml" />
+    <Content Include="Views\LiveBlogger\LiveBlog.cshtml" />
+    <Content Include="Views\LiveBlogger\Templates\DefaultEntry.cshtml" />
+    <Content Include="Views\LiveBlogger\Templates\Tweet.cshtml" />
+    <Content Include="Views\LiveBlogger\Templates\Quote.cshtml" />
     <Content Include="Views\Layouts\MainLayout.cshtml" />
     <Content Include="scripts\main.js" />
     <Content Include="scripts\modules\init.js" />

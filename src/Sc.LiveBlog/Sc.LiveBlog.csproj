@@ -74,10 +74,13 @@
   <ItemGroup>
     <Compile Include="Constants.cs" />
     <Compile Include="Controllers\LiveBloggerController.cs" />
+    <Compile Include="Helpers\ConfigurationManager.cs" />
+    <Compile Include="Hubs\LiveBlogHub.cs" />
+    <Compile Include="Model\LiveBlogViewModel.cs" />
+    <Compile Include="Model\RequireJsPaths.cs" />
     <Compile Include="Pipelines\HttpRequestBegin\IgnoreSignalR.cs" />
     <Compile Include="Pipelines\Initialize\RegisterSignalRProcessor.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="SignalR\LiveBlogNotifier.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="app.config" />
@@ -89,6 +92,7 @@
     <Content Include="Scripts\jquery-2.1.4.js" />
     <Content Include="Scripts\jquery-2.1.4.min.js" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

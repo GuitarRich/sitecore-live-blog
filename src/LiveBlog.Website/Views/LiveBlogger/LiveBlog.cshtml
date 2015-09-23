@@ -1,0 +1,17 @@
+﻿@model Sc.LiveBlog.Model.LiveBlogViewModel
+
+<div>
+	<div class="container">
+		<input type="text" id="message" />
+		<input type="button" id="sendmessage" value="Send" />
+		<input type="hidden" id="displayname" />
+		<ul id="discussion"></ul>
+	</div>
+</div>
+
+<script>
+	require(["jquery", "liveblog", "hub"], function ($, LiveBlog) {
+		var liveBlog = new LiveBlog();
+		liveBlog.init();
+	});
+</script>
