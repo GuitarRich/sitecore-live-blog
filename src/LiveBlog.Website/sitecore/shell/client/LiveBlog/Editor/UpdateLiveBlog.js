@@ -2,6 +2,10 @@
 	var model = Sitecore.Definitions.Models.ControlModel.extend({
 		initialize: function (options) {
 			this._super();
+
+			this.set("item-id", null);
+			this.set("blog-title", null);
+
 		}
 	});
 
@@ -12,24 +16,27 @@
 		},
 		bindEvents: function () {
 			var liveBlogHub = $.connection.liveBlogHub;
+			var itemId = this.getParameterByName("id");
+			$("#itemId").html(itemId);
 
-			liveBlogHub.client.blogPosted = function (text, type) {
-
-				var encodedText = $('<div />').text(text).html();
-				var encodedType = $('<div />').text(type).html();
-
-				$('#discussion').append('<li><strong>' + text + '</strong>:&nbsp;&nbsp;' + encodedType + '</li>');
+			liveBlogHub.client.blogPosted = function (data) {
+				var json = JSON.parse(data);
+				$("#discussion").prepend("<div>" + json.text + "</div>");
 			};
 
 			$.connection.hub.start().done(function () {
-				$('#sendmessage').on('click', function () {
-					liveBlogHub.server.postBlogEntry($('#message').val(), "FROM SPEAK");
-					$('#message').val('').focus();
+				$("#sendmessage").on("click", function () {
+					liveBlogHub.server.postBlogEntry($("#message").val(), itemId);
+					$("#message").val("").focus();
 				});
 			});
+		},
+		getParameterByName: function (name) {
+			name = name.replace(/[\[]/, "\\[").replace(/[\]]/, "\\]");
+			var regex = new RegExp("[\\?&]" + name + "=([^&#]*)"),
+				results = regex.exec(location.search);
+			return results === null ? "" : decodeURIComponent(results[1].replace(/\+/g, " "));
 		}
-
-
 	});
 
 	Sitecore.Factories.createComponent("UpdateLiveBlog", model, view, ".sc-UpdateLiveBlog");

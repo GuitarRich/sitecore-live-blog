@@ -1,6 +1,6 @@
 ﻿/*
  *
- * Configuration Provider and setup inspired by the genious of https://github.com/kamsar
+ * Configuration Provider and setup inspired by the genius of https://github.com/kamsar
  *
  */
 

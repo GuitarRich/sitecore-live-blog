@@ -86,6 +86,7 @@
     <Compile Include="Factories\FactoryManager.cs" />
     <Compile Include="Helpers\ConfigurationManager.cs" />
     <Compile Include="Hubs\LiveBlogHub.cs" />
+    <Compile Include="Model\BlogEntryModel.cs" />
     <Compile Include="Model\LiveBlogViewModel.cs" />
     <Compile Include="Model\RequireJsPaths.cs" />
     <Compile Include="Pipelines\HttpRequestBegin\IgnoreSignalR.cs" />

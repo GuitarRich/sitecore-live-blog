@@ -4,7 +4,10 @@
 
 	using Microsoft.AspNet.SignalR;
 
+	using Newtonsoft.Json;
+
 	using Sc.LiveBlog.Factories;
+	using Sc.LiveBlog.Model;
 
 	public class LiveBlogHub : Hub
 	{
@@ -16,7 +19,17 @@
 			var commandParser = FactoryManager.CommandFactory.GetCommandParser();
 			var modifiedBlogText = commandParser.Parse(blogText);
 
-			hubContext.Clients.All.blogPosted(modifiedBlogText, blogType, DateTime.Now.ToUniversalTime().ToString("yyyy-MM-dd hh:mm:ss zzz"));
+			var blogEntry = new BlogEntryModel
+			{
+				BlogId = "1111111",
+				EntryType = "default",
+				Text = modifiedBlogText,
+				TimeStamp = DateTime.Now.ToUniversalTime().ToString("yyyy-MM-dd hh:mm:ss zzz")
+			};
+
+			var json = JsonConvert.SerializeObject(blogEntry);
+
+			hubContext.Clients.All.blogPosted(json);
 		}
 	}
 }

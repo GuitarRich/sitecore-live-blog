@@ -1,7 +1,9 @@
 ﻿namespace Sc.LiveBlog.CommandParser
 {
+	using System;
 	using System.Collections.Generic;
 	using System.Linq;
+	using System.Text.RegularExpressions;
 
 	using Sc.LiveBlog.Configuration;
 	using Sc.LiveBlog.Factories;
@@ -45,8 +47,12 @@
 			}
 
 			// get the parameters of the command. 1st is always the command,
-			// others are the params for the command
-			var parameters = input.Replace("/", string.Empty).Split(' ');
+			// others are the params for the command. We split on white space that
+			// is not in quotes
+			var parameters = Regex.Matches(input.Substring(1), @"[\""].+?[\""]|[^ ]+")
+				.Cast<Match>()
+				.Select(m => m.Value)
+				.ToList();
 
 			return this.RunCommand(parameters[0], parameters.Skip(1).ToArray());
 		}
