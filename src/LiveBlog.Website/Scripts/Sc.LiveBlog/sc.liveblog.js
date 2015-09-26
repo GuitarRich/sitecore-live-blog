@@ -15,17 +15,16 @@ define(["jquery", "signalr", "hub"], function ($) {
 		LiveBlog.prototype.init = function() {
 			var liveBlogHub = $.connection.liveBlogHub;
 
-			liveBlogHub.client.blogPosted = function (text, type) {
+			liveBlogHub.client.blogPosted = function (text, type, timestamp) {
 
-				var encodedText = $('<div />').text(text).html();
 				var encodedType = $('<div />').text(type).html();
 
-				$('#discussion').append('<li><strong>' + encodedText + '</strong>:&nbsp;&nbsp;' + encodedType + '</li>');
+				$('#discussion').append('<li>' + text + '<div>:&nbsp;&nbsp;' + encodedType + '</div></li>');
 			};
 
 			$.connection.hub.start().done(function() {
 				$('#sendmessage').on('click', function() {
-					liveBlogHub.server.postBlogEntry($('#displayname').val(), $('#message').val());
+					liveBlogHub.server.postBlogEntry($('#message').val(), "FROM CLIENT");
 					$('#message').val('').focus();
 				});
 			});

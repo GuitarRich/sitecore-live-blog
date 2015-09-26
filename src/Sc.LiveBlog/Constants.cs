@@ -4,7 +4,7 @@
 	{
 		public class Settings
 		{
-			public const string IgnoreSignalRPrefixes = "LiveBlogger.IgnoreSignalRPrefixes";
+			public const string IgnoreSignalRPrefixes = "LiveBlog.IgnoreSignalRPrefixes";
 		}
 	}
 }

@@ -6,8 +6,9 @@
 		"backbone": "//cdnjs.cloudflare.com/ajax/libs/backbone.js/1.2.3/backbone-min",
 		"bootstrap": "//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min",
 		"underscore": "//cdnjs.cloudflare.com/ajax/libs/underscore.js/1.8.3/underscore-min",
-		"signalr": "//ajax.aspnetcdn.com/ajax/signalr/jquery.signalr-2.2.0.min",
-		"hub": "Sc.LiveBlog/hubs",
+		//"signalr": "//ajax.aspnetcdn.com/ajax/signalr/jquery.signalr-2.2.0.min",
+		"signalr": "sc.liveblog/jquery.signalR-2.2.0",
+		"hub": "sc.liveblog/hubs",
 		"liveblog": "Sc.LiveBlog/sc.liveblog"
 	},
 	shim: {

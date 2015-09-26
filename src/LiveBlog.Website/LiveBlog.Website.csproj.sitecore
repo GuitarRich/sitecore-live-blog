@@ -1,0 +1,5 @@
+﻿<Project>
+  <PropertyGroup>
+    <Site Server="sc.liveblog" UserName="sitecore\admin" IsRemoteSitecore="True" />
+  </PropertyGroup>
+</Project>

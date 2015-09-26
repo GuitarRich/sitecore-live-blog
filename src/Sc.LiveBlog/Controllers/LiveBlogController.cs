@@ -4,7 +4,7 @@
 
 	using Sc.LiveBlog.Model;
 
-	public class LiveBloggerController : Controller
+	public class LiveBlogController : Controller
 	{
 		public ActionResult LiveBlog()
 		{

@@ -23,7 +23,7 @@
 		/// <value>
 		/// The view locations.
 		/// </value>
-		public string ViewLocations => ConfigurationManager.GetSetting("LiveBlogger.ViewLocations");
+		public string ViewLocations => ConfigurationManager.GetSetting("LiveBlog.ViewLocations");
 
 
 

@@ -201,6 +201,19 @@
     <Content Include="App_Config\Include\Unicorn\Unicorn.Configs.Default.example" />
     <Content Include="App_Config\Include\Unicorn\Unicorn.config" />
     <Content Include="App_Config\Include\Unicorn\Unicorn.AutoPublish.config" />
+    <Content Include="App_Config\Include\.Sitecore.Speak.Important.config" />
+    <None Include="App_Config\Include\zSitecore.Live.Blog\Sitecore.Live.Blog.Debug.config">
+      <DependentUpon>Sitecore.Live.Blog.config</DependentUpon>
+      <IsTransformFile>True</IsTransformFile>
+    </None>
+    <None Include="App_Config\Include\zSitecore.Live.Blog\Sitecore.Live.Blog.Local.config">
+      <DependentUpon>Sitecore.Live.Blog.config</DependentUpon>
+      <IsTransformFile>True</IsTransformFile>
+    </None>
+    <None Include="App_Config\Include\zSitecore.Live.Blog\Sitecore.Live.Blog.Release.config">
+      <DependentUpon>Sitecore.Live.Blog.config</DependentUpon>
+      <IsTransformFile>True</IsTransformFile>
+    </None>
     <None Include="scripts\vendor\jquery-2.1.4.intellisense.js" />
     <Content Include="scripts\vendor\jquery-2.1.4.js" />
     <Content Include="scripts\vendor\jquery-2.1.4.min.js" />
@@ -215,12 +228,15 @@
     <Content Include="scripts\views\app.js" />
     <Content Include="scripts\views\baseView.js" />
     <Content Include="scripts\views\default\view.js" />
+    <Content Include="sitecore\shell\client\LiveBlog\Editor\UpdateLiveBlog.js" />
+    <Content Include="sitecore\shell\client\LiveBlog\Editor\UpdateLiveBlog.test.js" />
     <Content Include="Web.config">
       <SubType>Designer</SubType>
     </Content>
     <Content Include="packages.config" />
-    <Content Include="App_Config\Include\Sitecore.Live.Blogger\Sitecore.Live.Blogger.config">
+    <Content Include="App_Config\Include\zSitecore.Live.Blog\Sitecore.Live.Blog.config">
       <SubType>Designer</SubType>
+      <TransformOnBuild>true</TransformOnBuild>
     </Content>
     <Content Include="App_Config\Include\SUGCON.Demo\SUGCON.Demo.Settings.config">
       <SubType>Designer</SubType>
@@ -234,10 +250,10 @@
     <Content Include="Content\bootstrap.css.map" />
     <Content Include="Content\bootstrap-theme.css.map" />
     <None Include="Properties\PublishProfiles\Local.pubxml" />
-    <Content Include="Views\LiveBlogger\LiveBlog.cshtml" />
-    <Content Include="Views\LiveBlogger\Templates\DefaultEntry.cshtml" />
-    <Content Include="Views\LiveBlogger\Templates\Tweet.cshtml" />
-    <Content Include="Views\LiveBlogger\Templates\Quote.cshtml" />
+    <Content Include="Views\LiveBlog\LiveBlog.cshtml" />
+    <Content Include="Views\LiveBlog\Templates\DefaultEntry.cshtml" />
+    <Content Include="Views\LiveBlog\Templates\Tweet.cshtml" />
+    <Content Include="Views\LiveBlog\Templates\Quote.cshtml" />
     <Content Include="Views\Layouts\MainLayout.cshtml" />
     <Content Include="scripts\main.js" />
     <Content Include="scripts\modules\init.js" />
@@ -248,6 +264,7 @@
     <Content Include="scripts\vendor\jquery-2.1.4.min.map" />
     <Content Include="Views\Shared\Content.cshtml" />
     <Content Include="Views\Shared\Breadcrumb.cshtml" />
+    <Content Include="sitecore\shell\client\LiveBlog\Editor\UpdateLiveBlog.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -268,10 +285,15 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="sitecore\shell\" />
+    <Folder Include="sitecore modules\Shell\Live Blog\" />
+    <Folder Include="sitecore modules\Web\" />
     <Folder Include="upload\" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\Sc.LiveBlog.Parser\Sc.LiveBlog.Parser.csproj">
+      <Project>{7ccdfe94-0e7b-46c3-81f2-7964f560c2c9}</Project>
+      <Name>Sc.LiveBlog.Parser</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Sc.LiveBlog\Sc.LiveBlog.csproj">
       <Project>{a51affe7-3316-45b2-bfed-ce53546b9c4c}</Project>
       <Name>Sc.LiveBlog</Name>
