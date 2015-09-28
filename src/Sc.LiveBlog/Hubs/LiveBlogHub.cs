@@ -1,6 +1,7 @@
 ﻿namespace Sc.LiveBlog.Hubs
 {
 	using System;
+	using System.Security.Authentication;
 
 	using Microsoft.AspNet.SignalR;
 
@@ -11,7 +12,7 @@
 
 	public class LiveBlogHub : Hub
 	{
-		public void PostBlogEntry(string blogText, string blogType)
+		public void PostBlogEntry(string blogId, string blogText)
 		{
 			var hubContext = GlobalHost.ConnectionManager.GetHubContext<LiveBlogHub>();
 
@@ -21,7 +22,7 @@
 
 			var blogEntry = new BlogEntryModel
 			{
-				BlogId = "1111111",
+				BlogId = blogId,
 				EntryType = "default",
 				Text = modifiedBlogText,
 				TimeStamp = DateTime.Now.ToUniversalTime().ToString("yyyy-MM-dd hh:mm:ss zzz")

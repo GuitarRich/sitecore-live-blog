@@ -3,9 +3,25 @@
 		initialize: function (options) {
 			this._super();
 
-			this.set("item-id", null);
-			this.set("blog-title", null);
+			this.set("itemId", null);
+			this.set("blogTitle", null);
+			this.set("blogEntries", null);
 
+			this.on("change:itemId", this.updateBlogEntries, this);
+		},
+		updateBlogEntries: function () {
+			var itemId = this.get("itemId");
+			var item = this;
+
+			$.ajax({
+				url: "/sitecore/api/liveblogservices/getitem/" + itemId,
+				type: "GET",
+				success: function(data) {
+
+					item.set("blogTitle", data.blogTitle);
+					item.set("blogEntries", data.entries);
+				}
+			});
 		}
 	});
 
@@ -17,7 +33,8 @@
 		bindEvents: function () {
 			var liveBlogHub = $.connection.liveBlogHub;
 			var itemId = this.getParameterByName("id");
-			$("#itemId").html(itemId);
+
+			this.model.viewModel.itemId(itemId);
 
 			liveBlogHub.client.blogPosted = function (data) {
 				var json = JSON.parse(data);
@@ -26,7 +43,7 @@
 
 			$.connection.hub.start().done(function () {
 				$("#sendmessage").on("click", function () {
-					liveBlogHub.server.postBlogEntry($("#message").val(), itemId);
+					liveBlogHub.server.postBlogEntry(itemId, $("#message").val());
 					$("#message").val("").focus();
 				});
 			});

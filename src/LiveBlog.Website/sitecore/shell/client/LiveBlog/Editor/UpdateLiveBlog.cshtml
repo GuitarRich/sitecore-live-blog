@@ -1,27 +1,62 @@
-﻿@using Sitecore.Mvc
+﻿@using Sitecore.Data
+@using Sitecore.Exceptions
+@using Sitecore.Mvc
 @using Sitecore.Mvc.Presentation
+@using Sitecore.Web
 @using Sitecore.Web.UI.Controls.Common.UserControls
 @model RenderingModel
 @{
+	var datasourceIdString = WebUtil.GetQueryString("id");
+	if (ID.IsID(datasourceIdString) == false)
+	{
+		throw new ItemNotFoundException();
+	}
+
+	var datasourceId = ID.Parse(datasourceIdString);
+
 	var rendering = Html.Sitecore().Controls().GetUserControl(Model.Rendering);
 	rendering.Class = "sc-UpdateLiveBlog";
 	rendering.Requires.Script("client", "UpdateLiveBlog.js");
+	rendering.Requires.Css("/sitecore/shell/client/liveblog/editor/liveblog.css");
+	//rendering.Requires.Css("//maxcdn.bootstrapcdn.com/bootswatch/3.3.5/cosmo/bootstrap.min.css");
+
+	rendering.DataSource = datasourceIdString;
 
 	rendering.SetAttribute("data-sc-hubname", rendering.GetString("HubName", "hubName", string.Empty));
 
 	var htmlAttributes = rendering.HtmlAttributes;
 }
 <div @htmlAttributes>
-	<div>
-		<div class="container">
-			<div id="itemId"></div>
-			<fieldset>
-				<textarea type="text" id="message" rows="5" cols="80"></textarea>
-			</fieldset>
-			<fieldset>
-				<input type="button" id="sendmessage" value="Send" />
-			</fieldset>
-			<ul id="discussion"></ul>
+
+	<div class="scEditorHeader">
+		<span href="#" class="scEditorHeaderIcon">
+			<img src="/temp/IconCache/Apps/32x32/pages.png?rev=17ee3089-033d-4535-b391-14bd691e8d3f&amp;la=en" class="scEditorHeaderIcon" alt="" border="0">
+		</span>
+		<div class="scEditorHeaderTitlePanel">
+			<span data-bind="text: blogTitle" href="#" class="scEditorHeaderTitle" title="Rename this item"></span>
 		</div>
 	</div>
+
+	<div id="blogEntryForm" class="scEditorSectionCaptionExpanded">
+		Content
+	</div>
+	<div class="row">
+		<div class="form-group col-lg-12">
+			<label for="message" class="scEditorFieldLabel">
+				New entry:
+			</label>
+			<textarea class="scContentControl form-control" type="text" id="message" rows="6" cols="120"></textarea>
+		</div>
+	</div>
+	<div class="row">
+		<div class="form-group col-lg-12">
+			<input type="button" id="sendmessage" value="Post Entry" class="btn btn-primary"/>
+		</div>
+	</div>
+
+	<div id="blogEntryDisplay" class="scEditorSectionCaptionExpanded">
+		Blog Entries:
+	</div>
+
+	<ul id="discussion"></ul>
 </div>

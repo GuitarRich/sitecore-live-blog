@@ -1,8 +1,15 @@
 ﻿namespace Sc.LiveBlog.Controllers
 {
+	using System.Security.Authentication;
 	using System.Web.Mvc;
 
+	using Newtonsoft.Json.Linq;
+
 	using Sc.LiveBlog.Model;
+
+	using Sitecore.Data;
+	using Sitecore.Exceptions;
+	using Sitecore.Web;
 
 	public class LiveBlogController : Controller
 	{
@@ -11,16 +18,5 @@
 			var data = new LiveBlogViewModel();
 			return this.View(data);
 		}
-
-		//public JsonResult PostBlog(string blogEntry, int blogType)
-		//{
-		//	// TODO: What level of security do we need to put here? 
-		//	// Make sure they are logged in as a Sitecore user... Roles???
-
-		//	var hubContext = GlobalHost.ConnectionManager.GetHubContext<LiveBlogHub>();
-		//	hubContext.Clients.All.blogPosted(blogEntry, blogType);
-
-		//	return new JsonResult();
-		//}
 	}
 }

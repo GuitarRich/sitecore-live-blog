@@ -228,6 +228,7 @@
     <Content Include="scripts\views\app.js" />
     <Content Include="scripts\views\baseView.js" />
     <Content Include="scripts\views\default\view.js" />
+    <Content Include="sitecore\shell\client\LiveBlog\Editor\LiveBlog.css" />
     <Content Include="sitecore\shell\client\LiveBlog\Editor\UpdateLiveBlog.js" />
     <Content Include="sitecore\shell\client\LiveBlog\Editor\UpdateLiveBlog.test.js" />
     <Content Include="Web.config">

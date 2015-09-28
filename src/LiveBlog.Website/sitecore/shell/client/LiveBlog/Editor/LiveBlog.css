@@ -1,0 +1,57 @@
+﻿.scEditorSectionCaptionExpanded {
+    border-left: 5px solid #DC291E;
+}
+.scEditorSectionCaptionExpanded, .scEditorSectionCaptionCollapsed {
+    background-color: #474747;
+    white-space: nowrap;
+    line-height: 35px;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+    border-bottom: 1px solid #474747;
+    padding: 0 0 0 10px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+	margin-bottom: 15px;
+}
+.scEditorHeader {
+	padding: 15px 0;
+    height: 40px;
+	overflow: hidden;
+	margin-bottom: 15px;
+}
+.scEditorHeader:after {
+	clear: both;
+}
+
+.scEditorHeaderIcon {
+    float: left;
+}
+img.scEditorHeaderIcon {
+    border: none;
+    height: 32px;
+    width: 32px;
+}
+.scEditorHeaderTitlePanel {
+    float: left;
+}
+.scEditorHeaderTitlePanel:after {
+	clear: both;
+}
+
+.scEditorHeaderTitle, .scEditorHeaderTitle:link, .scEditorHeaderTitle:hover, .scEditorHeaderTitle:active, .scEditorHeaderTitle:visited {
+    display: inline;
+    font-size: 18px;
+    white-space: nowrap;
+    padding: 5px 15px;
+    line-height: 32px;
+}
+.sc-globalHeader {
+	padding: 0 25px;
+}
+
+.sc-contentRowFix {
+	display: none;	
+}
